@@ -20,6 +20,7 @@ package-lock.json
 
 # macOS-specific files
 .DS_Store
+.idea
 
 # ignore .astro directory
 .astro
