@@ -12,10 +12,105 @@ const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
-<Base>
+<Base withoutHeader>
   <section class="section">
     <div class="container">
-      <!--<Posts posts={currentPosts} className="mb-16" />-->
+      <div class="max-w-4xl mx-auto p-4">
+        <header class="text-center my-8">
+          <div class="w-12 h-12 bg-teal-500 mx-auto" />
+          <h1 class="text-4xl font-bold mt-4">제목제목 제목제목</h1>
+          <p class="text-gray-600 mt-2">제목제목 제목제목 제목제목 만듬만</p>
+          <nav class="flex justify-center space-x-8 mt-4">
+            <a href="#" class="text-teal-500">
+              Home
+            </a>
+            <a href="#" class="text-gray-600">
+              Blog
+            </a>
+            <a href="#" class="text-gray-600">
+              Works
+            </a>
+            <a href="#" class="text-gray-600">
+              Contact
+            </a>
+          </nav>
+        </header>
+        <main>
+          <section class="my-8">
+            <img src="https://via.placeholder.com/800x400" alt="Main article" class="w-full h-auto mb-4" />
+            <div class="flex items-center text-gray-600 text-sm mb-2">
+              <span class="mr-4">07 Apr, 2022</span>
+              <span class="mr-4">Art</span>
+            </div>
+            <h2 class="text-2xl font-bold mb-2">How to make toys from old Olarpaper</h2>
+            <p class="text-gray-600 mb-4">
+              Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu
+              ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blan ...
+            </p>
+          </section>
+          <section class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+            <div class="bg-white p-4 shadow-md rounded-md">
+              <div class="flex items-center text-gray-600 text-sm mb-2">
+                <span class="ml-2">Mark Dinn</span>
+                <span class="mx-2">|</span>
+                <span class="mr-4">06 Apr, 2022</span>
+                <span class="mr-4">LifeStyle</span>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Become a morning person with the help of alarm clock</h3>
+              <p class="text-gray-600 mb-4">
+                Almost every day for the past nine or so months has felt like March 13, and that can sometimes make ...
+              </p>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded-md">
+              <div class="flex items-center text-gray-600 text-sm mb-2">
+
+                <span class="ml-2">John Doe</span>
+                <span class="mx-2">|</span>
+                <span class="mr-4">05 Apr, 2022</span>
+                <span class="mr-4">Food</span>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Banana is the best meal packages in the UK spark outrage online</h3>
+              <p class="text-gray-600 mb-4">
+                A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large h ...
+              </p>
+            </div>
+          </section>
+          <div class="text-center my-8">
+            <button class="mr-4">View Blog</button>
+            <button>Button</button>
+          </div>
+          <section class="text-center my-8">
+            <h2 class="text-3xl font-bold mb-4">What I Do</h2>
+            <div class="flex justify-center items-center space-x-4 mb-8">
+              <span class="text-red-500">80*80 이미지 추가</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold mb-2">Content Writing</h3>
+                <p class="text-gray-600">
+                  Purus eget ipsum elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+                </p>
+              </div>
+              <div class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold mb-2">Content Writing</h3>
+                <p class="text-gray-600">
+                  Purus eget ipsum elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+                </p>
+              </div>
+              <div class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold mb-2">Content Writing</h3>
+                <p class="text-gray-600">
+                  Purus eget ipsum elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+                </p>
+              </div>
+            </div>
+          </section>
+          <div class="text-center my-8">
+            버튼?
+          </div>
+        </main>
+      </div>
+      <!--<Posts posts={currentPosts} class="mb-16" />-->
       <!--<Pagination currentPage={1} totalPages={totalPages} />-->
     </div>
   </section>
