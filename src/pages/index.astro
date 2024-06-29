@@ -1,8 +1,10 @@
 ---
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
-import Pagination from "@/layouts/components/Pagination.astro";
-import Posts from "@/layouts/Posts.astro";
+import { NavigationLink } from "@/partials/Header.astro";
+// import Pagination from "@/layouts/components/Pagination.astro";
+// import Posts from "@/layouts/Posts.astro";
+import menu from "@/config/menu.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 
@@ -10,6 +12,8 @@ const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+
+const { main }: { main: NavigationLink[] } = menu;
 ---
 
 <Base withoutHeader>
@@ -19,20 +23,18 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
         <header class="text-center my-8">
           <div class="w-12 h-12 bg-teal-500 mx-auto" />
           <h1 class="text-4xl font-bold mt-4">제목제목 제목제목</h1>
-          <p class="text-gray-600 mt-2">제목제목 제목제목 제목제목 만듬만</p>
-          <nav class="flex justify-center space-x-8 mt-4">
-            <a href="#" class="text-teal-500">
-              Home
-            </a>
-            <a href="#" class="text-gray-600">
-              Blog
-            </a>
-            <a href="#" class="text-gray-600">
-              Works
-            </a>
-            <a href="#" class="text-gray-600">
-              Contact
-            </a>
+          <p class="text-gray-600 mt-2">제목제목 제목제목 제목제목</p>
+          <nav id="nav-menu" class="flex justify-center space-x-8 mt-4">
+            {
+              main.map((menu) => {
+                const isCurrentPath = menu.url === Astro.url.pathname;
+                return (
+                  <a href={menu.url} class={`nav-link block  ${isCurrentPath ? "text-primary" : ""}`}>
+                    {menu.name}
+                  </a>
+                );
+              })
+            }
           </nav>
         </header>
         <main>
