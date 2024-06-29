@@ -33,10 +33,11 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
+  withoutHeader?: boolean;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, description, image, noindex, canonical, withoutHeader } =
   Astro.props;
 ---
 
@@ -171,7 +172,7 @@ const { title, meta_title, description, image, noindex, canonical } =
   </head>
   <body>
     <TwSizeIndicator />
-    <Header />
+    {!withoutHeader && <Header />}
     <main id="main-content" class="min-h-[60vh]">
       <slot />
     </main>
