@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "다솜이 블로그",
+    "base_url": "https://jerjangmin.github.io/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
