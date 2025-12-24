@@ -571,7 +571,7 @@ img {
 .process-item::before {
   content: '';
   position: absolute;
-  left: -29px;
+  left: -28.5px;
   top: 4px;
   width: 10px;
   height: 10px;
