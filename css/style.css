@@ -775,7 +775,24 @@ img {
 }
 
 .footer .container {
+  display: flex;
+  gap: 48px;
   max-width: 1200px;
+}
+
+.footer-brand {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.footer-brand img {
+  height: 28px;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+
+.footer-content {
+  flex: 1;
 }
 
 .footer-info {
@@ -846,6 +863,15 @@ img {
 
   .gallery-item.full {
     grid-column: span 1;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    width: auto;
   }
 }
 
