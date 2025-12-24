@@ -775,24 +775,16 @@ img {
 }
 
 .footer .container {
-  display: flex;
-  gap: 48px;
   max-width: 1200px;
 }
 
-.footer-brand {
-  width: 200px;
-  flex-shrink: 0;
-}
-
-.footer-brand img {
-  height: 28px;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
+/* 프로젝트 상세 페이지용 좁은 footer */
+.footer--narrow .container {
+  max-width: 900px;
 }
 
 .footer-content {
-  flex: 1;
+  /* 1단 구조 */
 }
 
 .footer-info {
@@ -865,14 +857,6 @@ img {
     grid-column: span 1;
   }
 
-  .footer .container {
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  .footer-brand {
-    width: auto;
-  }
 }
 
 @media (max-width: 480px) {
