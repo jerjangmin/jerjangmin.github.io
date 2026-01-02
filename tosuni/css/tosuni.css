@@ -189,6 +189,45 @@ body {
   height: 14px;
 }
 
+.api-key-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--tosuni-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.api-key-label svg {
+  width: 16px;
+  height: 16px;
+}
+
+.api-key-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: var(--space-sm);
+  font-size: 0.8125rem;
+  color: #E53E3E;
+}
+
+.api-key-error svg {
+  width: 14px;
+  height: 14px;
+}
+
+.api-key-error.hidden {
+  display: none;
+}
+
+.input-api-key.error {
+  border-color: #E53E3E;
+}
+
 /* ========================================
    버튼 스타일
    ======================================== */

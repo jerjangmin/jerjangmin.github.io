@@ -40,13 +40,13 @@ class TosuniApp {
 
   bindEvents() {
     // ==================== 인트로 화면 ====================
-    document.getElementById('toggle-api-key').addEventListener('click', () => {
-      const form = document.getElementById('api-key-form');
-      form.classList.toggle('hidden');
-    });
-
     document.getElementById('start-btn').addEventListener('click', () => {
       this.startInterview();
+    });
+
+    // API 키 입력 시 에러 메시지 숨김
+    document.getElementById('api-key-input').addEventListener('input', () => {
+      document.getElementById('api-key-error').classList.add('hidden');
     });
 
     // ==================== 채팅 화면 ====================
@@ -123,15 +123,19 @@ class TosuniApp {
 
   // ==================== 인터뷰 시작 ====================
   async startInterview() {
-    // API 키 저장
+    // API 키 검증 (필수)
     const keyInput = document.getElementById('api-key-input');
     const key = keyInput.value.trim();
-    if (key) {
-      this.saveApiKey(key);
-      this.apiClient = new ApiClient(key);
-    } else {
-      this.apiClient = null;
+
+    if (!key) {
+      document.getElementById('api-key-error').classList.remove('hidden');
+      keyInput.focus();
+      return;
     }
+
+    // API 키 저장
+    this.saveApiKey(key);
+    this.apiClient = new ApiClient(key);
 
     // InterviewFlow 초기화
     this.interviewFlow = new InterviewFlow(this.apiClient);

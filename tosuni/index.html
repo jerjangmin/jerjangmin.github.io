@@ -44,22 +44,27 @@
         오늘 인터뷰를 하러 왔어요.
       </p>
 
-      <!-- API 키 입력 (선택) -->
+      <!-- API 키 입력 (필수) -->
       <div class="api-key-section">
-        <button id="toggle-api-key" class="btn-text">
-          <i data-lucide="sparkles"></i>
-          AI 대화 모드 사용하기 (선택)
-        </button>
-        <div id="api-key-form" class="api-key-form hidden">
+        <label class="api-key-label">
+          <i data-lucide="key"></i>
+          Claude API 키
+        </label>
+        <div id="api-key-form" class="api-key-form">
           <input
             type="password"
             id="api-key-input"
-            placeholder="Claude API 키를 입력하세요"
+            placeholder="sk-ant-..."
             class="input-api-key"
+            required
           >
           <p class="api-key-hint">
             <i data-lucide="info"></i>
             API 키는 브라우저에만 저장되며 서버로 전송되지 않아요
+          </p>
+          <p id="api-key-error" class="api-key-error hidden">
+            <i data-lucide="alert-circle"></i>
+            API 키를 입력해주세요
           </p>
         </div>
       </div>
