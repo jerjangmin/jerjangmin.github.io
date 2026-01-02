@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>쉬운 2025년 회고, 토순이의 인터뷰</title>
+
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+
+  <!-- OG 메타 -->
+  <meta property="og:title" content="쉬운 2025년 회고, 토순이의 인터뷰">
+  <meta property="og:description" content="당신의 이야기를 써드립니다 - 따뜻한 에세이스트 토순이와 함께 2025년을 돌아보세요">
+  <meta property="og:image" content="https://jerjangmin.github.io/tosuni/images/og-tosuni.png">
+  <meta property="og:url" content="https://jerjangmin.github.io/tosuni/">
+  <meta property="og:type" content="website">
+
+  <!-- 폰트 -->
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+  <!-- 스타일 -->
+  <link rel="stylesheet" href="./css/tosuni.css">
+
+  <!-- 라이브러리 -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+
+  <!-- ==================== -->
+  <!-- 1. 인트로 화면 -->
+  <!-- ==================== -->
+  <section id="intro-screen" class="screen screen--active">
+    <div class="intro-container">
+      <div class="intro-character">
+        <img src="./images/tosuni-avatar.svg" alt="토순이" class="tosuni-avatar tosuni-avatar--large">
+      </div>
+      <h1 class="intro-title">쉬운 2025년 회고</h1>
+      <p class="intro-subtitle">토순이의 인터뷰</p>
+      <p class="intro-desc">
+        안녕하세요! 저는 에세이 작가 토순이예요.<br>
+        "당신의 이야기를 써드립니다"라는 마음으로<br>
+        오늘 인터뷰를 하러 왔어요.
+      </p>
+
+      <!-- API 키 입력 (선택) -->
+      <div class="api-key-section">
+        <button id="toggle-api-key" class="btn-text">
+          <i data-lucide="sparkles"></i>
+          AI 대화 모드 사용하기 (선택)
+        </button>
+        <div id="api-key-form" class="api-key-form hidden">
+          <input
+            type="password"
+            id="api-key-input"
+            placeholder="Claude API 키를 입력하세요"
+            class="input-api-key"
+          >
+          <p class="api-key-hint">
+            <i data-lucide="info"></i>
+            API 키는 브라우저에만 저장되며 서버로 전송되지 않아요
+          </p>
+        </div>
+      </div>
+
+      <button id="start-btn" class="btn-primary btn-large">
+        인터뷰 시작하기
+        <i data-lucide="arrow-right"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- ==================== -->
+  <!-- 2. 채팅 화면 -->
+  <!-- ==================== -->
+  <section id="chat-screen" class="screen">
+    <header class="chat-header">
+      <button id="back-btn" class="btn-icon" aria-label="뒤로가기">
+        <i data-lucide="arrow-left"></i>
+      </button>
+      <div class="chat-header-info">
+        <img src="./images/tosuni-avatar.svg" alt="토순이" class="tosuni-avatar tosuni-avatar--small">
+        <div class="chat-header-text">
+          <span class="chat-header-name">토순이</span>
+          <span class="chat-header-status">인터뷰 중</span>
+        </div>
+      </div>
+      <div class="chat-progress">
+        <span id="progress-text">1/6</span>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill" style="width: 16.6%"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 섹션 표시 -->
+    <div id="section-indicator" class="section-indicator hidden">
+      <img id="section-icon" src="./images/section-warmup.svg" alt="" class="section-icon">
+      <span id="section-name" class="section-name">워밍업</span>
+    </div>
+
+    <main class="chat-container">
+      <div id="chat-messages" class="chat-messages">
+        <!-- 메시지가 동적으로 추가됨 -->
+      </div>
+    </main>
+
+    <footer class="chat-input-area">
+      <div class="chat-input-wrapper">
+        <textarea
+          id="user-input"
+          placeholder="여기에 답변을 입력해주세요..."
+          rows="1"
+          class="chat-input"
+        ></textarea>
+        <button id="send-btn" class="btn-send" disabled aria-label="전송">
+          <i data-lucide="send"></i>
+        </button>
+      </div>
+      <p class="input-hint">Enter로 전송, Shift+Enter로 줄바꿈</p>
+    </footer>
+  </section>
+
+  <!-- ==================== -->
+  <!-- 3. 결과 화면 -->
+  <!-- ==================== -->
+  <section id="result-screen" class="screen">
+    <header class="result-header">
+      <img src="./images/tosuni-happy.svg" alt="토순이" class="tosuni-avatar tosuni-avatar--medium">
+      <h2 class="result-title">인터뷰 완료!</h2>
+      <p class="result-subtitle">토순이가 당신의 2025년을 정리했어요</p>
+    </header>
+
+    <!-- 탭 네비게이션 -->
+    <div class="result-tabs">
+      <button class="tab-btn tab-btn--active" data-tab="summary">요약</button>
+      <button class="tab-btn" data-tab="essay">에세이</button>
+      <button class="tab-btn" data-tab="card">카드</button>
+    </div>
+
+    <!-- 탭 콘텐츠: 요약 -->
+    <div id="tab-summary" class="tab-content tab-content--active">
+      <div class="summary-container">
+        <div id="summary-content" class="summary-content">
+          <!-- 마크다운 요약이 여기에 렌더링됨 -->
+        </div>
+        <button id="copy-summary-btn" class="btn-secondary btn-full">
+          <i data-lucide="copy"></i>
+          요약 복사하기
+        </button>
+      </div>
+    </div>
+
+    <!-- 탭 콘텐츠: 에세이 -->
+    <div id="tab-essay" class="tab-content">
+      <div class="essay-container">
+        <div id="essay-content" class="essay-content">
+          <!-- 3인칭 에세이가 여기에 렌더링됨 -->
+        </div>
+        <button id="copy-essay-btn" class="btn-secondary btn-full">
+          <i data-lucide="copy"></i>
+          에세이 복사하기
+        </button>
+      </div>
+    </div>
+
+    <!-- 탭 콘텐츠: 카드 -->
+    <div id="tab-card" class="tab-content">
+      <div class="card-container">
+        <!-- 내보내기용 카드 -->
+        <div id="result-card" class="result-card">
+          <div class="card-inner">
+            <div class="card-header">
+              <img src="./images/tosuni-happy.svg" alt="" class="card-tosuni">
+              <span class="card-year">2025</span>
+            </div>
+
+            <div class="card-content">
+              <h3 id="card-keyword" class="card-keyword">성장</h3>
+              <p id="card-summary" class="card-summary">
+                2025년, 당신은 많은 것을 경험하고 성장했습니다.
+              </p>
+
+              <div class="card-highlights">
+                <div class="highlight-item">
+                  <span class="highlight-emoji">✨</span>
+                  <span id="highlight-1" class="highlight-text">올해의 하이라이트</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-emoji">💪</span>
+                  <span id="highlight-2" class="highlight-text">극복한 어려움</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-emoji">🌱</span>
+                  <span id="highlight-3" class="highlight-text">내년의 다짐</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <span class="card-watermark">토순이의 인터뷰 | jerjangmin.github.io/tosuni</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 카드 액션 버튼 -->
+        <div class="card-actions">
+          <button id="download-btn" class="btn-primary btn-full">
+            <i data-lucide="download"></i>
+            이미지로 저장
+          </button>
+          <button id="share-btn" class="btn-secondary btn-full">
+            <i data-lucide="share-2"></i>
+            공유하기
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 하단 버튼 -->
+    <div class="result-footer">
+      <button id="restart-btn" class="btn-text">
+        <i data-lucide="refresh-cw"></i>
+        처음부터 다시하기
+      </button>
+      <a href="/" class="btn-text back-link">
+        <i data-lucide="home"></i>
+        소미랜드로 돌아가기
+      </a>
+    </div>
+  </section>
+
+  <!-- 스크립트 -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- 배경 -->
+  <circle cx="40" cy="40" r="36" fill="#FFF8F0" stroke="#C4A77D" stroke-width="2"/>
+
+  <!-- 파이 차트 -->
+  <circle cx="40" cy="40" r="22" fill="#F5E6D3" stroke="#8B7355" stroke-width="2"/>
+
+  <!-- 파이 조각들 -->
+  <path d="M40 40 L40 18 A22 22 0 0 1 58 28 Z" fill="#FFB5BA"/>
+  <path d="M40 40 L58 28 A22 22 0 0 1 58 52 Z" fill="#C4A77D"/>
+  <path d="M40 40 L58 52 A22 22 0 0 1 40 62 Z" fill="#8B7355"/>
+  <path d="M40 40 L40 62 A22 22 0 0 1 22 52 Z" fill="#E8DED0"/>
+  <path d="M40 40 L22 52 A22 22 0 0 1 22 28 Z" fill="#FFF8F0" stroke="#C4A77D" stroke-width="1"/>
+
+  <!-- 중앙 원 -->
+  <circle cx="40" cy="40" r="8" fill="#FFF8F0" stroke="#8B7355" stroke-width="2"/>
+</svg>
