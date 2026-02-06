@@ -237,6 +237,12 @@ a {
   height: 16px;
 }
 
+.resource-file-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .download-btn {
   display: inline-flex;
   align-items: center;
@@ -259,6 +265,36 @@ a {
 }
 
 .download-btn i {
+  width: 16px;
+  height: 16px;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 8px 20px;
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+}
+
+.copy-btn:hover {
+  border-color: var(--primary);
+}
+
+.copy-btn.copied {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.copy-btn i {
   width: 16px;
   height: 16px;
 }
@@ -331,9 +367,19 @@ a {
     gap: 12px;
   }
 
+  .resource-file-actions {
+    flex-direction: row;
+    width: 100%;
+  }
+
   .download-btn {
     justify-content: center;
-    width: 100%;
+    flex: 1;
+  }
+
+  .copy-btn {
+    justify-content: center;
+    flex: 1;
   }
 }
 

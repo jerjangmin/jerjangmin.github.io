@@ -100,10 +100,20 @@
       zip: 'ZIP', rar: 'RAR', '7z': '7Z', tar: 'TAR', gz: 'GZ'
     };
 
+    const COPYABLE_EXTS = new Set(['md', 'txt', 'csv', 'html', 'svg', 'json']);
+
     function createCard(file) {
       const icon = ICON_MAP[file.category] || 'file';
       const extLabel = EXT_LABEL[file.extension] || file.extension.toUpperCase();
       const dateStr = file.date.replace(/-/g, '.');
+      const canCopy = COPYABLE_EXTS.has(file.extension);
+
+      const copyBtn = canCopy
+        ? `<button class="copy-btn" onclick="copyToClipboard('${file.path}', this)">
+            <i data-lucide="copy"></i>
+            복사
+          </button>`
+        : '';
 
       return `<article class="resource-card" data-category="${file.category}">
         <div class="resource-meta">
@@ -116,12 +126,35 @@
             <i data-lucide="${icon}"></i>
             ${extLabel} · ${file.size}
           </span>
-          <a href="${file.path}" class="download-btn" download>
-            <i data-lucide="download"></i>
-            다운로드
-          </a>
+          <div class="resource-file-actions">
+            ${copyBtn}
+            <a href="${file.path}" class="download-btn" download>
+              <i data-lucide="download"></i>
+              다운로드
+            </a>
+          </div>
         </div>
       </article>`;
+    }
+
+    function copyToClipboard(path, btn) {
+      fetch(path)
+        .then(res => res.text())
+        .then(text => navigator.clipboard.writeText(text))
+        .then(() => {
+          const original = btn.innerHTML;
+          btn.innerHTML = '<i data-lucide="check"></i> 복사됨';
+          btn.classList.add('copied');
+          lucide.createIcons({ nodes: [btn] });
+          setTimeout(() => {
+            btn.innerHTML = original;
+            btn.classList.remove('copied');
+            lucide.createIcons({ nodes: [btn] });
+          }, 2000);
+        })
+        .catch(() => {
+          alert('복사에 실패했습니다.');
+        });
     }
 
     function bindFilters() {
