@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아카이브 — 소미랜드</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon_io/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <meta property="og:title" content="아카이브 — 소미랜드">
+  <meta property="og:description" content="작업하면서 만든 자료들을 모아둔 공간">
+  <meta property="og:type" content="website">
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">소미랜드</a>
+      <nav class="nav">
+        <a href="https://jerjangmin.github.io">포트폴리오</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <section class="intro">
+    <div class="container">
+      <h1 class="intro-title">아카이브</h1>
+      <p class="intro-desc">작업하면서 만든 자료들을 모아둔 공간</p>
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="템플릿">템플릿</button>
+        <button class="filter-btn" data-filter="가이드">가이드</button>
+        <button class="filter-btn" data-filter="체크리스트">체크리스트</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resource List -->
+  <main class="resource-list">
+    <div class="container">
+
+      <!-- Card 1 -->
+      <article class="resource-card" data-category="체크리스트">
+        <div class="resource-meta">
+          <span class="resource-tag">체크리스트</span>
+          <span class="resource-date">2025.12.01</span>
+        </div>
+        <h2 class="resource-title">SEO 체크리스트 템플릿</h2>
+        <p class="resource-desc">웹사이트 런칭 전 확인해야 할 SEO 항목들을 정리한 체크리스트. 메타태그, 구조화 데이터, 페이지 속도, 모바일 최적화 등 실무에서 바로 쓸 수 있습니다.</p>
+        <div class="resource-file">
+          <span class="resource-file-info">
+            <i data-lucide="file-text"></i>
+            PDF · 2.4MB
+          </span>
+          <a href="./files/seo-checklist.pdf" class="download-btn" download>
+            <i data-lucide="download"></i>
+            다운로드
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="resource-card" data-category="가이드">
+        <div class="resource-meta">
+          <span class="resource-tag">가이드</span>
+          <span class="resource-date">2025.11.15</span>
+        </div>
+        <h2 class="resource-title">아임웹 SEO 세팅 가이드</h2>
+        <p class="resource-desc">아임웹에서 검색 최적화를 위해 설정해야 할 항목들을 단계별로 정리했습니다. 메타 설정부터 사이트맵 제출까지 한 번에 따라할 수 있습니다.</p>
+        <div class="resource-file">
+          <span class="resource-file-info">
+            <i data-lucide="file-text"></i>
+            PDF · 1.8MB
+          </span>
+          <a href="./files/imweb-seo-guide.pdf" class="download-btn" download>
+            <i data-lucide="download"></i>
+            다운로드
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="resource-card" data-category="템플릿">
+        <div class="resource-meta">
+          <span class="resource-tag">템플릿</span>
+          <span class="resource-date">2025.10.20</span>
+        </div>
+        <h2 class="resource-title">브랜딩 가이드라인 템플릿</h2>
+        <p class="resource-desc">소규모 브랜드를 위한 브랜딩 가이드라인 작성 템플릿. 로고 사용 규정, 컬러 팔레트, 톤앤매너 등 브랜드 일관성을 유지하기 위한 기본 항목들을 담았습니다.</p>
+        <div class="resource-file">
+          <span class="resource-file-info">
+            <i data-lucide="file-text"></i>
+            PDF · 3.1MB
+          </span>
+          <a href="./files/branding-guideline-template.pdf" class="download-btn" download>
+            <i data-lucide="download"></i>
+            다운로드
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>상호명: 소미랜드 | 대표자: 민다솜 | 개인정보책임자: 민다솜</p>
+          <p>사업자등록번호: 263-31-01680 | 통신판매업신고번호: 2025-서울관악-0179</p>
+          <p>주소: 경기도 의정부시 신흥로 234 CRC빌딩 10층 S13_4호</p>
+        </div>
+        <div class="footer-contact">
+          문의: <a href="tel:010-5958-1199">010-5958-1199</a> · <a href="mailto:contact@mindasom.com">contact@mindasom.com</a>
+        </div>
+        <div class="footer-copyright">
+          &copy; 소미랜드 2025
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelector('.filter-btn.active').classList.remove('active');
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.resource-card').forEach(card => {
+          card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
