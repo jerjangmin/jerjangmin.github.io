@@ -238,7 +238,7 @@ a {
   padding: 8px 20px;
   background: #fff;
   color: var(--primary);
-  border: none;
+  border: 1px solid #ddd;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all var(--duration) var(--ease);
@@ -251,6 +251,7 @@ a {
 .copy-btn.copied {
   background: #22c55e;
   color: #fff;
+  border-color: #22c55e;
 }
 
 .copy-btn i {
