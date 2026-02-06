@@ -37,79 +37,18 @@
   <!-- Filter Bar -->
   <div class="filter-bar">
     <div class="container">
-      <div class="filter-buttons">
+      <div class="filter-buttons" id="filterButtons">
         <button class="filter-btn active" data-filter="all">전체</button>
-        <button class="filter-btn" data-filter="템플릿">템플릿</button>
-        <button class="filter-btn" data-filter="가이드">가이드</button>
-        <button class="filter-btn" data-filter="체크리스트">체크리스트</button>
       </div>
     </div>
   </div>
 
   <!-- Resource List -->
   <main class="resource-list">
-    <div class="container">
-
-      <!-- Card 1 -->
-      <article class="resource-card" data-category="체크리스트">
-        <div class="resource-meta">
-          <span class="resource-tag">체크리스트</span>
-          <span class="resource-date">2025.12.01</span>
-        </div>
-        <h2 class="resource-title">SEO 체크리스트 템플릿</h2>
-        <p class="resource-desc">웹사이트 런칭 전 확인해야 할 SEO 항목들을 정리한 체크리스트. 메타태그, 구조화 데이터, 페이지 속도, 모바일 최적화 등 실무에서 바로 쓸 수 있습니다.</p>
-        <div class="resource-file">
-          <span class="resource-file-info">
-            <i data-lucide="file-text"></i>
-            PDF · 2.4MB
-          </span>
-          <a href="./files/seo-checklist.pdf" class="download-btn" download>
-            <i data-lucide="download"></i>
-            다운로드
-          </a>
-        </div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="resource-card" data-category="가이드">
-        <div class="resource-meta">
-          <span class="resource-tag">가이드</span>
-          <span class="resource-date">2025.11.15</span>
-        </div>
-        <h2 class="resource-title">아임웹 SEO 세팅 가이드</h2>
-        <p class="resource-desc">아임웹에서 검색 최적화를 위해 설정해야 할 항목들을 단계별로 정리했습니다. 메타 설정부터 사이트맵 제출까지 한 번에 따라할 수 있습니다.</p>
-        <div class="resource-file">
-          <span class="resource-file-info">
-            <i data-lucide="file-text"></i>
-            PDF · 1.8MB
-          </span>
-          <a href="./files/imweb-seo-guide.pdf" class="download-btn" download>
-            <i data-lucide="download"></i>
-            다운로드
-          </a>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="resource-card" data-category="템플릿">
-        <div class="resource-meta">
-          <span class="resource-tag">템플릿</span>
-          <span class="resource-date">2025.10.20</span>
-        </div>
-        <h2 class="resource-title">브랜딩 가이드라인 템플릿</h2>
-        <p class="resource-desc">소규모 브랜드를 위한 브랜딩 가이드라인 작성 템플릿. 로고 사용 규정, 컬러 팔레트, 톤앤매너 등 브랜드 일관성을 유지하기 위한 기본 항목들을 담았습니다.</p>
-        <div class="resource-file">
-          <span class="resource-file-info">
-            <i data-lucide="file-text"></i>
-            PDF · 3.1MB
-          </span>
-          <a href="./files/branding-guideline-template.pdf" class="download-btn" download>
-            <i data-lucide="download"></i>
-            다운로드
-          </a>
-        </div>
-      </article>
-
+    <div class="container" id="resourceContainer">
+      <div class="empty-state" id="emptyState">
+        <p>등록된 자료가 없습니다.</p>
+      </div>
     </div>
   </main>
 
@@ -135,18 +74,139 @@
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
-    lucide.createIcons();
+    const ICON_MAP = {
+      '문서': 'file-text',
+      '스프레드시트': 'table',
+      '프레젠테이션': 'presentation',
+      '그래픽 리소스': 'image',
+      '영상 리소스': 'video',
+      '오디오': 'music',
+      '폰트': 'type',
+      '계산기/도구': 'wrench',
+      '압축파일': 'archive',
+      '기타': 'file'
+    };
 
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelector('.filter-btn.active').classList.remove('active');
-        btn.classList.add('active');
-        const filter = btn.dataset.filter;
-        document.querySelectorAll('.resource-card').forEach(card => {
-          card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none';
+    const EXT_LABEL = {
+      pdf: 'PDF', md: 'Markdown', txt: 'TXT', doc: 'Word', docx: 'Word',
+      hwp: 'HWP', hwpx: 'HWP', xlsx: 'Excel', xls: 'Excel', csv: 'CSV',
+      pptx: 'PPT', ppt: 'PPT', key: 'Keynote',
+      psd: 'PSD', ai: 'AI', eps: 'EPS', svg: 'SVG',
+      png: 'PNG', jpg: 'JPG', jpeg: 'JPG', webp: 'WebP', gif: 'GIF', tiff: 'TIFF', fig: 'Figma',
+      mp4: 'MP4', mov: 'MOV', avi: 'AVI', webm: 'WebM',
+      mp3: 'MP3', wav: 'WAV', aac: 'AAC', ogg: 'OGG',
+      ttf: 'TTF', otf: 'OTF', woff: 'WOFF', woff2: 'WOFF2',
+      html: 'HTML', xlsm: 'Excel Macro',
+      zip: 'ZIP', rar: 'RAR', '7z': '7Z', tar: 'TAR', gz: 'GZ'
+    };
+
+    const COPYABLE_EXTS = new Set(['md', 'txt', 'csv', 'html', 'svg', 'json']);
+
+    function createCard(file) {
+      const icon = ICON_MAP[file.category] || 'file';
+      const extLabel = EXT_LABEL[file.extension] || file.extension.toUpperCase();
+      const dateStr = file.date.replace(/-/g, '.');
+      const canCopy = COPYABLE_EXTS.has(file.extension);
+
+      const copyBtn = canCopy
+        ? `<button class="copy-btn" onclick="copyToClipboard('${file.path}', this)">
+            <i data-lucide="copy"></i>
+            복사
+          </button>`
+        : '';
+
+      return `<article class="resource-card" data-category="${file.category}">
+        <div class="resource-meta">
+          <span class="resource-tag">${file.category}</span>
+          <span class="resource-date">${dateStr}</span>
+        </div>
+        <h2 class="resource-title">${file.title}</h2>
+        <div class="resource-file">
+          <span class="resource-file-info">
+            <i data-lucide="${icon}"></i>
+            ${extLabel} · ${file.size}
+          </span>
+          <div class="resource-file-actions">
+            ${copyBtn}
+            <a href="${file.path}" class="download-btn" download>
+              <i data-lucide="download"></i>
+              다운로드
+            </a>
+          </div>
+        </div>
+      </article>`;
+    }
+
+    function copyToClipboard(path, btn) {
+      fetch(path)
+        .then(res => res.text())
+        .then(text => navigator.clipboard.writeText(text))
+        .then(() => {
+          const original = btn.innerHTML;
+          btn.innerHTML = '<i data-lucide="check"></i> 복사됨';
+          btn.classList.add('copied');
+          lucide.createIcons({ nodes: [btn] });
+          setTimeout(() => {
+            btn.innerHTML = original;
+            btn.classList.remove('copied');
+            lucide.createIcons({ nodes: [btn] });
+          }, 2000);
+        })
+        .catch(() => {
+          alert('복사에 실패했습니다.');
+        });
+    }
+
+    function bindFilters() {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelector('.filter-btn.active').classList.remove('active');
+          btn.classList.add('active');
+          const filter = btn.dataset.filter;
+          document.querySelectorAll('.resource-card').forEach(card => {
+            card.style.display = filter === 'all' || card.dataset.category === filter ? '' : 'none';
+          });
         });
       });
-    });
+    }
+
+    fetch('./data.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('resourceContainer');
+        const emptyState = document.getElementById('emptyState');
+        const filterButtons = document.getElementById('filterButtons');
+
+        if (!data.files || data.files.length === 0) {
+          emptyState.style.display = '';
+          return;
+        }
+
+        emptyState.style.display = 'none';
+
+        // 날짜순 정렬 (최신순)
+        data.files.sort((a, b) => b.date.localeCompare(a.date));
+
+        // 카드 렌더링
+        const cardsHTML = data.files.map(createCard).join('');
+        container.insertAdjacentHTML('beforeend', cardsHTML);
+
+        // 필터 버튼 동적 생성 (data.json에 존재하는 카테고리만)
+        const categories = [...new Set(data.files.map(f => f.category))];
+        categories.forEach(cat => {
+          const btn = document.createElement('button');
+          btn.className = 'filter-btn';
+          btn.dataset.filter = cat;
+          btn.textContent = cat;
+          filterButtons.appendChild(btn);
+        });
+
+        bindFilters();
+        lucide.createIcons();
+      })
+      .catch(() => {
+        document.getElementById('emptyState').style.display = '';
+      });
   </script>
 
 </body>
