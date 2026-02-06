@@ -277,21 +277,21 @@ a {
   font-size: 0.85rem;
   font-weight: 500;
   padding: 8px 20px;
-  background: transparent;
+  background: #fff;
   color: var(--primary);
-  border: 1px solid var(--border);
+  border: none;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all var(--duration) var(--ease);
 }
 
 .copy-btn:hover {
-  border-color: var(--primary);
+  background: #f0f0f0;
 }
 
 .copy-btn.copied {
-  border-color: var(--accent);
-  color: var(--accent);
+  background: #22c55e;
+  color: #fff;
 }
 
 .copy-btn i {
