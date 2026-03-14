@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-03-13T11:30:19.526Z",
+  "generatedAt": "2026-03-14T13:39:42.200Z",
   "songs": [
     {
       "id": "jam-project-stormbringer-1",
@@ -13219,16 +13219,16 @@
       }
     },
     {
-      "id": "윤도현밴드-담배가게아가씨-283",
+      "id": "송창식-담배가게아가씨-283",
       "title": "담배가게아가씨",
-      "artist": "윤도현밴드",
-      "artistId": "artist-윤도현밴드",
+      "artist": "송창식",
+      "artistId": "artist-송창식",
       "artistInfo": {
-        "id": "artist-윤도현밴드",
-        "name": "윤도현밴드"
+        "id": "artist-송창식",
+        "name": "송창식"
       },
       "myBoom": false,
-      "karaokeNo": "4546",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -13254,17 +13254,15 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A4%EB%8F%84%ED%98%84%EB%B0%B4%EB%93%9C%20%EB%8B%B4%EB%B0%B0%EA%B0%80%EA%B2%8C%EC%95%84%EA%B0%80%EC%94%A8",
-      "albumArt": "images/윤도현밴드-담배가게아가씨-283.webp",
+      "karaokeUrl": null,
+      "albumArt": "images/송창식-담배가게아가씨-283.webp",
       "likesCount": 0,
       "createdOrder": 283,
       "source": {
         "myBoom": null,
         "difficulty": null,
         "tags": "록, 밴드, 한국록"
-      },
-      "url": null,
-      "videoInfo": null
+      }
     },
     {
       "id": "윤도현밴드-어쩌다-마주친-그대-284",
@@ -13811,6 +13809,7 @@
       "서태지",
       "서태지와아이들",
       "셰릴・놈 starring May'n",
+      "송창식",
       "스타라이트 99조",
       "시노하라 토모에",
       "시마미야 에이코",
@@ -14329,6 +14328,11 @@
         "songCount": 2
       },
       {
+        "id": "artist-송창식",
+        "name": "송창식",
+        "songCount": 1
+      },
+      {
         "id": "artist-스타라이트-99조",
         "name": "스타라이트 99조",
         "songCount": 1
@@ -14461,7 +14465,7 @@
       {
         "id": "artist-윤도현밴드",
         "name": "윤도현밴드",
-        "songCount": 3
+        "songCount": 2
       },
       {
         "id": "artist-윤하",
@@ -15427,6 +15431,11 @@
           "songCount": 2
         },
         {
+          "id": "artist-송창식",
+          "name": "송창식",
+          "songCount": 1
+        },
+        {
           "id": "artist-스타라이트-99조",
           "name": "스타라이트 99조",
           "songCount": 1
@@ -15559,7 +15568,7 @@
         {
           "id": "artist-윤도현밴드",
           "name": "윤도현밴드",
-          "songCount": 3
+          "songCount": 2
         },
         {
           "id": "artist-윤하",
@@ -25896,11 +25905,11 @@
         "createdOrder": 282
       },
       {
-        "id": "윤도현밴드-담배가게아가씨-283",
+        "id": "송창식-담배가게아가씨-283",
         "title": "담배가게아가씨",
         "artist": {
-          "id": "artist-윤도현밴드",
-          "name": "윤도현밴드"
+          "id": "artist-송창식",
+          "name": "송창식"
         },
         "categories": [
           {
@@ -25921,12 +25930,12 @@
         ],
         "difficulty": 1,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A4%EB%8F%84%ED%98%84%EB%B0%B4%EB%93%9C%20%EB%8B%B4%EB%B0%B0%EA%B0%80%EA%B2%8C%EC%95%84%EA%B0%80%EC%94%A8",
-        "albumArt": "images/윤도현밴드-담배가게아가씨-283.webp",
+        "karaokeUrl": null,
+        "albumArt": "images/송창식-담배가게아가씨-283.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "4546",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
