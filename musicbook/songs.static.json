@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-03-14T13:39:42.200Z",
+  "generatedAt": "2026-03-09T04:00:25.662Z",
   "songs": [
     {
       "id": "jam-project-stormbringer-1",
@@ -14,7 +14,7 @@
       "myBoom": false,
       "karaokeNo": "26961",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 1,
       "tags": [
         "애니송",
         "OP"
@@ -63,7 +63,7 @@
       "myBoom": false,
       "karaokeNo": "25625",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 5,
       "tags": [
         "애니송"
       ],
@@ -106,7 +106,7 @@
       "myBoom": false,
       "karaokeNo": "25692",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 4,
       "tags": [
         "애니송",
         "OP"
@@ -155,7 +155,7 @@
       "myBoom": false,
       "karaokeNo": "25822",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3,
       "tags": [
         "애니송"
       ],
@@ -198,7 +198,7 @@
       "myBoom": false,
       "karaokeNo": "26448",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 2,
       "tags": [
         "애니송"
       ],
@@ -241,7 +241,7 @@
       "myBoom": false,
       "karaokeNo": "26336",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3,
       "tags": [
         "애니송"
       ],
@@ -284,7 +284,7 @@
       "myBoom": false,
       "karaokeNo": "27832",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 2,
       "tags": [
         "애니송",
         "OP"
@@ -333,7 +333,7 @@
       "myBoom": false,
       "karaokeNo": "25395",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3.5,
       "tags": [
         "애니송"
       ],
@@ -376,7 +376,7 @@
       "myBoom": false,
       "karaokeNo": "25603",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 4,
       "tags": [
         "애니송"
       ],
@@ -417,9 +417,9 @@
         "name": "Kalafina"
       },
       "myBoom": false,
-      "karaokeNo": "27862ⓗ",
+      "karaokeNo": "27862",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3.5,
       "tags": [
         "애니송",
         "ED"
@@ -468,7 +468,7 @@
       "myBoom": false,
       "karaokeNo": "25373",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3,
       "tags": [
         "애니송"
       ],
@@ -511,7 +511,7 @@
       "myBoom": false,
       "karaokeNo": "25206",
       "genre": "애니송",
-      "difficulty": null,
+      "difficulty": 3,
       "tags": [
         "애니송"
       ],
@@ -552,7 +552,7 @@
         "name": "유정석"
       },
       "myBoom": false,
-      "karaokeNo": "15124 / 62720[7]",
+      "karaokeNo": "15124",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -1152,7 +1152,7 @@
         "name": "뒤로부터 기어오는 대 G"
       },
       "myBoom": false,
-      "karaokeNo": "28409ⓗ",
+      "karaokeNo": "28409",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -1195,7 +1195,7 @@
         "name": "뒤로부터 기어오는 대 G"
       },
       "myBoom": false,
-      "karaokeNo": "28316ⓗ",
+      "karaokeNo": "28316",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -1330,7 +1330,7 @@
         "name": "KANA-BOON"
       },
       "myBoom": false,
-      "karaokeNo": "28214ⓗ",
+      "karaokeNo": "28214",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -1373,7 +1373,7 @@
         "name": "スズム feat.そらる"
       },
       "myBoom": false,
-      "karaokeNo": "28390ⓗ",
+      "karaokeNo": "28390",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2217,7 +2217,7 @@
         "name": "미즈키 이치로"
       },
       "myBoom": false,
-      "karaokeNo": "28459ⓗ",
+      "karaokeNo": "28459",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2346,7 +2346,7 @@
         "name": "셰릴・놈 starring May'n"
       },
       "myBoom": false,
-      "karaokeNo": "28222ⓗ",
+      "karaokeNo": "28222",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2536,7 +2536,7 @@
         "name": "PENICILLIN"
       },
       "myBoom": false,
-      "karaokeNo": "6866",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2550,7 +2550,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=PENICILLIN%20%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 56,
@@ -2579,7 +2579,7 @@
         "name": "DALI"
       },
       "myBoom": false,
-      "karaokeNo": "28461ⓗ",
+      "karaokeNo": "28461",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2622,7 +2622,7 @@
         "name": "후지오카 후지마키와 오오하시 노조미"
       },
       "myBoom": false,
-      "karaokeNo": "26856[2]",
+      "karaokeNo": "26856",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2751,7 +2751,7 @@
         "name": "MELL"
       },
       "myBoom": false,
-      "karaokeNo": "28114ⓗ",
+      "karaokeNo": "28114",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -2935,7 +2935,7 @@
         "name": "MAKE-UP"
       },
       "myBoom": false,
-      "karaokeNo": "28456ⓗ",
+      "karaokeNo": "28456",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3425,7 +3425,7 @@
         "name": "TWO-MIX"
       },
       "myBoom": false,
-      "karaokeNo": "6737",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3451,7 +3451,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=TWO-MIX%20JUST%20COMMUNICATION",
+      "karaokeUrl": null,
       "albumArt": "images/two-mix-just-communication-76.webp",
       "likesCount": 0,
       "createdOrder": 76,
@@ -3480,7 +3480,7 @@
         "name": "TWO-MIX"
       },
       "myBoom": false,
-      "karaokeNo": "6350",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3506,7 +3506,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=TWO-MIX%20RHYTHM%20EMOTION",
+      "karaokeUrl": null,
       "albumArt": "images/two-mix-rhythm-emotion-77.webp",
       "likesCount": 0,
       "createdOrder": 77,
@@ -3535,7 +3535,7 @@
         "name": "CLAIRE"
       },
       "myBoom": false,
-      "karaokeNo": "20176[3]",
+      "karaokeNo": "20176",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3620,7 +3620,7 @@
         "name": "765PRO ALLSTARS[N]"
       },
       "myBoom": false,
-      "karaokeNo": "28113ⓗ",
+      "karaokeNo": "28113",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3705,7 +3705,7 @@
         "name": "이마이 아사미"
       },
       "myBoom": false,
-      "karaokeNo": "28969ⓗ",
+      "karaokeNo": "28969",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3783,7 +3783,7 @@
         "name": "CINDERELLA PROJECT"
       },
       "myBoom": false,
-      "karaokeNo": "28134ⓗ",
+      "karaokeNo": "28134",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -3832,7 +3832,7 @@
         "name": "高垣楓、城ヶ崎美嘉、小日向美穂、十時愛梨、川島瑞樹、日野茜、輿水幸子、佐久間まゆ、白坂小梅"
       },
       "myBoom": false,
-      "karaokeNo": "28188ⓗ",
+      "karaokeNo": "28188",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -4037,7 +4037,7 @@
         "name": "X JAPAN"
       },
       "myBoom": false,
-      "karaokeNo": "6773",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -4051,7 +4051,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=X%20JAPAN%20Endless%20Rain",
+      "karaokeUrl": null,
       "albumArt": "images/x-japan-endless-rain-90.webp",
       "likesCount": 0,
       "createdOrder": 90,
@@ -4188,7 +4188,7 @@
         "name": "사사키 이사오"
       },
       "myBoom": false,
-      "karaokeNo": "28375ⓗ",
+      "karaokeNo": "28375",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -4388,7 +4388,7 @@
         "name": "悠木碧"
       },
       "myBoom": false,
-      "karaokeNo": "28723ⓗ",
+      "karaokeNo": "28723",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -4984,7 +4984,7 @@
         "name": "Every Little Thing"
       },
       "myBoom": false,
-      "karaokeNo": "28464ⓗ",
+      "karaokeNo": "28464",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -5220,7 +5220,7 @@
         "name": "토미나가TOMMY히로아키"
       },
       "myBoom": false,
-      "karaokeNo": "28212ⓗ",
+      "karaokeNo": "28212",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -5372,7 +5372,7 @@
         "name": "JO☆STARS~TOMMY,Coda,JIN~"
       },
       "myBoom": false,
-      "karaokeNo": "28213ⓗ",
+      "karaokeNo": "28213",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -5427,7 +5427,7 @@
         "name": "THE DU"
       },
       "myBoom": false,
-      "karaokeNo": "28630ⓗ",
+      "karaokeNo": "28630",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -5475,7 +5475,7 @@
         "name": "batta"
       },
       "myBoom": false,
-      "karaokeNo": "27960ⓗ",
+      "karaokeNo": "27960",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -5517,7 +5517,7 @@
         "name": "아오키 카렌・하세가와 다이스케"
       },
       "myBoom": false,
-      "karaokeNo": "27986ⓗ",
+      "karaokeNo": "27986",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6415,7 +6415,7 @@
         "name": "안신파파"
       },
       "myBoom": false,
-      "karaokeNo": "28646ⓗ",
+      "karaokeNo": "28646",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6451,7 +6451,7 @@
         "name": "GARNiDELiA"
       },
       "myBoom": false,
-      "karaokeNo": "28011ⓗ",
+      "karaokeNo": "28011",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6601,7 +6601,7 @@
         "name": "유폐 새틀라이트"
       },
       "myBoom": false,
-      "karaokeNo": "28376ⓗ",
+      "karaokeNo": "28376",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6635,7 +6635,7 @@
       }
     },
     {
-      "id": "lia-鳥詩-188",
+      "id": "lia-鳥詩-151",
       "title": "鳥の詩",
       "artist": "Lia",
       "artistId": "artist-lia",
@@ -6659,7 +6659,7 @@
       ],
       "songKey": null,
       "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Lia%20%E9%B3%A5%E3%81%AE%E8%A9%A9",
-      "albumArt": "images/lia-鳥詩-188.webp",
+      "albumArt": "images/lia-鳥詩-151.webp",
       "likesCount": 0,
       "createdOrder": 151,
       "source": {
@@ -6667,8 +6667,15 @@
         "difficulty": null,
         "tags": "애니송"
       },
-      "url": null,
-      "videoInfo": null
+      "url": "https://www.youtube.com/watch?v=CuCH7StSB0w",
+      "videoInfo": {
+        "videoId": "CuCH7StSB0w",
+        "title": "Lia - 鳥の詩 (새의 시) (KY 42049) 노래방 カラオケ",
+        "channel": "Utah7979",
+        "priority": 2,
+        "type": "user_kr_sub",
+        "query": "Lia 鳥の詩 노래방 한글자막"
+      }
     },
     {
       "id": "aimer-last-stardust-152",
@@ -6716,7 +6723,7 @@
         "name": "L'Arc~en~Ciel"
       },
       "myBoom": false,
-      "karaokeNo": "6899",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6736,7 +6743,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=L'Arc~en~Ciel%20Driver's%20High",
+      "karaokeUrl": null,
       "albumArt": "images/larcenciel-drivers-high-153.webp",
       "likesCount": 0,
       "createdOrder": 153,
@@ -6892,7 +6899,7 @@
         "name": "이토 카나코"
       },
       "myBoom": false,
-      "karaokeNo": "28066ⓗ",
+      "karaokeNo": "28066",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -6932,7 +6939,7 @@
       }
     },
     {
-      "id": "이토-카나코-観測者-189",
+      "id": "이토-카나코-観測者-158",
       "title": "スカイクラッドの観測者",
       "artist": "이토 카나코",
       "artistId": "artist-이토-카나코",
@@ -6941,7 +6948,7 @@
         "name": "이토 카나코"
       },
       "myBoom": false,
-      "karaokeNo": "28215ⓗ",
+      "karaokeNo": "28215",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7026,7 +7033,7 @@
         "name": "후지사키카린(miko)"
       },
       "myBoom": false,
-      "karaokeNo": "26714",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7046,7 +7053,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9B%84%EC%A7%80%EC%82%AC%ED%82%A4%EC%B9%B4%EB%A6%B0(miko)%20%EB%A7%88%EB%A6%AC%EC%82%AC%EB%8A%94%20%EC%97%84%EC%B2%AD%EB%82%9C%20%EA%B2%83%EC%9D%84%20%ED%9B%94%EC%B3%90%EA%B0%94%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "karaokeUrl": null,
       "albumArt": "images/후지사키카린miko-마리사는-엄청난-것을-훔쳐갔습니다-160.webp",
       "likesCount": 0,
       "createdOrder": 160,
@@ -7068,7 +7075,7 @@
         "name": "후지사키카린(miko)"
       },
       "myBoom": false,
-      "karaokeNo": "28225ⓗ",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7088,7 +7095,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9B%84%EC%A7%80%EC%82%AC%ED%82%A4%EC%B9%B4%EB%A6%B0(miko)%20%EC%B9%98%EB%A5%B4%EB%85%B8%EC%9D%98%20%ED%8D%BC%ED%8E%99%ED%8A%B8%20%EC%82%B0%EC%88%98%EA%B5%90%EC%8B%A4",
+      "karaokeUrl": null,
       "albumArt": "images/후지사키카린miko-치르노의-퍼펙트-산수교실-161.webp",
       "likesCount": 0,
       "createdOrder": 161,
@@ -7117,7 +7124,7 @@
         "name": "네코캔"
       },
       "myBoom": false,
-      "karaokeNo": "28202ⓗ",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7143,7 +7150,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%84%A4%EC%BD%94%EC%BA%94%20%ED%81%B4%EB%A6%AC%EC%96%B4%EA%B9%8C%EC%A7%80%20%EC%9E%A0%EC%9E%90%EC%A7%80%20%EC%95%8A%EC%95%84!",
+      "karaokeUrl": null,
       "albumArt": "images/네코캔-클리어까지-잠자지-않아-162.webp",
       "likesCount": 0,
       "createdOrder": 162,
@@ -7165,7 +7172,7 @@
         "name": "네코캔"
       },
       "myBoom": false,
-      "karaokeNo": "28177",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7191,7 +7198,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%84%A4%EC%BD%94%EC%BA%94%20%EC%97%90%EC%96%B4%EB%A7%A8%EC%9D%84%20%EC%93%B0%EB%9F%AC%EB%9C%A8%EB%A6%B4%20%EC%88%98%20%EC%97%86%EC%96%B4",
+      "karaokeUrl": null,
       "albumArt": "images/네코캔-에어맨을-쓰러뜨릴-수-없어-163.webp",
       "likesCount": 0,
       "createdOrder": 163,
@@ -7220,7 +7227,7 @@
         "name": "고무J"
       },
       "myBoom": false,
-      "karaokeNo": "26626",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7246,7 +7253,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B3%A0%EB%AC%B4J%20%EC%B6%94%EC%96%B5%EC%9D%80%20%EC%96%B5%EC%B2%9C%EB%A7%8C",
+      "karaokeUrl": null,
       "albumArt": "images/고무j-추억은-억천만-164.webp",
       "likesCount": 0,
       "createdOrder": 164,
@@ -7857,7 +7864,7 @@
         "name": "ALI PROJECT"
       },
       "myBoom": false,
-      "karaokeNo": "28473ⓗ",
+      "karaokeNo": "28473",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7900,7 +7907,7 @@
         "name": "미즈키 이치로, MIQ, 카게야마 히로노부"
       },
       "myBoom": false,
-      "karaokeNo": "25567",
+      "karaokeNo": null,
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -7932,7 +7939,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C%2C%20MIQ%2C%20%EC%B9%B4%EA%B2%8C%EC%95%BC%EB%A7%88%20%ED%9E%88%EB%A1%9C%EB%85%B8%EB%B6%80%20%EC%97%B4%ED%92%8D!%20%EC%A7%88%ED%92%8D!%20%EC%82%AC%EC%9D%B4%EB%B0%94%EC%8A%A4%ED%84%B0",
+      "karaokeUrl": null,
       "albumArt": "images/미즈키-이치로-miq-카게야마-히로노부-열풍-질풍-사이바스터-176.webp",
       "likesCount": 0,
       "createdOrder": 176,
@@ -8227,7 +8234,7 @@
         "name": "히라타 히로미"
       },
       "myBoom": false,
-      "karaokeNo": "28179ⓗ",
+      "karaokeNo": "28179",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -8547,7 +8554,7 @@
         "name": "이토 카나코"
       },
       "myBoom": false,
-      "karaokeNo": "28215ⓗ",
+      "karaokeNo": "28215",
       "genre": "애니송",
       "difficulty": null,
       "tags": [
@@ -9198,7 +9205,7 @@
         "name": "하츠네 미쿠, GUMI"
       },
       "myBoom": false,
-      "karaokeNo": "28269ⓗ",
+      "karaokeNo": "28269",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -9409,7 +9416,7 @@
         "name": "하츠네 미쿠"
       },
       "myBoom": false,
-      "karaokeNo": "26865",
+      "karaokeNo": null,
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -9435,7 +9442,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%B8%94%EB%9E%99%E2%98%85%EB%A1%9D%20%EC%8A%88%ED%84%B0",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 207,
@@ -9505,7 +9512,7 @@
         "name": "v flower"
       },
       "myBoom": false,
-      "karaokeNo": "28700ⓗ",
+      "karaokeNo": "28700",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -9560,7 +9567,7 @@
         "name": "하츠네 미쿠"
       },
       "myBoom": false,
-      "karaokeNo": "28363ⓗ",
+      "karaokeNo": "28363",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -9821,7 +9828,7 @@
         "name": "하츠네 미쿠"
       },
       "myBoom": false,
-      "karaokeNo": "26941",
+      "karaokeNo": null,
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -9847,7 +9854,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%9B%94%EB%93%9C%20%EC%9D%B4%EC%A6%88%20%EB%A7%88%EC%9D%B8%20(%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A4%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%B3)",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 215,
@@ -9924,7 +9931,7 @@
         "name": "GUMI"
       },
       "myBoom": false,
-      "karaokeNo": "28379ⓗ",
+      "karaokeNo": "28379",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -10020,7 +10027,7 @@
         "name": "IA, 하츠네 미쿠"
       },
       "myBoom": false,
-      "karaokeNo": "28206ⓗ",
+      "karaokeNo": "28206",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -10367,7 +10374,7 @@
         "name": "하츠네 미쿠"
       },
       "myBoom": false,
-      "karaokeNo": "28402ⓗ",
+      "karaokeNo": "28402",
       "genre": "보컬로이드",
       "difficulty": null,
       "tags": [
@@ -10549,7 +10556,7 @@
         "name": "KK(카미키타 켄)"
       },
       "myBoom": false,
-      "karaokeNo": "28724ⓗ",
+      "karaokeNo": "28724",
       "genre": "JPOP",
       "difficulty": null,
       "tags": [
@@ -11072,7 +11079,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "2162",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11098,7 +11105,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EB%82%A0%EC%95%84%EB%9D%BC%EB%B3%91%EC%95%84%EB%A6%AC",
+      "karaokeUrl": null,
       "albumArt": "images/next-날아라병아리-241.webp",
       "likesCount": 0,
       "createdOrder": 241,
@@ -11120,7 +11127,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "5621",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11146,7 +11153,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20Lazenca%2C%20Save%20Us",
+      "karaokeUrl": null,
       "albumArt": "images/next-lazenca-save-us-242.webp",
       "likesCount": 0,
       "createdOrder": 242,
@@ -11175,7 +11182,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "4216",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11201,7 +11208,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%ED%95%B4%EC%97%90%EA%B2%8C%EC%84%9C%EC%86%8C%EB%85%84%EC%97%90%EA%B2%8C",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 243,
@@ -11223,7 +11230,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "2399",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11249,7 +11256,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EC%9D%B4%EC%A4%91%EC%9D%B8%EA%B2%A9%EC%9E%90",
+      "karaokeUrl": null,
       "albumArt": "images/next-이중인격자-244.webp",
       "likesCount": 0,
       "createdOrder": 244,
@@ -11271,7 +11278,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "8036",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11297,7 +11304,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Ocean(%EB%B6%88%EB%A9%B8%EC%97%90%EA%B4%80%ED%95%98%EC%97%AC)",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 245,
@@ -11326,7 +11333,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "9455",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11352,7 +11359,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Hero",
+      "karaokeUrl": null,
       "albumArt": "images/next-the-hero-246.webp",
       "likesCount": 0,
       "createdOrder": 246,
@@ -11381,7 +11388,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "2791",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11407,7 +11414,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20Money",
+      "karaokeUrl": null,
       "albumArt": "images/next-money-247.webp",
       "likesCount": 0,
       "createdOrder": 247,
@@ -11491,7 +11498,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "4189",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11517,7 +11524,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Power",
+      "karaokeUrl": null,
       "albumArt": "images/next-the-power-249.webp",
       "likesCount": 0,
       "createdOrder": 249,
@@ -11642,7 +11649,7 @@
         "name": "N.EX.T"
       },
       "myBoom": false,
-      "karaokeNo": "8277",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11668,7 +11675,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EB%82%98%EB%8A%94%EB%82%A8%EB%93%A4%EA%B3%BC%EB%8B%A4%EB%A5%B4%EB%8B%A4",
+      "karaokeUrl": null,
       "albumArt": "images/next-나는남들과다르다-252.webp",
       "likesCount": 0,
       "createdOrder": 252,
@@ -11690,7 +11697,7 @@
         "name": "신해철"
       },
       "myBoom": false,
-      "karaokeNo": "1725",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11716,7 +11723,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EB%82%B4%EB%A7%88%EC%9D%8C%EA%B9%8A%EC%9D%80%EA%B3%B3%EC%9D%98%EB%84%88",
+      "karaokeUrl": null,
       "albumArt": "images/신해철-내마음깊은곳의너-253.webp",
       "likesCount": 0,
       "createdOrder": 253,
@@ -11738,7 +11745,7 @@
         "name": "신해철"
       },
       "myBoom": false,
-      "karaokeNo": "4638",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11764,7 +11771,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%9D%BC%EC%83%81%EC%9C%BC%EB%A1%9C%EC%9D%98%EC%B4%88%EB%8C%80",
+      "karaokeUrl": null,
       "albumArt": "images/신해철-일상으로의초대-254.webp",
       "likesCount": 0,
       "createdOrder": 254,
@@ -11786,7 +11793,7 @@
         "name": "신해철"
       },
       "myBoom": false,
-      "karaokeNo": "6",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11812,7 +11819,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%A7%B8%EC%A6%88%EC%B9%B4%ED%8E%98",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 255,
@@ -11834,7 +11841,7 @@
         "name": "신해철"
       },
       "myBoom": false,
-      "karaokeNo": "8596",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11860,7 +11867,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EB%AF%BC%EB%AC%BC%EC%9E%A5%EC%96%B4%EC%9D%98%EA%BF%88",
+      "karaokeUrl": null,
       "albumArt": "images/신해철-민물장어의꿈-256.webp",
       "likesCount": 0,
       "createdOrder": 256,
@@ -11889,7 +11896,7 @@
         "name": "신해철"
       },
       "myBoom": false,
-      "karaokeNo": "3274",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -11915,7 +11922,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%A0%88%EB%A7%9D%EC%97%90%EA%B4%80%ED%95%98%EC%97%AC",
+      "karaokeUrl": null,
       "albumArt": "images/신해철-절망에관하여-257.webp",
       "likesCount": 0,
       "createdOrder": 257,
@@ -11992,7 +11999,7 @@
         "name": "자우림"
       },
       "myBoom": false,
-      "karaokeNo": "8940",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12018,7 +12025,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EB%A7%A4%EC%A7%81%EC%B9%B4%ED%8E%AB%EB%9D%BC%EC%9D%B4%EB%93%9C",
+      "karaokeUrl": null,
       "albumArt": "images/자우림-매직카펫라이드-259.webp",
       "likesCount": 0,
       "createdOrder": 259,
@@ -12088,7 +12095,7 @@
         "name": "자우림"
       },
       "myBoom": false,
-      "karaokeNo": "9114",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12114,7 +12121,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EC%98%A4%EB%A0%8C%EC%A7%80%EB%A7%88%EB%A7%90%EB%A0%88%EC%9D%B4%EB%93%9C",
+      "karaokeUrl": null,
       "albumArt": "images/자우림-오렌지마말레이드-261.webp",
       "likesCount": 0,
       "createdOrder": 261,
@@ -12301,7 +12308,7 @@
         "name": "김윤아"
       },
       "myBoom": false,
-      "karaokeNo": "5838",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12327,7 +12334,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B9%80%EC%9C%A4%EC%95%84%20%EB%B4%84%EB%82%A0%EC%9D%80%EA%B0%84%EB%8B%A4",
+      "karaokeUrl": null,
       "albumArt": "images/김윤아-봄날은간다-265.webp",
       "likesCount": 0,
       "createdOrder": 265,
@@ -12349,7 +12356,7 @@
         "name": "서태지와아이들"
       },
       "myBoom": false,
-      "karaokeNo": "1434",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12375,7 +12382,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%EC%99%80%EC%95%84%EC%9D%B4%EB%93%A4%20%ED%95%98%EC%97%AC%EA%B0%80",
+      "karaokeUrl": null,
       "albumArt": "images/서태지와아이들-하여가-266.webp",
       "likesCount": 0,
       "createdOrder": 266,
@@ -12397,7 +12404,7 @@
         "name": "서태지와아이들"
       },
       "myBoom": false,
-      "karaokeNo": "3215",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12423,7 +12430,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%EC%99%80%EC%95%84%EC%9D%B4%EB%93%A4%20%EC%8B%9C%EB%8C%80%EC%9C%A0%EA%B0%90",
+      "karaokeUrl": null,
       "albumArt": "images/서태지와아이들-시대유감-267.webp",
       "likesCount": 0,
       "createdOrder": 267,
@@ -12452,7 +12459,7 @@
         "name": "서태지"
       },
       "myBoom": false,
-      "karaokeNo": "9055",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12478,7 +12485,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%20%EC%9A%B8%ED%8A%B8%EB%9D%BC%EB%A7%A8%EC%9D%B4%EC%95%BC",
+      "karaokeUrl": null,
       "albumArt": "images/서태지-울트라맨이야-268.webp",
       "likesCount": 0,
       "createdOrder": 268,
@@ -12500,7 +12507,7 @@
         "name": "서태지"
       },
       "myBoom": false,
-      "karaokeNo": "9068",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12526,7 +12533,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%A0%84%EC%9F%81",
+      "karaokeUrl": null,
       "albumArt": "images/서태지-인터넷-전쟁-269.webp",
       "likesCount": 0,
       "createdOrder": 269,
@@ -12603,7 +12610,7 @@
         "name": "들국화"
       },
       "myBoom": false,
-      "karaokeNo": "3313",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12629,7 +12636,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EC%82%AC%EB%9E%91%EC%9D%BC%EB%BF%90%EC%9D%B4%EC%95%BC",
+      "karaokeUrl": null,
       "albumArt": "images/들국화-사랑일뿐이야-271.webp",
       "likesCount": 0,
       "createdOrder": 271,
@@ -12658,7 +12665,7 @@
         "name": "들국화"
       },
       "myBoom": false,
-      "karaokeNo": "1780",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12684,7 +12691,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EA%B7%B8%EA%B2%83%EB%A7%8C%EC%9D%B4%20%EB%82%B4%EC%84%B8%EC%83%81",
+      "karaokeUrl": null,
       "albumArt": "images/들국화-그것만이-내세상-272.webp",
       "likesCount": 0,
       "createdOrder": 272,
@@ -12761,7 +12768,7 @@
         "name": "들국화"
       },
       "myBoom": false,
-      "karaokeNo": "1758",
+      "karaokeNo": null,
       "genre": "록",
       "difficulty": null,
       "tags": [
@@ -12787,7 +12794,7 @@
         }
       ],
       "songKey": null,
-      "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EC%82%AC%EB%85%B8%EB%9D%BC%EB%A9%B4",
+      "karaokeUrl": null,
       "albumArt": null,
       "likesCount": 0,
       "createdOrder": 274,
@@ -13219,13 +13226,13 @@
       }
     },
     {
-      "id": "송창식-담배가게아가씨-283",
+      "id": "윤도현밴드-담배가게아가씨-283",
       "title": "담배가게아가씨",
-      "artist": "송창식",
-      "artistId": "artist-송창식",
+      "artist": "윤도현밴드",
+      "artistId": "artist-윤도현밴드",
       "artistInfo": {
-        "id": "artist-송창식",
-        "name": "송창식"
+        "id": "artist-윤도현밴드",
+        "name": "윤도현밴드"
       },
       "myBoom": false,
       "karaokeNo": null,
@@ -13255,14 +13262,16 @@
       ],
       "songKey": null,
       "karaokeUrl": null,
-      "albumArt": "images/송창식-담배가게아가씨-283.webp",
+      "albumArt": "images/윤도현밴드-담배가게아가씨-283.webp",
       "likesCount": 0,
       "createdOrder": 283,
       "source": {
         "myBoom": null,
         "difficulty": null,
         "tags": "록, 밴드, 한국록"
-      }
+      },
+      "url": null,
+      "videoInfo": null
     },
     {
       "id": "윤도현밴드-어쩌다-마주친-그대-284",
@@ -13347,428 +13356,6 @@
       },
       "url": null,
       "videoInfo": null
-    },
-    {
-      "id": "the-beatles-ticket-to-ride-remastered-2009-286",
-      "title": "Ticket To Ride (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-ticket-to-ride-remastered-2009-286.webp",
-      "likesCount": 0,
-      "createdOrder": 286,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      }
-    },
-    {
-      "id": "the-beatles-yellow-submarine-remastered-2009-287",
-      "title": "Yellow Submarine (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-yellow-submarine-remastered-2009-287.webp",
-      "likesCount": 0,
-      "createdOrder": 287,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=ztHxu-13UqI",
-      "videoInfo": {
-        "videoId": "ztHxu-13UqI",
-        "title": "Yellow Submarine (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "The Beatles Yellow Submarine (Remastered 2009) 노래방"
-      }
-    },
-    {
-      "id": "the-beatles-lucy-in-the-sky-with-diamonds-remastered-2009-288",
-      "title": "Lucy In The Sky With Diamonds (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-lucy-in-the-sky-with-diamonds-remastered-2009-288.webp",
-      "likesCount": 0,
-      "createdOrder": 288,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=naoknj1ebqI",
-      "videoInfo": {
-        "videoId": "naoknj1ebqI",
-        "title": "Lucy In The Sky With Diamonds (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "Lucy In The Sky With Diamonds (Remastered 2009) The Beatles karaoke"
-      }
-    },
-    {
-      "id": "the-beatles-nowhere-man-remastered-2009-289",
-      "title": "Nowhere Man (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": null,
-      "likesCount": 0,
-      "createdOrder": 289,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=8scSwaKbE64",
-      "videoInfo": {
-        "videoId": "8scSwaKbE64",
-        "title": "Nowhere Man (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "The Beatles Nowhere Man (Remastered 2009) 노래방"
-      }
-    },
-    {
-      "id": "the-beatles-michelle-remastered-2009-290",
-      "title": "Michelle (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": null,
-      "likesCount": 0,
-      "createdOrder": 290,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=WoBLi5eE-wY",
-      "videoInfo": {
-        "videoId": "WoBLi5eE-wY",
-        "title": "Michelle (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "The Beatles Michelle (Remastered 2009) 노래방"
-      }
-    },
-    {
-      "id": "the-beatles-sgt-peppers-lonely-hearts-club-band-291",
-      "title": "Sgt Pepper's Lonely Hearts Club Band",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-sgt-peppers-lonely-hearts-club-band-291.webp",
-      "likesCount": 0,
-      "createdOrder": 291,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      }
-    },
-    {
-      "id": "the-beatles-when-im-sixty-four-remastered-2009-292",
-      "title": "When I'm Sixty Four (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-when-im-sixty-four-remastered-2009-292.webp",
-      "likesCount": 0,
-      "createdOrder": 292,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=HCTunqv1Xt4",
-      "videoInfo": {
-        "videoId": "HCTunqv1Xt4",
-        "title": "When I'm Sixty Four (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "The Beatles When I'm Sixty Four (Remastered 2009) 노래방"
-      }
-    },
-    {
-      "id": "the-beatles-maxwells-silver-hammer-remastered-2009-293",
-      "title": "Maxwell's Silver Hammer (Remastered 2009)",
-      "artist": "The Beatles",
-      "artistId": "artist-the-beatles",
-      "artistInfo": {
-        "id": "artist-the-beatles",
-        "name": "The Beatles"
-      },
-      "myBoom": false,
-      "karaokeNo": null,
-      "genre": "록",
-      "difficulty": null,
-      "tags": [
-        "록",
-        "밴드",
-        "클래식록"
-      ],
-      "categories": [
-        {
-          "id": "cat-록",
-          "name": "록",
-          "color": "#F6903D"
-        },
-        {
-          "id": "cat-밴드",
-          "name": "밴드",
-          "color": "#5B8FF9"
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC"
-        }
-      ],
-      "songKey": null,
-      "karaokeUrl": null,
-      "albumArt": "images/the-beatles-maxwells-silver-hammer-remastered-2009-293.webp",
-      "likesCount": 0,
-      "createdOrder": 293,
-      "source": {
-        "myBoom": null,
-        "difficulty": null,
-        "tags": "록, 밴드, 클래식록"
-      },
-      "url": "https://www.youtube.com/watch?v=mJag19WoAe0",
-      "videoInfo": {
-        "videoId": "mJag19WoAe0",
-        "title": "Maxwell's Silver Hammer (Remastered 2009)",
-        "channel": "The Beatles",
-        "priority": 2,
-        "type": "user_kr_sub",
-        "query": "Maxwell's Silver Hammer (Remastered 2009) The Beatles karaoke"
-      }
     }
   ],
   "indexes": {
@@ -13809,7 +13396,6 @@
       "서태지",
       "서태지와아이들",
       "셰릴・놈 starring May'n",
-      "송창식",
       "스타라이트 99조",
       "시노하라 토모에",
       "시마미야 에이코",
@@ -13937,7 +13523,6 @@
       "SPYAIR",
       "T.M.Revolution",
       "THE BACK HORN",
-      "The Beatles",
       "THE DU",
       "The Glitch Mob",
       "Tia",
@@ -13976,7 +13561,6 @@
       "카가미네렌",
       "카가미네린",
       "커버",
-      "클래식록",
       "하츠네미쿠",
       "한국록",
       "ED",
@@ -14022,7 +13606,7 @@
         "id": "cat-록",
         "name": "록",
         "color": "#F6903D",
-        "songCount": 53
+        "songCount": 45
       },
       {
         "id": "cat-록맨",
@@ -14034,7 +13618,7 @@
         "id": "cat-밴드",
         "name": "밴드",
         "color": "#5B8FF9",
-        "songCount": 51
+        "songCount": 43
       },
       {
         "id": "cat-버튜버",
@@ -14119,12 +13703,6 @@
         "name": "커버",
         "color": "#7262FD",
         "songCount": 2
-      },
-      {
-        "id": "cat-클래식록",
-        "name": "클래식록",
-        "color": "#9661BC",
-        "songCount": 8
       },
       {
         "id": "cat-하츠네미쿠",
@@ -14328,11 +13906,6 @@
         "songCount": 2
       },
       {
-        "id": "artist-송창식",
-        "name": "송창식",
-        "songCount": 1
-      },
-      {
         "id": "artist-스타라이트-99조",
         "name": "스타라이트 99조",
         "songCount": 1
@@ -14465,7 +14038,7 @@
       {
         "id": "artist-윤도현밴드",
         "name": "윤도현밴드",
-        "songCount": 2
+        "songCount": 3
       },
       {
         "id": "artist-윤하",
@@ -14968,11 +14541,6 @@
         "songCount": 1
       },
       {
-        "id": "artist-the-beatles",
-        "name": "The Beatles",
-        "songCount": 8
-      },
-      {
         "id": "artist-the-du",
         "name": "THE DU",
         "songCount": 1
@@ -15125,7 +14693,7 @@
           "id": "cat-록",
           "name": "록",
           "color": "#F6903D",
-          "songCount": 53
+          "songCount": 45
         },
         {
           "id": "cat-록맨",
@@ -15137,7 +14705,7 @@
           "id": "cat-밴드",
           "name": "밴드",
           "color": "#5B8FF9",
-          "songCount": 51
+          "songCount": 43
         },
         {
           "id": "cat-버튜버",
@@ -15222,12 +14790,6 @@
           "name": "커버",
           "color": "#7262FD",
           "songCount": 2
-        },
-        {
-          "id": "cat-클래식록",
-          "name": "클래식록",
-          "color": "#9661BC",
-          "songCount": 8
         },
         {
           "id": "cat-하츠네미쿠",
@@ -15431,11 +14993,6 @@
           "songCount": 2
         },
         {
-          "id": "artist-송창식",
-          "name": "송창식",
-          "songCount": 1
-        },
-        {
           "id": "artist-스타라이트-99조",
           "name": "스타라이트 99조",
           "songCount": 1
@@ -15568,7 +15125,7 @@
         {
           "id": "artist-윤도현밴드",
           "name": "윤도현밴드",
-          "songCount": 2
+          "songCount": 3
         },
         {
           "id": "artist-윤하",
@@ -16071,11 +15628,6 @@
           "songCount": 1
         },
         {
-          "id": "artist-the-beatles",
-          "name": "The Beatles",
-          "songCount": 8
-        },
-        {
           "id": "artist-the-du",
           "name": "THE DU",
           "songCount": 1
@@ -16196,7 +15748,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 5,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Porno%20Graffitti%20%E3%83%A1%E3%83%AA%E3%83%83%E3%82%B5",
         "albumArt": "images/porno-graffitti-song-2.webp",
@@ -16229,7 +15781,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 4,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=L'Arc~en~Ciel%20READY%20STEADY%20GO",
         "albumArt": "images/larcenciel-ready-steady-go-3.webp",
@@ -16258,7 +15810,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ASIAN%20KUNG-FU%20GENERATION%20%E3%83%AA%E3%83%A9%E3%82%A4%E3%83%88",
         "albumArt": "images/asian-kung-fu-generation-song-4.webp",
@@ -16286,7 +15838,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 2,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=L'Arc~en~Ciel%20LOST%20HEAVEN",
         "albumArt": "images/larcenciel-lost-heaven-5.webp",
@@ -16314,7 +15866,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%B0%EC%97%90%EB%8B%A4%20%EC%9C%A0%EC%9A%B0%EC%A7%80%20%E3%82%A2%E3%82%BF%E3%83%83%E3%82%AF!%E3%82%AE%E3%83%A3%E3%82%B0%E3%83%9E%E3%83%B3%E3%82%AC%E6%97%A5%E5%92%8C",
         "albumArt": "images/우에다-유우지-日和-6.webp",
@@ -16347,7 +15899,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 2,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ChouCho%20DreamRiser",
         "albumArt": "images/choucho-dreamriser-7.webp",
@@ -16376,7 +15928,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3.5,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%82%AC%EC%82%AC%ED%82%A4%20%EC%9D%B4%EC%82%AC%EC%98%A4%20%E3%82%B2%E3%83%83%E3%82%BF%E3%83%BC%E3%83%AD%E3%83%9C!",
         "albumArt": null,
@@ -16404,7 +15956,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 4,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B8%A0%EC%A7%80%20%EC%95%84%EC%95%BC%EB%85%B8%20%E9%A2%A8%E3%81%AB%E3%81%AA%E3%82%8B",
         "albumArt": "images/츠지-아야노-風-9.webp",
@@ -16437,14 +15989,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3.5,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Kalafina%20fairytale",
         "albumArt": "images/kalafina-fairytale-10.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "27862ⓗ",
+        "karaokeNo": "27862",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -16466,7 +16018,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%9C%EB%AA%AC%20%EB%A7%88%EC%82%AC%ED%86%A0%20%E3%82%AC%E3%83%83%E3%83%81%E3%83%A3%E3%83%9E%E3%83%B3%E3%81%AE%E6%AD%8C",
         "albumArt": "images/시몬-마사토-歌-11.webp",
@@ -16494,7 +16046,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 3,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ZONE%20secret%20base%20%EF%BD%9E%E5%90%9B%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%82%E3%81%AE%EF%BD%9E",
         "albumArt": null,
@@ -16522,14 +16074,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A0%EC%A0%95%EC%84%9D%20%EC%A7%88%ED%92%8D%EA%B0%80%EB%8F%84",
         "albumArt": "images/유정석-질풍가도-13.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "15124 / 62720[7]",
+        "karaokeNo": "15124",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -16555,7 +16107,7 @@
             "color": "#5B8FF9"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EC%BC%80%EB%8B%A4%20%EC%BD%94%EC%9A%B0%20%E7%BF%94%E3%81%B9!%20%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0",
         "albumArt": null,
@@ -16584,7 +16136,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EB%85%B8%EC%9A%B0%EC%97%90%20%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%BC%80%20%E5%93%80%20%E6%88%A6%E5%A3%AB",
         "albumArt": "images/이노우에-다이스케-哀-戦士-15.webp",
@@ -16612,7 +16164,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=TM%20NETWORK%20Beyond%20the%20Time%20(%E3%83%A1%E3%83%93%E3%82%A6%E3%82%B9%E3%81%AE%E5%AE%87%E5%AE%99%E3%82%92%E8%B6%8A%E3%81%88%E3%81%A6)",
         "albumArt": "images/tm-network-beyond-the-time-宇宙越-16.webp",
@@ -16640,7 +16192,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=YOASOBI%20%E7%A5%9D%E7%A6%8F",
         "albumArt": "images/yoasobi-祝福-17.webp",
@@ -16678,7 +16230,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=yama%20Slash",
         "albumArt": "images/yama-slash-18.webp",
@@ -16718,7 +16270,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=L'Arc~en~Ciel%20DAYBREAK'S%20BELL",
         "albumArt": "images/larcenciel-daybreaks-bell-19.webp",
@@ -16748,7 +16300,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=THE%20BACK%20HORN%20%E7%BD%A0",
         "albumArt": null,
@@ -16786,7 +16338,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=T.M.Revolution%20INVOKE",
         "albumArt": "images/tmrevolution-invoke-21.webp",
@@ -16816,7 +16368,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%84%EB%9D%BC%EC%9D%B4%20%EB%A7%88%EC%82%AC%ED%9E%88%ED%86%A0%20%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%98%E3%82%83%E3%81%AA%E3%81%84-%E5%A4%A2%E3%82%92%E5%BF%98%E3%82%8C%E3%81%9F%E5%8F%A4%E3%81%84%E5%9C%B0%E7%90%83%E4%BA%BA%E3%82%88",
         "albumArt": "images/아라이-마사히토-夢忘古地球人-22.webp",
@@ -16844,7 +16396,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EC%99%80%EC%A1%B0%EC%97%90%20%ED%86%A0%EB%AA%A8%ED%9E%88%EC%82%AC%20STAND%20UP%20TO%20THE%20VICTORY",
         "albumArt": null,
@@ -16872,7 +16424,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%B9%98%20%ED%9E%88%EB%A1%9C%EC%BD%94%20%E6%B0%B4%E3%81%AE%E6%98%9F%E3%81%B8%E6%84%9B%E3%82%92%E3%81%93%E3%82%81%E3%81%A6",
         "albumArt": "images/모리구치-히로코-水星愛-24.webp",
@@ -16905,7 +16457,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%A7%88%EC%B8%A0%EC%9E%90%EC%99%80%20%EC%9C%A0%EB%AF%B8%20YOU%20GET%20TO%20BURNING",
         "albumArt": null,
@@ -16934,14 +16486,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%92%A4%EB%A1%9C%EB%B6%80%ED%84%B0%20%EA%B8%B0%EC%96%B4%EC%98%A4%EB%8A%94%20%EB%8C%80%20G%20%E5%A4%AA%E9%99%BD%E6%9B%B0%E3%81%8F%E7%87%83%E3%81%88%E3%82%88%E3%82%AB%E3%82%AA%E3%82%B9",
         "albumArt": "images/뒤로부터-기어오는-대-g-太陽曰燃-26.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28409ⓗ",
+        "karaokeNo": "28409",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -16962,14 +16514,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%92%A4%EB%A1%9C%EB%B6%80%ED%84%B0%20%EA%B8%B0%EC%96%B4%EC%98%A4%EB%8A%94%20%EB%8C%80%20G%20%E6%81%8B%E3%81%AF%E6%B8%BE%E6%B2%8C%E3%81%AE%E9%9A%B7%E4%B9%9F",
         "albumArt": "images/뒤로부터-기어오는-대-g-恋渾沌隷也-27.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28316ⓗ",
+        "karaokeNo": "28316",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -16995,7 +16547,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=FLOW%20GO!!!",
         "albumArt": "images/flow-go-28.webp",
@@ -17024,7 +16576,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%B2%84%EC%A6%88(Buzz)%20%ED%99%9C%EC%A3%BC",
         "albumArt": null,
@@ -17052,14 +16604,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=KANA-BOON%20%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88%20(%EC%8B%A4%EB%A3%A8%EC%97%A3)",
         "albumArt": "images/kana-boon-실루엣-30.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28214ⓗ",
+        "karaokeNo": "28214",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17080,14 +16632,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E3%82%B9%E3%82%BA%E3%83%A0%20feat.%E3%81%9D%E3%82%89%E3%82%8B%20%E7%B5%B6%E6%9C%9B%E6%80%A7%EF%BC%9A%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E6%B2%BB%E7%99%82%E8%96%AC%20(%EC%A0%88%EB%A7%9D%EC%84%B1%3A%20%ED%9E%88%EC%96%B4%EB%A1%9C%20%EC%B9%98%EB%A3%8C%EC%95%BD)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28390ⓗ",
+        "karaokeNo": "28390",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17118,7 +16670,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Changin'%20My%20Life%20Myself",
         "albumArt": "images/changin-my-life-myself-32.webp",
@@ -17158,7 +16710,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Changin'%20My%20Life%20New%20Future",
         "albumArt": "images/changin-my-life-new-future-33.webp",
@@ -17198,7 +16750,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Changin'%20My%20Life%20ETERNAL%20SNOW",
         "albumArt": "images/changin-my-life-eternal-snow-34.webp",
@@ -17233,7 +16785,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=NIGHTMARE%20the%20WORLD",
         "albumArt": "images/nightmare-the-world-35.webp",
@@ -17262,7 +16814,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=NIGHTMARE%20%E3%82%A2%E3%83%AB%E3%83%9F%E3%83%8A",
         "albumArt": null,
@@ -17295,7 +16847,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B2%8C%EC%95%BC%EB%A7%88%20%ED%9E%88%EB%A1%9C%EB%85%B8%EB%B6%80%20CHA-LA%20HEAD-CHA-LA",
         "albumArt": "images/카게야마-히로노부-cha-la-head-cha-la-37.webp",
@@ -17329,7 +16881,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%99%80%EB%8B%A4%20%EC%BD%94%EC%A7%80%20Butter-Fly",
         "albumArt": null,
@@ -17363,7 +16915,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%95%BC%EC%9E%90%ED%82%A4%20%EC%95%84%EC%9C%A0%EB%AF%B8%20brave%20heart",
         "albumArt": null,
@@ -17392,7 +16944,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=AiScReam%20%E6%84%9B%E2%99%A1%E3%82%B9%E3%82%AF%E3%83%AA%EF%BD%9E%E3%83%A0%EF%BC%81",
         "albumArt": "images/aiscream-愛-40.webp",
@@ -17425,7 +16977,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%EB%85%B8%20%EC%95%84%EC%95%BC%2C%20%EC%B9%B4%ED%86%A0%20%EC%97%90%EB%AF%B8%EB%A6%AC%2C%20%ED%9B%84%EC%BF%A0%ED%95%98%EB%9D%BC%20%EC%B9%B4%EC%98%A4%EB%A6%AC%2C%20%EC%97%94%EB%8F%84%20%EC%95%84%EC%95%BC%20%E3%82%82%E3%81%A3%E3%81%A6%E3%81%91%EF%BC%81%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%B5%E3%81%8F",
         "albumArt": "images/히라노-아야-카토-에미리-후쿠하라-카오리-엔도-아야-song-41.webp",
@@ -17459,7 +17011,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%BF%A0%EB%9D%BC%20%EC%B9%98%ED%9E%88%EB%A1%9C%20Butterfly%20Kiss",
         "albumArt": null,
@@ -17488,7 +17040,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ALI%20PROJECT%20%E7%A6%81%E3%81%98%E3%82%89%E3%82%8C%E3%81%9F%E9%81%8A%E3%81%B3",
         "albumArt": "images/ali-project-禁遊-43.webp",
@@ -17516,7 +17068,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%83%80%EB%AC%B4%EB%9D%BC%20%EB%82%98%EC%98%A4%EB%AF%B8%20%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E9%A1%98%E3%81%84",
         "albumArt": null,
@@ -17549,7 +17101,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EB%82%98%EB%82%98%20ETERNAL%20BLAZE",
         "albumArt": "images/미즈키-나나-eternal-blaze-45.webp",
@@ -17578,7 +17130,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EB%82%98%EB%82%98%20BRAVE%20PHOENIX",
         "albumArt": "images/미즈키-나나-brave-phoenix-46.webp",
@@ -17606,7 +17158,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ClariS%20%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88",
         "albumArt": "images/claris-song-47.webp",
@@ -17639,7 +17191,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Kalafina%20Magia",
         "albumArt": "images/kalafina-magia-48.webp",
@@ -17668,14 +17220,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C%20%E3%83%9E%E3%82%B8%E3%83%B3%E3%82%AC%E3%83%BCZ",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28459ⓗ",
+        "karaokeNo": "28459",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17696,7 +17248,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20Fire%20wars",
         "albumArt": "images/jam-project-fire-wars-50.webp",
@@ -17724,7 +17276,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project(feat.%20%ED%9B%84%EC%BF%A0%EC%95%BC%EB%A7%88%20%EC%9A%94%EC%8B%9C%ED%82%A4)%20%E6%88%B0%E5%A3%AB%E3%82%88%E7%9C%A0%E3%82%8C",
         "albumArt": "images/jam-projectfeat-후쿠야마-요시키-戰士眠-51.webp",
@@ -17757,14 +17309,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%85%B0%EB%A6%B4%E3%83%BB%EB%86%88%20starring%20May'n%20%E3%83%80%E3%82%A4%E3%82%A2%E3%83%A2%E3%83%B3%E3%83%89%E3%82%AF%E3%83%AC%E3%83%90%E3%82%B9",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28222ⓗ",
+        "karaokeNo": "28222",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -17786,7 +17338,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%9E%80%EC%B9%B4%E3%83%BB%EB%A6%AC%3D%EB%82%98%EC%B9%B4%EC%8B%9C%EB%A7%88%20%EB%A9%94%EA%B5%AC%EB%AF%B8%20%E6%98%9F%E9%96%93%E9%A3%9B%E8%A1%8C",
         "albumArt": null,
@@ -17819,7 +17371,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=May'n%2F%EB%82%98%EC%B9%B4%EC%8B%9C%EB%A7%88%20%EB%A9%94%EA%B5%AC%EB%AF%B8%20%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3",
         "albumArt": null,
@@ -17853,7 +17405,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%85%B0%EB%A6%B4%E3%83%BB%EB%86%88%20starring%20May'n%20%E3%83%8E%E3%83%BC%E3%82%B6%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9",
         "albumArt": null,
@@ -17882,14 +17434,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=PENICILLIN%20%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6866",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17910,14 +17462,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=DALI%20%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E4%BC%9D%E8%AA%AC%20(%EB%AC%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%A0%84%EC%84%A4)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28461ⓗ",
+        "karaokeNo": "28461",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17938,14 +17490,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9B%84%EC%A7%80%EC%98%A4%EC%B9%B4%20%ED%9B%84%EC%A7%80%EB%A7%88%ED%82%A4%EC%99%80%20%EC%98%A4%EC%98%A4%ED%95%98%EC%8B%9C%20%EB%85%B8%EC%A1%B0%EB%AF%B8%20%E5%B4%96%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%9D%E3%83%8B%E3%83%A7",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "26856[2]",
+        "karaokeNo": "26856",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -17966,7 +17518,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%20%E6%84%9B%E3%82%92%E3%81%A8%E3%82%8A%E3%82%82%E3%81%A9%E3%81%9B!!",
         "albumArt": "images/artist-愛-59.webp",
@@ -17994,7 +17546,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%82%98%EC%B9%B4%EC%8B%9C%EB%A7%88%20%EB%AF%B8%EC%B9%B4%20%E7%81%AB%E3%81%AE%E9%B3%A5",
         "albumArt": "images/나카시마-미카-火鳥-60.webp",
@@ -18027,14 +17579,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=MELL%20Red%20fraction",
         "albumArt": "images/mell-red-fraction-61.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28114ⓗ",
+        "karaokeNo": "28114",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18056,7 +17608,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Janne%20Da%20Arc%20%E6%9C%88%E5%85%89%E8%8A%B1",
         "albumArt": "images/janne-da-arc-月光花-62.webp",
@@ -18084,7 +17636,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A4%ED%95%98%20%E3%81%BB%E3%81%86%E3%81%8D%E6%98%9F",
         "albumArt": null,
@@ -18117,7 +17669,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%ED%82%A4%EB%AA%A8%EB%85%B8%EA%B0%80%EC%B9%B4%EB%A6%AC%20HANABI",
         "albumArt": "images/이키모노가카리-hanabi-64.webp",
@@ -18146,14 +17698,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=MAKE-UP%20%E3%83%9A%E3%82%AC%E3%82%B5%E3%82%B9%E5%B9%BB%E6%83%B3",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28456ⓗ",
+        "karaokeNo": "28456",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -18179,7 +17731,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%98%A4%EC%BF%A0%EC%9D%B4%20%EB%A7%88%EC%82%AC%EB%AF%B8%20%E8%BC%AA%E8%88%9E-revolution",
         "albumArt": null,
@@ -18208,7 +17760,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8A%A4%ED%83%80%EB%9D%BC%EC%9D%B4%ED%8A%B8%2099%EC%A1%B0%20%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E3%82%82%E3%81%86%E8%88%9E%E5%8F%B0%E3%81%AE%E4%B8%8A",
         "albumArt": "images/스타라이트-99조-私舞台上-67.webp",
@@ -18241,7 +17793,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20Soul%20Taker",
         "albumArt": "images/jam-project-soul-taker-68.webp",
@@ -18270,7 +17822,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%9C%EB%A7%88%EB%AF%B8%EC%95%BC%20%EC%97%90%EC%9D%B4%EC%BD%94%20%E3%81%B2%E3%81%90%E3%82%89%E3%81%97%E3%81%AE%E3%81%AA%E3%81%8F%E9%A0%83%E3%81%AB",
         "albumArt": "images/시마미야-에이코-頃-69.webp",
@@ -18303,7 +17855,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A0%EC%A6%88%ED%82%A4%20you%20-Visionen%20im%20Spiegel",
         "albumArt": null,
@@ -18337,7 +17889,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%EB%85%B8%20%EC%95%84%EC%95%BC%2C%20%EC%B9%98%ED%95%98%EB%9D%BC%20%EB%AF%B8%EB%85%B8%EB%A6%AC%2C%20%EA%B3%A0%ED%86%A0%20%EC%9C%A0%EC%BD%94%20%E3%83%8F%E3%83%AC%E6%99%B4%E3%83%AC%E3%83%A6%E3%82%AB%E3%82%A4",
         "albumArt": null,
@@ -18366,7 +17918,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%EB%85%B8%20%EC%95%84%EC%95%BC%20God%20knows...",
         "albumArt": "images/히라노-아야-god-knows-72.webp",
@@ -18394,7 +17946,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%EB%85%B8%20%EC%95%84%EC%95%BC%20Lost%20my%20music",
         "albumArt": "images/히라노-아야-lost-my-music-73.webp",
@@ -18422,7 +17974,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%EB%85%B8%20%EC%95%84%EC%95%BC%20%E5%86%92%E9%99%BA%E3%81%A7%E3%81%97%E3%82%87%E3%81%A7%E3%81%97%E3%82%87%3F",
         "albumArt": "images/히라노-아야-冒険-74.webp",
@@ -18450,7 +18002,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20DRAGON",
         "albumArt": "images/jam-project-dragon-75.webp",
@@ -18488,14 +18040,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=TWO-MIX%20JUST%20COMMUNICATION",
+        "karaokeUrl": null,
         "albumArt": "images/two-mix-just-communication-76.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6737",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18528,14 +18080,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=TWO-MIX%20RHYTHM%20EMOTION",
+        "karaokeUrl": null,
         "albumArt": "images/two-mix-rhythm-emotion-77.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6350",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18563,14 +18115,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=CLAIRE%20Fly%20Me%20to%20the%20Moon",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "20176[3]",
+        "karaokeNo": "20176",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18592,7 +18144,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%83%80%EC%B9%B4%ED%95%98%EC%8B%9C%20%EC%9A%94%EC%BD%94%20%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC",
         "albumArt": "images/타카하시-요코-残酷天使-79.webp",
@@ -18625,14 +18177,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=765PRO%20ALLSTARS%5BN%5D%20READY!!(M%40STER%20VERSION)",
         "albumArt": "images/765pro-allstarsn-readymster-version-80.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28113ⓗ",
+        "karaokeNo": "28113",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18654,7 +18206,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=765PRO%20ALLSTARS%5BN%5D%20%E8%87%AA%E5%88%86REST%40RT",
         "albumArt": "images/765pro-allstarsn-自分restrt-81.webp",
@@ -18682,14 +18234,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EB%A7%88%EC%9D%B4%20%EC%95%84%EC%82%AC%EB%AF%B8%20%E8%92%BC%E3%81%84%E9%B3%A5",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28969ⓗ",
+        "karaokeNo": "28969",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -18715,7 +18267,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=765PRO%20MILLION%20ALLSTARS%20UNION!!",
         "albumArt": "images/765pro-million-allstars-union-83.webp",
@@ -18749,14 +18301,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=CINDERELLA%20PROJECT%20Star!!",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28134ⓗ",
+        "karaokeNo": "28134",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -18778,14 +18330,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E9%AB%98%E5%9E%A3%E6%A5%93%E3%80%81%E5%9F%8E%E3%83%B6%E5%B4%8E%E7%BE%8E%E5%98%89%E3%80%81%E5%B0%8F%E6%97%A5%E5%90%91%E7%BE%8E%E7%A9%82%E3%80%81%E5%8D%81%E6%99%82%E6%84%9B%E6%A2%A8%E3%80%81%E5%B7%9D%E5%B3%B6%E7%91%9E%E6%A8%B9%E3%80%81%E6%97%A5%E9%87%8E%E8%8C%9C%E3%80%81%E8%BC%BF%E6%B0%B4%E5%B9%B8%E5%AD%90%E3%80%81%E4%BD%90%E4%B9%85%E9%96%93%E3%81%BE%E3%82%86%E3%80%81%E7%99%BD%E5%9D%82%E5%B0%8F%E6%A2%85%20%E3%81%8A%E9%A1%98%E3%81%84!%20%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28188ⓗ",
+        "karaokeNo": "28188",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -18811,7 +18363,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%83%80%EC%B9%98%EB%B0%94%EB%82%98%20%EB%A6%AC%EC%B9%B4%2C%20%EB%A3%A8%20%ED%8C%85%20%E7%BE%8E%E3%81%AB%E5%85%A5%E3%82%8A%E5%BD%A9%E3%82%92%E7%A9%BF%E3%81%A4",
         "albumArt": "images/타치바나-리카-루-팅-美入彩穿-86.webp",
@@ -18840,7 +18392,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%9C%EB%85%B8%ED%95%98%EB%9D%BC%20%ED%86%A0%EB%AA%A8%EC%97%90%20Ultra%20Relax",
         "albumArt": null,
@@ -18873,7 +18425,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Oranges%26Lemons%20%E7%A9%BA%E8%80%B3%E3%82%B1%E3%83%BC%E3%82%AD",
         "albumArt": null,
@@ -18907,7 +18459,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=fripSide%20only%20my%20railgun",
         "albumArt": "images/fripside-only-my-railgun-89.webp",
@@ -18936,14 +18488,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=X%20JAPAN%20Endless%20Rain",
+        "karaokeUrl": null,
         "albumArt": "images/x-japan-endless-rain-90.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6773",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -18964,7 +18516,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%97%94%EB%8F%84%20%EB%A7%88%EC%82%AC%EC%95%84%ED%82%A4%20%E5%8B%87%E8%80%85%E7%8E%8B%E3%82%AC%E3%82%AA%E3%82%AC%E3%82%A4%E3%82%AC%EF%BC%8D%20(%E7%A5%9E%E8%A9%B1version)",
         "albumArt": null,
@@ -18992,7 +18544,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EC%8B%9C%EC%B9%B4%EC%99%80%20%EC%B9%98%EC%95%84%ED%82%A4%20%E3%82%A2%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB",
         "albumArt": null,
@@ -19020,7 +18572,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Various%20Artists%20%E3%81%86%E3%81%BE%E3%81%B4%E3%82%87%E3%81%84%E4%BC%9D%E8%AA%AC(2021%20Remastered%20Version)%20(%EC%9A%B0%EB%A7%88%EB%BE%B0%EC%9D%B4%20%EC%A0%84%EC%84%A4)",
         "albumArt": null,
@@ -19048,14 +18600,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%82%AC%EC%82%AC%ED%82%A4%20%EC%9D%B4%EC%82%AC%EC%98%A4%20%E5%AE%87%E5%AE%99%E6%88%A6%E8%89%A6%E3%83%A4%E3%83%9E%E3%83%88",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28375ⓗ",
+        "karaokeNo": "28375",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -19076,7 +18628,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20THE%20HERO!!%E3%80%9C%E6%80%92%E3%82%8C%E3%82%8B%E6%8B%B3%E3%81%AB%E7%81%AB%E3%82%92%E3%81%A4%E3%81%91%E3%82%8D%E3%80%9C",
         "albumArt": "images/jam-project-the-hero怒拳火-95.webp",
@@ -19109,7 +18661,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Janne%20Da%20Arc%20Shining%20ray",
         "albumArt": "images/janne-da-arc-shining-ray-96.webp",
@@ -19138,7 +18690,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Ado%20%E6%96%B0%E6%99%82%E4%BB%A3",
         "albumArt": null,
@@ -19166,7 +18718,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Ado%20%E9%80%86%E5%85%89",
         "albumArt": null,
@@ -19199,14 +18751,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E6%82%A0%E6%9C%A8%E7%A2%A7%20Los!%20Los!%20Los!",
         "albumArt": "images/悠木碧-los-los-los-99.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28723ⓗ",
+        "karaokeNo": "28723",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -19228,7 +18780,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%82%98%EB%82%98%EB%AA%A8%EB%A6%AC%20%EC%A4%91%ED%95%99%EA%B5%90%E2%98%86%EC%98%A4%EB%9D%BD%EB%B6%80%20%E3%82%86%E3%82%8A%E3%82%86%E3%82%89%E3%82%89%E3%82%89%E3%82%89%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A%E5%A4%A7%E4%BA%8B%E4%BB%B6",
         "albumArt": "images/나나모리-중학교오락부-大事件-100.webp",
@@ -19256,7 +18808,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=DOES%20%E4%BF%AE%E7%BE%85",
         "albumArt": "images/does-修羅-101.webp",
@@ -19284,7 +18836,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=DOES%20%E6%9B%87%E5%A4%A9",
         "albumArt": "images/does-曇天-102.webp",
@@ -19317,7 +18869,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=SPYAIR%20%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%88(Some%20Like%20It%20Hot!!)",
         "albumArt": "images/spyair-some-like-it-hot-103.webp",
@@ -19346,7 +18898,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Do%20As%20Infinity%20%E6%B7%B1%E3%81%84%E6%A3%AE",
         "albumArt": "images/do-as-infinity-深森-104.webp",
@@ -19384,7 +18936,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EB%A7%88%EC%82%AC%ED%82%A4%20%EC%95%84%EC%9C%A0%EB%AF%B8%20Dearest",
         "albumArt": "images/하마사키-아유미-dearest-105.webp",
@@ -19424,7 +18976,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=BoA%20Every%20Heart-%E3%83%9F%E3%83%B3%E3%83%8A%E3%83%8E%E3%82%AD%E3%83%A2%E3%83%81-",
         "albumArt": null,
@@ -19454,7 +19006,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Do%20As%20Infinity%20%E7%9C%9F%E5%AE%9F%E3%81%AE%E8%A9%A9",
         "albumArt": "images/do-as-infinity-真実詩-107.webp",
@@ -19492,7 +19044,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Every%20Little%20Thing%20Grip!",
         "albumArt": "images/every-little-thing-grip-108.webp",
@@ -19522,7 +19074,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=day%20after%20tomorrow%20%E3%82%A4%E3%82%BF%E3%82%BA%E3%83%A9%E3%81%AAKISS",
         "albumArt": "images/day-after-tomorrow-kiss-109.webp",
@@ -19560,7 +19112,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=hitomi%20I%20am",
         "albumArt": "images/hitomi-i-am-110.webp",
@@ -19600,7 +19152,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%9C%EB%A7%88%ED%83%80%EB%8B%88%20%ED%9E%88%ED%86%A0%EB%AF%B8%20ANGELUS",
         "albumArt": "images/시마타니-히토미-angelus-111.webp",
@@ -19630,14 +19182,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Every%20Little%20Thing%20%E3%82%86%E3%82%89%E3%82%86%E3%82%89",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28464ⓗ",
+        "karaokeNo": "28464",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -19658,7 +19210,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Do%20As%20Infinity%20%E6%A5%BD%E5%9C%92",
         "albumArt": "images/do-as-infinity-楽園-113.webp",
@@ -19691,7 +19243,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Dave%20Rodgers%20Deja%20Vu",
         "albumArt": "images/dave-rodgers-deja-vu-114.webp",
@@ -19720,7 +19272,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E8%8A%B1%E6%BE%A4%E9%A6%99%E8%8F%9C%20%E6%81%8B%E6%84%9B%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%20(%EC%97%B0%EC%95%A0%20%EC%84%9C%ED%81%98%EB%A0%88%EC%9D%B4%EC%85%98)",
         "albumArt": null,
@@ -19748,7 +19300,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%E4%BA%95%E5%8F%A3%E8%A3%95%E9%A6%99%20%E7%99%BD%E9%87%91%E3%83%87%E3%82%A3%E3%82%B9%E3%82%B3%20(%EB%B0%B1%EA%B8%88%20%EB%94%94%EC%8A%A4%EC%BD%94)",
         "albumArt": null,
@@ -19776,7 +19328,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EC%99%80%EB%8B%A4%20%EB%A7%88%EB%AF%B8%20%E7%B7%8B%E8%89%B2%E3%81%AE%E7%A9%BA",
         "albumArt": "images/카와다-마미-緋色空-117.webp",
@@ -19809,14 +19361,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%86%A0%EB%AF%B8%EB%82%98%EA%B0%80TOMMY%ED%9E%88%EB%A1%9C%EC%95%84%ED%82%A4%20%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%20%E3%80%9C%E3%81%9D%E3%81%AE%E8%A1%80%E3%81%AE%E9%81%8B%E5%91%BD%E3%80%9C",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28212ⓗ",
+        "karaokeNo": "28212",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -19848,7 +19400,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Coda%20BLOODY%20STREAM",
         "albumArt": "images/coda-bloody-stream-119.webp",
@@ -19888,7 +19440,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%8B%9C%EB%AA%A8%ED%86%A0%20%EC%A7%84%20STAND%20PROUD",
         "albumArt": "images/하시모토-진-stand-proud-120.webp",
@@ -19928,14 +19480,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JO%E2%98%86STARS~TOMMY%2CCoda%2CJIN~%20%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%20%E3%81%9D%E3%81%AE%E8%A1%80%E3%81%AE%E8%A8%98%E6%86%B6%20~end%20of%20THE%20WORLD~",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28213ⓗ",
+        "karaokeNo": "28213",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -19968,14 +19520,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=THE%20DU%20Crazy%20Noisy%20Bizarre%20Town",
         "albumArt": "images/the-du-crazy-noisy-bizarre-town-122.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28630ⓗ",
+        "karaokeNo": "28630",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -20003,14 +19555,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=batta%20chase",
         "albumArt": "images/batta-chase-123.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "27960ⓗ",
+        "karaokeNo": "27960",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -20042,14 +19594,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%84%EC%98%A4%ED%82%A4%20%EC%B9%B4%EB%A0%8C%E3%83%BB%ED%95%98%EC%84%B8%EA%B0%80%EC%99%80%20%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%BC%80%20Great%20Days",
         "albumArt": "images/아오키-카렌하세가와-다이스케-great-days-124.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "27986ⓗ",
+        "karaokeNo": "27986",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -20077,7 +19629,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=King%20Gnu%20SPECIALZ",
         "albumArt": "images/king-gnu-specialz-125.webp",
@@ -20106,7 +19658,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=AKINO%20%E5%89%B5%E8%81%96%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%AA%E3%83%B3",
         "albumArt": null,
@@ -20134,7 +19686,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EB%85%B8%EC%9A%B0%EC%97%90%20%EC%95%84%EC%A6%88%EB%AF%B8%20%E5%90%9B%E3%82%92%E3%81%AE%E3%81%9B%E3%81%A6",
         "albumArt": "images/이노우에-아즈미-君-127.webp",
@@ -20162,7 +19714,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%82%98%EC%B9%B4%EA%B0%80%EC%99%80%20%EC%87%BC%EC%BD%94%20%E7%A9%BA%E8%89%B2%E3%83%87%E3%82%A4%E3%82%BA",
         "albumArt": "images/나카가와-쇼코-空色-128.webp",
@@ -20200,7 +19752,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%A6%88%20%EC%BC%84%EC%8B%9C%20KICK%20BACK",
         "albumArt": "images/요네즈-켄시-kick-back-129.webp",
@@ -20230,7 +19782,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ORANGE%20RANGE%20%E4%B8%8A%E6%B5%B7%E3%83%8F%E3%83%8B%E3%83%BC",
         "albumArt": "images/orange-range-上海-130.webp",
@@ -20258,7 +19810,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%EC%9D%B4%EC%A7%80%EB%A7%88%20%EB%A7%88%EB%A6%AC%20%E6%84%9B%E3%83%BB%E3%81%8A%E3%81%BC%E3%81%88%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B",
         "albumArt": null,
@@ -20286,7 +19838,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20%E5%98%86%E3%81%8D%E3%81%AE%E3%83%AD%E3%82%B6%E3%83%AA%E3%82%AA",
         "albumArt": null,
@@ -20314,7 +19866,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20%E7%B4%85%E3%83%8E%E7%89%99",
         "albumArt": null,
@@ -20342,7 +19894,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=YOASOBI%20%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB",
         "albumArt": "images/yoasobi-song-134.webp",
@@ -20375,7 +19927,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Tia%20Deal%20with%20the%20devil",
         "albumArt": "images/tia-deal-with-the-devil-135.webp",
@@ -20409,7 +19961,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%8F%99%EB%AC%BC%EB%B9%84%EC%8A%A4%EC%BC%93%C3%97PPP%20%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF%E3%81%B8",
         "albumArt": null,
@@ -20443,7 +19995,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%82%AC%EC%BF%A0%EB%9D%BC%EA%B3%A0%20%EA%B2%BD%EC%9D%8C%EB%B6%80%20Don't%20say%20%E2%80%9Clazy%E2%80%9D",
         "albumArt": "images/사쿠라고-경음부-dont-say-lazy-137.webp",
@@ -20472,7 +20024,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%82%AC%EC%BF%A0%EB%9D%BC%EA%B3%A0%20%EA%B2%BD%EC%9D%8C%EB%B6%80%20%E7%BF%BC%E3%82%92%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
         "albumArt": "images/사쿠라고-경음부-翼-138.webp",
@@ -20505,7 +20057,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=HUNTR%2FX%20Golden",
         "albumArt": "images/huntrx-golden-139.webp",
@@ -20539,7 +20091,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=FLOW%20COLORS",
         "albumArt": "images/flow-colors-140.webp",
@@ -20568,7 +20120,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%BD%94%EB%8B%A4%20%EC%BF%A0%EB%AF%B8%20%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%83%8F%E3%83%8B%E3%83%BC%5B3%5D",
         "albumArt": "images/코다-쿠미-3-141.webp",
@@ -20601,7 +20153,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%BF%A0%EB%A6%AC%EB%B0%94%EC%95%BC%EC%8B%9C%20%EB%AF%B8%EB%82%98%EB%AF%B8%20%E7%BF%BC%E3%81%AFPleasure%20Line",
         "albumArt": "images/쿠리바야시-미나미-翼pleasure-line-142.webp",
@@ -20630,7 +20182,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B1%A0%ED%83%80%20%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F",
         "albumArt": "images/챠타-大家族-143.webp",
@@ -20663,7 +20215,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B8%A0%ED%82%A4%EC%8B%9C%EB%A7%88%20%ED%82%A4%EB%9D%BC%EB%A6%AC%20starring%20%EC%BF%A0%EC%8A%A4%EB%AF%B8%20%EC%BD%94%ED%95%98%EB%A3%A8(%EB%AA%A8%EB%8B%9D%EA%B5%AC%20%EB%AC%B4%EC%8A%A4%EB%A9%94.)%20%E3%83%90%E3%83%A9%E3%83%A9%E3%82%A4%E3%82%AB",
         "albumArt": "images/츠키시마-키라리-starring-쿠스미-코하루모닝구-무스메-song-144.webp",
@@ -20692,14 +20244,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%88%EC%8B%A0%ED%8C%8C%ED%8C%8C%20%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%81%E3%83%A5%E3%82%A6",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28646ⓗ",
+        "karaokeNo": "28646",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -20725,14 +20277,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=GARNiDELiA%20ambiguous",
         "albumArt": "images/garnidelia-ambiguous-146.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28011ⓗ",
+        "karaokeNo": "28011",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -20754,7 +20306,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%84%EC%98%A4%EC%9D%B4%20%EC%97%90%EC%9D%BC%20%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9",
         "albumArt": "images/아오이-에일-song-147.webp",
@@ -20782,7 +20334,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%9C%EB%AA%A8%EA%B0%80%EC%99%80%20%EB%AF%B8%EC%BF%A0%EB%8B%88%20%E3%81%9D%E3%82%8C%E3%81%8C%E3%80%81%E6%84%9B%E3%81%A7%E3%81%97%E3%82%87%E3%81%86",
         "albumArt": "images/시모가와-미쿠니-愛-148.webp",
@@ -20810,7 +20362,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=UNISON%20SQUARE%20GARDEN%20%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E3%83%93%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%83%E3%83%97",
         "albumArt": "images/unison-square-garden-song-149.webp",
@@ -20838,14 +20390,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A0%ED%8F%90%20%EC%83%88%ED%8B%80%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28376ⓗ",
+        "karaokeNo": "28376",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -20853,7 +20405,7 @@
         "createdOrder": 150
       },
       {
-        "id": "lia-鳥詩-188",
+        "id": "lia-鳥詩-151",
         "title": "鳥の詩",
         "artist": {
           "id": "artist-lia",
@@ -20866,10 +20418,10 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Lia%20%E9%B3%A5%E3%81%AE%E8%A9%A9",
-        "albumArt": "images/lia-鳥詩-188.webp",
+        "albumArt": "images/lia-鳥詩-151.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
@@ -20894,7 +20446,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Aimer%20LAST%20STARDUST",
         "albumArt": "images/aimer-last-stardust-152.webp",
@@ -20927,14 +20479,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=L'Arc~en~Ciel%20Driver's%20High",
+        "karaokeUrl": null,
         "albumArt": "images/larcenciel-drivers-high-153.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6899",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -20961,7 +20513,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%A7%88%EC%8A%A4%EB%8B%A4%20%ED%86%A0%EC%8B%9C%ED%82%A4%2C%20%ED%83%80%EC%BC%80%EC%9A%B0%EC%B9%98%20%EC%8A%8C%EC%8A%A4%EC%BC%80%20EZ%20DO%20DANCE%20-K.O.P.%20REMIX-",
         "albumArt": null,
@@ -20990,7 +20542,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=FictionJunction%20YUUKA%20nowhere",
         "albumArt": "images/fictionjunction-yuuka-nowhere-155.webp",
@@ -21023,7 +20575,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=OxT%20UNION",
         "albumArt": "images/oxt-union-156.webp",
@@ -21057,14 +20609,14 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%ED%86%A0%20%EC%B9%B4%EB%82%98%EC%BD%94%20Hacking%20to%20the%20Gate",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28066ⓗ",
+        "karaokeNo": "28066",
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21073,7 +20625,7 @@
         "createdOrder": 157
       },
       {
-        "id": "이토-카나코-観測者-189",
+        "id": "이토-카나코-観測者-158",
         "title": "スカイクラッドの観測者",
         "artist": {
           "id": "artist-이토-카나코",
@@ -21086,14 +20638,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%ED%86%A0%20%EC%B9%B4%EB%82%98%EC%BD%94%20%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%AF%E3%83%A9%E3%83%83%E3%83%89%E3%81%AE%E8%A6%B3%E6%B8%AC%E8%80%85",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28215ⓗ",
+        "karaokeNo": "28215",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -21119,7 +20671,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B5%9C%ED%98%84%EC%95%84%20%EB%B0%94%EB%9E%8C%EC%9D%98%20%EB%84%88%EB%A5%BC",
         "albumArt": null,
@@ -21153,14 +20705,14 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9B%84%EC%A7%80%EC%82%AC%ED%82%A4%EC%B9%B4%EB%A6%B0(miko)%20%EB%A7%88%EB%A6%AC%EC%82%AC%EB%8A%94%20%EC%97%84%EC%B2%AD%EB%82%9C%20%EA%B2%83%EC%9D%84%20%ED%9B%94%EC%B3%90%EA%B0%94%EC%8A%B5%EB%8B%88%EB%8B%A4",
+        "karaokeUrl": null,
         "albumArt": "images/후지사키카린miko-마리사는-엄청난-것을-훔쳐갔습니다-160.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "26714",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21187,14 +20739,14 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9B%84%EC%A7%80%EC%82%AC%ED%82%A4%EC%B9%B4%EB%A6%B0(miko)%20%EC%B9%98%EB%A5%B4%EB%85%B8%EC%9D%98%20%ED%8D%BC%ED%8E%99%ED%8A%B8%20%EC%82%B0%EC%88%98%EA%B5%90%EC%8B%A4",
+        "karaokeUrl": null,
         "albumArt": "images/후지사키카린miko-치르노의-퍼펙트-산수교실-161.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28225ⓗ",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21226,14 +20778,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%84%A4%EC%BD%94%EC%BA%94%20%ED%81%B4%EB%A6%AC%EC%96%B4%EA%B9%8C%EC%A7%80%20%EC%9E%A0%EC%9E%90%EC%A7%80%20%EC%95%8A%EC%95%84!",
+        "karaokeUrl": null,
         "albumArt": "images/네코캔-클리어까지-잠자지-않아-162.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28202ⓗ",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21266,14 +20818,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%84%A4%EC%BD%94%EC%BA%94%20%EC%97%90%EC%96%B4%EB%A7%A8%EC%9D%84%20%EC%93%B0%EB%9F%AC%EB%9C%A8%EB%A6%B4%20%EC%88%98%20%EC%97%86%EC%96%B4",
+        "karaokeUrl": null,
         "albumArt": "images/네코캔-에어맨을-쓰러뜨릴-수-없어-163.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28177",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21306,14 +20858,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B3%A0%EB%AC%B4J%20%EC%B6%94%EC%96%B5%EC%9D%80%20%EC%96%B5%EC%B2%9C%EB%A7%8C",
+        "karaokeUrl": null,
         "albumArt": "images/고무j-추억은-억천만-164.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "26626",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21346,7 +20898,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Janne%20Da%20Arc%20WILD%20FANG",
         "albumArt": "images/janne-da-arc-wild-fang-165.webp",
@@ -21396,7 +20948,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Imagine%20Dragons%20Warriors",
         "albumArt": "images/imagine-dragons-warriors-166.webp",
@@ -21443,7 +20995,7 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Against%20The%20Current%20Legends%20Never%20Die",
         "albumArt": "images/against-the-current-legends-never-die-167.webp",
@@ -21494,7 +21046,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=The%20Glitch%20Mob%20RISE",
         "albumArt": null,
@@ -21541,7 +21093,7 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Lil%20Nas%20X%20STAR%20WALKIN%E2%80%99",
         "albumArt": null,
@@ -21587,7 +21139,7 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=NewJeans%20GODS",
         "albumArt": "images/newjeans-gods-170.webp",
@@ -21633,7 +21185,7 @@
             "color": "#65789B"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Linkin%20Park%20Heavy%20Is%20The%20Crown",
         "albumArt": "images/linkin-park-heavy-is-the-crown-171.webp",
@@ -21679,7 +21231,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=K%2FDA%20POP%2FSTARS",
         "albumArt": "images/kda-popstars-172.webp",
@@ -21725,7 +21277,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=K%2FDA%20MORE",
         "albumArt": "images/kda-more-173.webp",
@@ -21766,7 +21318,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%8B%A4%EB%82%98%EC%B9%B4%20%EB%A6%AC%EC%97%90%20Eternal",
         "albumArt": null,
@@ -21796,14 +21348,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=ALI%20PROJECT%20%E9%98%BF%E4%BF%AE%E7%BE%85%E5%A7%AB",
         "albumArt": "images/ali-project-阿修羅姫-175.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28473ⓗ",
+        "karaokeNo": "28473",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -21839,14 +21391,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C%2C%20MIQ%2C%20%EC%B9%B4%EA%B2%8C%EC%95%BC%EB%A7%88%20%ED%9E%88%EB%A1%9C%EB%85%B8%EB%B6%80%20%EC%97%B4%ED%92%8D!%20%EC%A7%88%ED%92%8D!%20%EC%82%AC%EC%9D%B4%EB%B0%94%EC%8A%A4%ED%84%B0",
+        "karaokeUrl": null,
         "albumArt": "images/미즈키-이치로-miq-카게야마-히로노부-열풍-질풍-사이바스터-176.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "25567",
+        "karaokeNo": null,
         "genre": "애니송",
         "tags": [
           "애니송",
@@ -21885,7 +21437,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%AF%B8%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C%2C%20MIQ%2C%20%EC%B9%B4%EA%B2%8C%EC%95%BC%EB%A7%88%20%ED%9E%88%EB%A1%9C%EB%85%B8%EB%B6%80%20%E6%99%82%E3%82%92%E8%B6%8A%E3%81%88%E3%81%A6",
         "albumArt": "images/미즈키-이치로-miq-카게야마-히로노부-時越-177.webp",
@@ -21926,7 +21478,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20VICTORY",
         "albumArt": "images/jam-project-victory-178.webp",
@@ -21971,7 +21523,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20Rocks",
         "albumArt": "images/jam-project-rocks-179.webp",
@@ -22012,7 +21564,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20Crest%20of%20%22Z's%22",
         "albumArt": "images/jam-project-crest-of-zs-180.webp",
@@ -22052,7 +21604,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%BC%EB%B2%A0%EB%85%B8%ED%9E%88%EC%BD%94%EB%A7%88%EB%A1%9C%26%EC%BD%94%ED%86%A0%ED%9E%88%EB%A9%94%20With%20%EC%8A%A4%EB%8B%98%20%EB%8C%84%EC%84%9C%EC%A6%88%20%E3%83%AC%E3%83%83%E3%83%84%E3%82%B4%E3%83%BC%E9%99%B0%E9%99%BD%E5%B8%AB",
         "albumArt": null,
@@ -22082,14 +21634,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%9E%88%EB%9D%BC%ED%83%80%20%ED%9E%88%EB%A1%9C%EB%AF%B8%20%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E5%A4%9C%E3%82%92%E5%BE%80%E3%81%8F",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28179ⓗ",
+        "karaokeNo": "28179",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -22120,7 +21672,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%EC%A7%80%20Always",
         "albumArt": "images/신지-always-183.webp",
@@ -22160,7 +21712,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20%E9%8B%BC%E3%81%AE%E6%95%91%E4%B8%96%E4%B8%BB",
         "albumArt": null,
@@ -22200,7 +21752,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20SKILL",
         "albumArt": "images/jam-project-skill-185.webp",
@@ -22240,7 +21792,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=JAM%20Project%20GONG",
         "albumArt": "images/jam-project-gong-186.webp",
@@ -22275,7 +21827,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Rikki%20%E7%B4%A0%E6%95%B5%E3%81%A0%E3%81%AD",
         "albumArt": null,
@@ -22304,7 +21856,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Lia%20%E9%B3%A5%E3%81%AE%E8%A9%A9",
         "albumArt": "images/lia-鳥詩-188.webp",
@@ -22332,14 +21884,14 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9D%B4%ED%86%A0%20%EC%B9%B4%EB%82%98%EC%BD%94%20%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%AF%E3%83%A9%E3%83%83%E3%83%89%E3%81%AE%E8%A6%B3%E6%B8%AC%E8%80%85",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28215ⓗ",
+        "karaokeNo": "28215",
         "genre": "애니송",
         "tags": [
           "애니송"
@@ -22360,7 +21912,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E6%81%8B%E4%BA%BA%E3%82%92%E5%B0%84%E3%81%A1%E5%A0%95%E3%81%A8%E3%81%9F%E6%97%A5(%EC%97%B0%EC%9D%B8%EC%9D%84%20%EC%8F%98%EC%95%84%20%EB%96%A8%EC%96%B4%EB%9C%A8%EB%A6%B0%20%EB%82%A0)",
         "albumArt": "images/sound-horizon-恋人射堕日연인을-쏘아-떨어뜨린-날-190.webp",
@@ -22388,7 +21940,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E6%BE%AA%E9%9F%B3%E3%81%AE%E4%B8%96%E7%95%8C(%EB%A0%88%EC%9D%B8%EC%9D%98%20%EC%84%B8%EA%B3%84)",
         "albumArt": "images/sound-horizon-澪音世界레인의-세계-191.webp",
@@ -22416,7 +21968,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E3%82%A8%E3%83%AB%E3%81%AE%E6%A5%BD%E5%9C%92%5B%E2%86%92%20side%3AE%20%E2%86%92%5D",
         "albumArt": null,
@@ -22444,7 +21996,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E6%9C%9D%E3%81%A8%E5%A4%9C%E3%81%AE%E7%89%A9%E8%AA%9E(%EC%95%84%EC%B9%A8%EA%B3%BC%20%EB%B0%A4%EC%9D%98%20%EC%9D%B4%EC%95%BC%EA%B8%B0)",
         "albumArt": null,
@@ -22472,7 +22024,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E4%BE%B5%E7%95%A5%E3%81%99%E3%82%8B%E8%80%85%E3%81%95%E3%82%8C%E3%82%8B%E8%80%85(%EC%B9%A8%EB%9E%B5%ED%95%98%EB%8A%94%20%EC%9E%90%20%EB%8B%B9%ED%95%98%EB%8A%94%20%EC%9E%90)",
         "albumArt": "images/sound-horizon-侵略者者침략하는-자-당하는-자-194.webp",
@@ -22500,7 +22052,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Sound%20Horizon%20%E7%B7%8B%E8%89%B2%E3%81%AE%E9%A2%A8%E8%BB%8A%20~Moulin%20Rouge~(%EB%B9%84%EC%83%89%EC%9D%98%20%ED%92%8D%EC%B0%A8%20~Moulin%20Rouge~)",
         "albumArt": "images/sound-horizon-緋色風車-moulin-rouge비색의-풍차-moulin-rouge-195.webp",
@@ -22538,7 +22090,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EA%B2%89%EA%B3%BC%20%EC%86%8D%EC%9D%98%20%EB%9F%AC%EB%B2%84%EC%A6%88%20(%E8%A3%8F%E8%A1%A8%E3%83%A9%E3%83%90%E3%83%BC%E3%82%BA)",
         "albumArt": null,
@@ -22578,7 +22130,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=v%20flower%20%EA%B5%BF%EB%B0%94%EC%9D%B4%20%EC%84%A0%EC%96%B8%20(%E3%82%B0%E3%83%83%E3%83%90%E3%82%A4%E5%AE%A3%E8%A8%80)",
         "albumArt": null,
@@ -22618,7 +22170,7 @@
             "color": "#9661BC"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=GUMI%20%EA%B8%88%EC%9A%94%EC%9D%BC%EC%9D%98%20%EC%95%84%EC%B9%A8%EC%9D%B8%EC%82%AC%20(%E9%87%91%E6%9B%9C%E6%97%A5%E3%81%AE%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86)",
         "albumArt": null,
@@ -22658,7 +22210,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A6%B0%20%EB%85%B8%EC%8B%AC%EC%9C%B5%ED%95%B4%20(%E7%82%89%E5%BF%83%E8%9E%8D%E8%A7%A3)",
         "albumArt": null,
@@ -22698,7 +22250,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%A1%9C%EB%AF%B8%EC%98%A4%EC%99%80%20%EC%8B%A0%EB%8D%B0%EB%A0%90%EB%9D%BC%20(%E3%83%AD%E3%83%9F%E3%82%AA%E3%81%A8%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9)",
         "albumArt": null,
@@ -22738,7 +22290,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A6%B0%20%EB%A1%9C%EC%8A%A4%ED%8A%B8%EC%9B%90%EC%9D%98%20%ED%98%B8%EA%B3%A1%20(%E3%83%AD%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3%E3%81%AE%E5%8F%B7%E5%93%AD)",
         "albumArt": null,
@@ -22778,7 +22330,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A6%B0%20%EB%A1%9C%ED%82%A4%20(%E3%83%AD%E3%82%AD)",
         "albumArt": null,
@@ -22828,14 +22380,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%2C%20GUMI%20%EB%A7%88%ED%8A%B8%EB%A3%8C%EC%8B%9C%EC%B9%B4%20(%E3%83%9E%E3%83%88%E3%83%AA%E3%83%A7%E3%82%B7%E3%82%AB)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28269ⓗ",
+        "karaokeNo": "28269",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -22870,7 +22422,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%A9%9C%ED%8A%B8%20(%E3%83%A1%E3%83%AB%E3%83%88)",
         "albumArt": null,
@@ -22910,7 +22462,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%AA%A8%EB%9E%98%EC%9D%98%20%ED%96%89%EC%84%B1%20(%E7%A0%82%E3%81%AE%E6%83%91%E6%98%9F)",
         "albumArt": null,
@@ -22950,7 +22502,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%B8%8C%EB%A6%AC%ED%82%A4%EC%9D%98%20%EB%8C%84%EC%8A%A4%20(%E3%83%96%E3%83%AA%E3%82%AD%E3%83%8E%E3%83%80%E3%83%B3%E3%82%B9)",
         "albumArt": null,
@@ -22990,14 +22542,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EB%B8%94%EB%9E%99%E2%98%85%EB%A1%9D%20%EC%8A%88%ED%84%B0",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "26865",
+        "karaokeNo": null,
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23030,7 +22582,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EC%A0%84%EC%9F%81%20(%E6%81%8B%E3%81%AF%E6%88%A6%E4%BA%89)",
         "albumArt": null,
@@ -23070,14 +22622,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=v%20flower%20%EC%83%A4%EB%A5%BC%20(%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28700ⓗ",
+        "karaokeNo": "28700",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23110,14 +22662,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%8B%AC%ED%95%B4%EC%86%8C%EB%85%80%20(%E6%B7%B1%E6%B5%B7%E5%B0%91%E5%A5%B3)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28363ⓗ",
+        "karaokeNo": "28363",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23150,7 +22702,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%95%84%EC%A7%80%EB%9E%91%EC%9D%B4%20%EB%8D%B0%EC%9D%B4%EC%A6%88%20(%E3%82%AB%E3%82%B2%E3%83%AD%E3%82%A6%E3%83%87%E3%82%A4%E3%82%BA)",
         "albumArt": null,
@@ -23190,7 +22742,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A6%B0%20%EC%95%85%EC%9D%98%20%EB%94%B8%20(%E6%82%AA%E3%83%8E%E5%A8%98)",
         "albumArt": null,
@@ -23230,7 +22782,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%96%B8%ED%95%B4%ED%94%BC%20%EB%A6%AC%ED%94%84%EB%A0%88%EC%9D%B8%20(%E3%82%A2%E3%83%B3%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%83%AA%E3%83%95%E3%83%AC%E3%82%A4%E3%83%B3)",
         "albumArt": "images/하츠네-미쿠-언해피-리프레인-213.webp",
@@ -23270,7 +22822,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%97%90%EC%9D%BC%EB%A6%AC%EC%96%B8%20%EC%97%90%EC%9D%BC%EB%A6%AC%EC%96%B8%20(%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3)",
         "albumArt": null,
@@ -23310,14 +22862,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%9B%94%EB%93%9C%20%EC%9D%B4%EC%A6%88%20%EB%A7%88%EC%9D%B8%20(%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A4%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%B3)",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "26941",
+        "karaokeNo": null,
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23350,7 +22902,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%9D%B4%EC%8B%9D%EB%B3%B4%ED%96%89%20(%E4%BA%8C%E6%81%AF%E6%AD%A9%E8%A1%8C)",
         "albumArt": null,
@@ -23390,14 +22942,14 @@
             "color": "#9661BC"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=GUMI%20%EC%9D%B8%EC%83%9D%20%EB%A6%AC%EC%85%8B%20%EB%B2%84%ED%8A%BC%20(%E4%BA%BA%E7%94%9F%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E3%83%9C%E3%82%BF%E3%83%B3)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28379ⓗ",
+        "karaokeNo": "28379",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23430,7 +22982,7 @@
             "color": "#5B8FF9"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A0%EC%A6%88%ED%82%A4%20%EC%9C%A0%EC%B9%B4%EB%A6%AC%20%EC%B8%84%EB%A3%A8%EB%A6%AC%EB%9D%BC%C2%B7%EC%B8%84%EB%A3%A8%EB%A6%AC%EB%9D%BC%C2%B7%EB%95%83%EB%95%83%EB%94%B0!%20(%E3%83%81%E3%83%A5%E3%83%AB%E3%83%AA%E3%83%A9%E3%83%BB%E3%83%81%E3%83%A5%E3%83%AB%E3%83%AA%E3%83%A9%E3%83%BB%E3%83%80%E3%83%83%E3%83%80%E3%83%83%E3%83%80%EF%BC%81)",
         "albumArt": null,
@@ -23480,14 +23032,14 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=IA%2C%20%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%EC%BD%94%EB%85%B8%ED%95%98%EC%9D%98%20%EC%84%B8%EA%B3%84%EC%82%AC%EC%A0%95%20(%E3%82%B3%E3%83%8E%E3%83%8F%E3%81%AE%E4%B8%96%E7%95%8C%E4%BA%8B%E6%83%85)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28206ⓗ",
+        "karaokeNo": "28206",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23522,7 +23074,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A0%8C%20%ED%8C%8C%EB%9D%BC%EB%94%94%ED%81%B4%EB%A1%9C%EB%A1%9C%EB%B2%A4%EC%A0%A0%20(%E3%83%91%E3%83%A9%E3%82%B8%E3%82%AF%E3%83%AD%E3%83%AD%E3%83%99%E3%83%B3%E3%82%BC%E3%83%B3)",
         "albumArt": null,
@@ -23562,7 +23114,7 @@
             "color": "#9661BC"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=GUMI%5B8%5D%20%ED%8C%90%EB%8B%A4%20%ED%9E%88%EC%96%B4%EB%A1%9C%20(%E3%83%91%E3%83%B3%E3%83%80%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC)",
         "albumArt": null,
@@ -23602,7 +23154,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%ED%8F%BF%ED%95%8F%ED%8F%AC%20(%E3%81%BD%E3%81%A3%E3%81%B4%E3%81%A3%E3%81%BD%E3%83%BC)",
         "albumArt": null,
@@ -23652,7 +23204,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A6%B0%2C%20%EC%B9%B4%EA%B0%80%EB%AF%B8%EB%84%A4%20%EB%A0%8C%20%ED%95%98%EA%B7%B9%EC%83%81%20(%E4%B8%8B%E5%89%8B%E4%B8%8A)",
         "albumArt": null,
@@ -23694,7 +23246,7 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%ED%95%98%EC%96%80%20%EB%88%88%EC%9D%98%20%ED%94%84%EB%A6%B0%EC%84%B8%EC%8A%A4%EB%8A%94%20(%E7%99%BD%E3%81%84%E9%9B%AA%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%81%AF)",
         "albumArt": null,
@@ -23734,14 +23286,14 @@
             "color": "#008685"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%20%ED%95%98%EC%B8%A0%EB%84%A4%20%EB%AF%B8%EC%BF%A0%EC%9D%98%20%EC%86%8C%EC%8B%A4%20(%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%E3%81%AE%E6%B6%88%E5%A4%B1)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28402ⓗ",
+        "karaokeNo": "28402",
         "genre": "보컬로이드",
         "tags": [
           "보컬로이드",
@@ -23769,7 +23321,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%84%EC%95%BC%EC%B8%A0%EB%85%B8%20%EC%9C%A0%EB%8B%88%20%EB%82%B4%EA%BA%BC%20%ED%95%98%EB%8A%94%20%EB%B2%95",
         "albumArt": "images/아야츠노-유니-내꺼-하는-법-226.webp",
@@ -23803,7 +23355,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%95%84%EC%95%BC%EC%B8%A0%EB%85%B8%20%EC%9C%A0%EB%8B%88%20%EC%82%90%EC%A7%88%EA%B2%8C",
         "albumArt": "images/아야츠노-유니-삐질게-227.webp",
@@ -23832,7 +23384,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=CHiCO%20%EB%82%98%2C%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EC%84%A0%EC%96%B8%20(%E7%A7%81%E3%80%81%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%AE%A3%E8%A8%80)",
         "albumArt": "images/chico-나-아이돌-선언-私宣言-228.webp",
@@ -23860,14 +23412,14 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=KK(%EC%B9%B4%EB%AF%B8%ED%82%A4%ED%83%80%20%EC%BC%84)%20%EC%95%84%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8A%A4%20(%E3%82%A2%E3%83%9E%E3%83%86%E3%83%A9%E3%82%B9)",
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "28724ⓗ",
+        "karaokeNo": "28724",
         "genre": "JPOP",
         "tags": [
           "JPOP"
@@ -23888,7 +23440,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Narae%20%ED%98%B8%EB%9E%91%EC%88%98%EC%9B%94%EA%B0%80",
         "albumArt": "images/narae-호랑수월가-230.webp",
@@ -23916,7 +23468,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=GARNiDELiA%20%EA%B7%B9%EB%9D%BD%EC%A0%95%ED%86%A0%20(%E6%A5%B5%E6%A8%82%E6%B7%A8%E5%9C%9F)",
         "albumArt": null,
@@ -23944,7 +23496,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Ado%20%EB%82%98%EB%8A%94%20%EB%AC%B8%EC%A0%9C%EC%9E%91%20(%E3%82%A2%E3%82%BF%E3%82%B7%E3%81%AF%E5%95%8F%E9%A1%8C%E4%BD%9C)",
         "albumArt": null,
@@ -23972,7 +23524,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Ado%20%EB%A3%B0%20(%E3%83%AB%E3%83%AB)",
         "albumArt": null,
@@ -24000,7 +23552,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=Ado%20%EB%B2%88%EC%A9%8D%EB%B2%88%EC%A9%8D%20(%E3%82%AE%E3%83%A9%E3%82%AE%E3%83%A9)",
         "albumArt": null,
@@ -24028,7 +23580,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%A6%88%20%EC%BC%84%EC%8B%9C%20Lemon",
         "albumArt": "images/요네즈-켄시-lemon-235.webp",
@@ -24056,7 +23608,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%A6%88%20%EC%BC%84%EC%8B%9C%20LADY",
         "albumArt": "images/요네즈-켄시-lady-236.webp",
@@ -24099,7 +23651,7 @@
             "color": "#F6903D"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%A6%88%20%EC%BC%84%EC%8B%9C%2C%20%EC%9A%B0%ED%83%80%EB%8B%A4%20%ED%9E%88%EC%B9%B4%EB%A3%A8%20JANE%20DOE",
         "albumArt": "images/요네즈-켄시-우타다-히카루-jane-doe-237.webp",
@@ -24140,7 +23692,7 @@
             "color": "#F08BB4"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9A%94%EB%84%A4%EC%A6%88%20%EC%BC%84%EC%8B%9C%20IRIS%20OUT",
         "albumArt": "images/요네즈-켄시-iris-out-238.webp",
@@ -24170,7 +23722,7 @@
             "color": "#F6BD16"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=King%20Gnu%20%E7%99%BD%E6%97%A5(%EB%B0%B1%EC%9D%BC)",
         "albumArt": "images/king-gnu-白日백일-239.webp",
@@ -24208,7 +23760,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EA%B7%B8%EB%8C%80%EC%97%90%EA%B2%8C",
         "albumArt": null,
@@ -24248,14 +23800,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EB%82%A0%EC%95%84%EB%9D%BC%EB%B3%91%EC%95%84%EB%A6%AC",
+        "karaokeUrl": null,
         "albumArt": "images/next-날아라병아리-241.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "2162",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24288,14 +23840,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20Lazenca%2C%20Save%20Us",
+        "karaokeUrl": null,
         "albumArt": "images/next-lazenca-save-us-242.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "5621",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24328,14 +23880,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%ED%95%B4%EC%97%90%EA%B2%8C%EC%84%9C%EC%86%8C%EB%85%84%EC%97%90%EA%B2%8C",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "4216",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24368,14 +23920,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EC%9D%B4%EC%A4%91%EC%9D%B8%EA%B2%A9%EC%9E%90",
+        "karaokeUrl": null,
         "albumArt": "images/next-이중인격자-244.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "2399",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24408,14 +23960,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Ocean(%EB%B6%88%EB%A9%B8%EC%97%90%EA%B4%80%ED%95%98%EC%97%AC)",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "8036",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24448,14 +24000,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Hero",
+        "karaokeUrl": null,
         "albumArt": "images/next-the-hero-246.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "9455",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24488,14 +24040,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20Money",
+        "karaokeUrl": null,
         "albumArt": "images/next-money-247.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "2791",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24528,7 +24080,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EC%82%AC%ED%83%84%EC%9D%98%EC%8B%A0%EB%B6%80",
         "albumArt": "images/next-사탄의신부-248.webp",
@@ -24568,14 +24120,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20The%20Power",
+        "karaokeUrl": null,
         "albumArt": "images/next-the-power-249.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "4189",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24608,7 +24160,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20Laura(%EB%A1%9C%EB%9D%BC)",
         "albumArt": null,
@@ -24648,7 +24200,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EB%82%A8%ED%83%9C%ED%8F%89%EC%96%91",
         "albumArt": null,
@@ -24688,14 +24240,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=N.EX.T%20%EB%82%98%EB%8A%94%EB%82%A8%EB%93%A4%EA%B3%BC%EB%8B%A4%EB%A5%B4%EB%8B%A4",
+        "karaokeUrl": null,
         "albumArt": "images/next-나는남들과다르다-252.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "8277",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24728,14 +24280,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EB%82%B4%EB%A7%88%EC%9D%8C%EA%B9%8A%EC%9D%80%EA%B3%B3%EC%9D%98%EB%84%88",
+        "karaokeUrl": null,
         "albumArt": "images/신해철-내마음깊은곳의너-253.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "1725",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24768,14 +24320,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%9D%BC%EC%83%81%EC%9C%BC%EB%A1%9C%EC%9D%98%EC%B4%88%EB%8C%80",
+        "karaokeUrl": null,
         "albumArt": "images/신해철-일상으로의초대-254.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "4638",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24808,14 +24360,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%A7%B8%EC%A6%88%EC%B9%B4%ED%8E%98",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "6",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24848,14 +24400,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EB%AF%BC%EB%AC%BC%EC%9E%A5%EC%96%B4%EC%9D%98%EA%BF%88",
+        "karaokeUrl": null,
         "albumArt": "images/신해철-민물장어의꿈-256.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "8596",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24888,14 +24440,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%8B%A0%ED%95%B4%EC%B2%A0%20%EC%A0%88%EB%A7%9D%EC%97%90%EA%B4%80%ED%95%98%EC%97%AC",
+        "karaokeUrl": null,
         "albumArt": "images/신해철-절망에관하여-257.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "3274",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -24928,7 +24480,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EC%8A%A4%EB%AC%BC%EB%8B%A4%EC%84%AF%2C%20%EC%8A%A4%EB%AC%BC%ED%95%98%EB%82%98",
         "albumArt": "images/자우림-스물다섯-스물하나-258.webp",
@@ -24968,14 +24520,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EB%A7%A4%EC%A7%81%EC%B9%B4%ED%8E%AB%EB%9D%BC%EC%9D%B4%EB%93%9C",
+        "karaokeUrl": null,
         "albumArt": "images/자우림-매직카펫라이드-259.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "8940",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25008,7 +24560,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%ED%95%98%ED%95%98%ED%95%98%EC%8F%AD",
         "albumArt": "images/자우림-하하하쏭-260.webp",
@@ -25048,14 +24600,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EC%98%A4%EB%A0%8C%EC%A7%80%EB%A7%88%EB%A7%90%EB%A0%88%EC%9D%B4%EB%93%9C",
+        "karaokeUrl": null,
         "albumArt": "images/자우림-오렌지마말레이드-261.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "9114",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25088,7 +24640,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%EC%9A%B0%EB%A6%AC%EC%97%90%EA%B2%8C%EB%82%B4%EC%9D%BC%EC%9D%80%EC%97%86%EB%8B%A4",
         "albumArt": "images/자우림-우리에게내일은없다-262.webp",
@@ -25128,7 +24680,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9E%90%EC%9A%B0%EB%A6%BC%20%ED%96%89%EB%B3%B5%ED%95%9C%EC%99%95%EC%9E%90",
         "albumArt": "images/자우림-행복한왕자-263.webp",
@@ -25168,7 +24720,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B9%80%EC%9C%A4%EC%95%84%20%EB%82%98%EB%8A%94%EC%9C%84%ED%97%98%ED%95%9C%EC%82%AC%EB%9E%91%EC%9D%84%EC%83%81%EC%83%81%ED%95%9C%EB%8B%A4",
         "albumArt": "images/김윤아-나는위험한사랑을상상한다-264.webp",
@@ -25208,14 +24760,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B9%80%EC%9C%A4%EC%95%84%20%EB%B4%84%EB%82%A0%EC%9D%80%EA%B0%84%EB%8B%A4",
+        "karaokeUrl": null,
         "albumArt": "images/김윤아-봄날은간다-265.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "5838",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25248,14 +24800,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%EC%99%80%EC%95%84%EC%9D%B4%EB%93%A4%20%ED%95%98%EC%97%AC%EA%B0%80",
+        "karaokeUrl": null,
         "albumArt": "images/서태지와아이들-하여가-266.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "1434",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25288,14 +24840,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%EC%99%80%EC%95%84%EC%9D%B4%EB%93%A4%20%EC%8B%9C%EB%8C%80%EC%9C%A0%EA%B0%90",
+        "karaokeUrl": null,
         "albumArt": "images/서태지와아이들-시대유감-267.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "3215",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25328,14 +24880,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%20%EC%9A%B8%ED%8A%B8%EB%9D%BC%EB%A7%A8%EC%9D%B4%EC%95%BC",
+        "karaokeUrl": null,
         "albumArt": "images/서태지-울트라맨이야-268.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "9055",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25368,14 +24920,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%84%9C%ED%83%9C%EC%A7%80%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%A0%84%EC%9F%81",
+        "karaokeUrl": null,
         "albumArt": "images/서태지-인터넷-전쟁-269.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "9068",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25408,7 +24960,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%8D%94%20%ED%81%AC%EB%A1%9C%EC%8A%A4%20%EB%8B%B9%EC%8B%A0%EC%9D%84%20%EC%9C%84%ED%95%98%EC%97%AC",
         "albumArt": "images/더-크로스-당신을-위하여-270.webp",
@@ -25448,14 +25000,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EC%82%AC%EB%9E%91%EC%9D%BC%EB%BF%90%EC%9D%B4%EC%95%BC",
+        "karaokeUrl": null,
         "albumArt": "images/들국화-사랑일뿐이야-271.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "3313",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25488,14 +25040,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EA%B7%B8%EA%B2%83%EB%A7%8C%EC%9D%B4%20%EB%82%B4%EC%84%B8%EC%83%81",
+        "karaokeUrl": null,
         "albumArt": "images/들국화-그것만이-내세상-272.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "1780",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25528,7 +25080,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%ED%96%89%EC%A7%84",
         "albumArt": "images/들국화-행진-273.webp",
@@ -25568,14 +25120,14 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
-        "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EB%93%A4%EA%B5%AD%ED%99%94%20%EC%82%AC%EB%85%B8%EB%9D%BC%EB%A9%B4",
+        "karaokeUrl": null,
         "albumArt": null,
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
-        "karaokeNo": "1758",
+        "karaokeNo": null,
         "genre": "록",
         "tags": [
           "록",
@@ -25608,7 +25160,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": null,
         "albumArt": "images/들국화-제주도의-푸른밤-275.webp",
@@ -25648,7 +25200,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20%EA%B1%B0%EC%9A%B8",
         "albumArt": "images/국카스텐-거울-276.webp",
@@ -25688,7 +25240,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20%EA%BC%AC%EB%A6%AC",
         "albumArt": "images/국카스텐-꼬리-277.webp",
@@ -25728,7 +25280,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20%EB%B3%80%EC%8B%A0",
         "albumArt": "images/국카스텐-변신-278.webp",
@@ -25768,7 +25320,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20%EB%B6%89%EC%9D%80%20%EB%B0%AD",
         "albumArt": "images/국카스텐-붉은-밭-279.webp",
@@ -25808,7 +25360,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20VITRIOL",
         "albumArt": "images/국카스텐-vitriol-280.webp",
@@ -25848,7 +25400,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EA%B5%AD%EC%B9%B4%EC%8A%A4%ED%85%90%20FAUST",
         "albumArt": "images/국카스텐-faust-281.webp",
@@ -25888,7 +25440,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": "https://www.tjmedia.com/song/accompaniment_search?pageNo=1&pageRowCnt=15&strType=0&searchTxt=%EC%9C%A4%EB%8F%84%ED%98%84%EB%B0%B4%EB%93%9C%20%EB%82%98%EB%8A%94%EB%82%98%EB%B9%84",
         "albumArt": "images/윤도현밴드-나는나비-282.webp",
@@ -25905,11 +25457,11 @@
         "createdOrder": 282
       },
       {
-        "id": "송창식-담배가게아가씨-283",
+        "id": "윤도현밴드-담배가게아가씨-283",
         "title": "담배가게아가씨",
         "artist": {
-          "id": "artist-송창식",
-          "name": "송창식"
+          "id": "artist-윤도현밴드",
+          "name": "윤도현밴드"
         },
         "categories": [
           {
@@ -25928,10 +25480,10 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": null,
-        "albumArt": "images/송창식-담배가게아가씨-283.webp",
+        "albumArt": "images/윤도현밴드-담배가게아가씨-283.webp",
         "likesCount": 0,
         "myBoom": false,
         "featured": false,
@@ -25968,7 +25520,7 @@
             "color": "#7262FD"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": null,
         "albumArt": "images/윤도현밴드-어쩌다-마주친-그대-284.webp",
@@ -25998,7 +25550,7 @@
             "color": "#78D3F8"
           }
         ],
-        "difficulty": 1,
+        "difficulty": 0,
         "songKey": "",
         "karaokeUrl": null,
         "albumArt": null,
@@ -26011,326 +25563,6 @@
           "애니송"
         ],
         "createdOrder": 285
-      },
-      {
-        "id": "the-beatles-ticket-to-ride-remastered-2009-286",
-        "title": "Ticket To Ride (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-ticket-to-ride-remastered-2009-286.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 286
-      },
-      {
-        "id": "the-beatles-yellow-submarine-remastered-2009-287",
-        "title": "Yellow Submarine (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-yellow-submarine-remastered-2009-287.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 287
-      },
-      {
-        "id": "the-beatles-lucy-in-the-sky-with-diamonds-remastered-2009-288",
-        "title": "Lucy In The Sky With Diamonds (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-lucy-in-the-sky-with-diamonds-remastered-2009-288.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 288
-      },
-      {
-        "id": "the-beatles-nowhere-man-remastered-2009-289",
-        "title": "Nowhere Man (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": null,
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 289
-      },
-      {
-        "id": "the-beatles-michelle-remastered-2009-290",
-        "title": "Michelle (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": null,
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 290
-      },
-      {
-        "id": "the-beatles-sgt-peppers-lonely-hearts-club-band-291",
-        "title": "Sgt Pepper's Lonely Hearts Club Band",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-sgt-peppers-lonely-hearts-club-band-291.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 291
-      },
-      {
-        "id": "the-beatles-when-im-sixty-four-remastered-2009-292",
-        "title": "When I'm Sixty Four (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-when-im-sixty-four-remastered-2009-292.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 292
-      },
-      {
-        "id": "the-beatles-maxwells-silver-hammer-remastered-2009-293",
-        "title": "Maxwell's Silver Hammer (Remastered 2009)",
-        "artist": {
-          "id": "artist-the-beatles",
-          "name": "The Beatles"
-        },
-        "categories": [
-          {
-            "id": "cat-록",
-            "name": "록",
-            "color": "#F6903D"
-          },
-          {
-            "id": "cat-밴드",
-            "name": "밴드",
-            "color": "#5B8FF9"
-          },
-          {
-            "id": "cat-클래식록",
-            "name": "클래식록",
-            "color": "#9661BC"
-          }
-        ],
-        "difficulty": 1,
-        "songKey": "",
-        "karaokeUrl": null,
-        "albumArt": "images/the-beatles-maxwells-silver-hammer-remastered-2009-293.webp",
-        "likesCount": 0,
-        "myBoom": false,
-        "featured": false,
-        "karaokeNo": null,
-        "genre": "록",
-        "tags": [
-          "록",
-          "밴드",
-          "클래식록"
-        ],
-        "createdOrder": 293
       }
     ]
   }
