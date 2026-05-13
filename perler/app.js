@@ -467,12 +467,13 @@ function renderA4(cells, meta) {
   const mm = dpi / 25.4;
   // Print-safe A4 margins: keep all content away from printer clipping areas.
   const margin = Math.round(12 * mm);
-  const topH = Math.round(18 * mm);
+  const topMargin = Math.round(16 * mm);
+  const topH = Math.round(20 * mm);
   const bottomH = Math.round(12 * mm);
   const contentX = margin;
-  const contentY = margin + topH;
+  const contentY = topMargin + topH;
   const contentW = page.width - margin * 2;
-  const contentH = page.height - margin - topH - bottomH;
+  const contentH = page.height - topMargin - topH - bottomH;
   const leftW = Math.round(contentW * 0.70);
   const rightW = contentW - leftW;
   const dividerX = contentX + leftW;
@@ -492,18 +493,18 @@ function renderA4(cells, meta) {
   ctx.fillStyle = '#191f28';
   ctx.font = `700 ${Math.max(16, Math.round(5 * mm))}px system-ui, -apple-system, sans-serif`;
   const title = `${meta.name} — MARD fuse-bead pattern (${cols} x ${rows})`;
-  ctx.fillText(fitText(ctx, title, page.width - margin * 2), margin, Math.round(margin * 0.65));
+  ctx.fillText(fitText(ctx, title, page.width - margin * 2), margin, topMargin);
   ctx.fillStyle = '#4e5968';
   ctx.font = `400 ${Math.max(10, Math.round(3.1 * mm))}px system-ui, -apple-system, sans-serif`;
   const resizeNote = meta.resized ? ` / resized ${meta.workingWidth}x${meta.workingHeight}` : '';
   const subtitle = `A4 ${page.name} / original ${meta.originalWidth}x${meta.originalHeight}${resizeNote} -> ${cols}x${rows} / source scale ${meta.scale}x / cleaned + MARD 221 A-M`;
-  ctx.fillText(fitText(ctx, subtitle, page.width - margin * 2), margin, Math.round(margin * 0.65 + 6 * mm));
+  ctx.fillText(fitText(ctx, subtitle, page.width - margin * 2), margin, topMargin + Math.round(6 * mm));
 
   ctx.strokeStyle = '#e5e8eb';
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.moveTo(dividerX, contentY - Math.round(4 * mm));
-  ctx.lineTo(dividerX, page.height - margin);
+  ctx.lineTo(dividerX, page.height - bottomH);
   ctx.stroke();
 
   const gridLine = '#d4d0ca';
@@ -581,7 +582,7 @@ function renderA4(cells, meta) {
   const legendFontSize = Math.max(9, Math.round(3 * mm));
   const lineH = Math.max(18, Math.round(5.2 * mm));
   const swatch = Math.max(14, Math.round(4.2 * mm));
-  const legendBottom = page.height - margin - Math.round(26 * mm);
+  const legendBottom = page.height - bottomH - Math.round(26 * mm);
   let used = 0;
   ctx.font = `400 ${legendFontSize}px system-ui, -apple-system, sans-serif`;
   for (const [code, count] of sortedCounts) {
@@ -602,7 +603,7 @@ function renderA4(cells, meta) {
   }
 
   const statsBlockH = Math.round(22 * mm);
-  const statsY = Math.min(y + Math.round(6 * mm), page.height - margin - statsBlockH);
+  const statsY = Math.min(y + Math.round(6 * mm), page.height - bottomH - statsBlockH);
   const total = [...counts.values()].reduce((a, b) => a + b, 0);
   ctx.fillStyle = '#191f28';
   ctx.font = `700 ${Math.max(13, Math.round(4 * mm))}px system-ui, -apple-system, sans-serif`;
