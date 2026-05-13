@@ -18,6 +18,7 @@ const els = {
   scaleMode: document.getElementById('scaleMode'),
   orientation: document.getElementById('orientation'),
   dpi: document.getElementById('dpi'),
+  maxCells: document.getElementById('maxCells'),
   cleanSource: document.getElementById('cleanSource'),
   generate: document.getElementById('generateBtn'),
   download: document.getElementById('downloadBtn'),
@@ -176,6 +177,22 @@ function imageToCanvas(image) {
   c.imageSmoothingEnabled = false;
   c.drawImage(image, 0, 0);
   return canvas;
+}
+
+function resizeCanvasToMaxCells(canvas, maxCells) {
+  if (!maxCells || Math.max(canvas.width, canvas.height) <= maxCells) {
+    return { canvas, resized: false };
+  }
+  const ratio = maxCells / Math.max(canvas.width, canvas.height);
+  const resized = document.createElement('canvas');
+  resized.width = Math.max(1, Math.round(canvas.width * ratio));
+  resized.height = Math.max(1, Math.round(canvas.height * ratio));
+  const c = resized.getContext('2d', { willReadFrequently: true });
+  c.imageSmoothingEnabled = true;
+  c.imageSmoothingQuality = 'high';
+  c.clearRect(0, 0, resized.width, resized.height);
+  c.drawImage(canvas, 0, 0, resized.width, resized.height);
+  return { canvas: resized, resized: true, ratio };
 }
 
 function cleanPixelArt(canvas, enabled, alphaThreshold = 16) {
@@ -478,7 +495,8 @@ function renderA4(cells, meta) {
   ctx.fillText(fitText(ctx, title, page.width - margin * 2), margin, Math.round(margin * 0.65));
   ctx.fillStyle = '#4e5968';
   ctx.font = `400 ${Math.max(10, Math.round(3.1 * mm))}px system-ui, -apple-system, sans-serif`;
-  const subtitle = `A4 ${page.name} / original ${meta.originalWidth}x${meta.originalHeight} -> ${cols}x${rows} / source scale ${meta.scale}x / cleaned + MARD 221 A-M`;
+  const resizeNote = meta.resized ? ` / resized ${meta.workingWidth}x${meta.workingHeight}` : '';
+  const subtitle = `A4 ${page.name} / original ${meta.originalWidth}x${meta.originalHeight}${resizeNote} -> ${cols}x${rows} / source scale ${meta.scale}x / cleaned + MARD 221 A-M`;
   ctx.fillText(fitText(ctx, subtitle, page.width - margin * 2), margin, Math.round(margin * 0.65 + 6 * mm));
 
   ctx.strokeStyle = '#e5e8eb';
@@ -641,11 +659,24 @@ function generate() {
     requestAnimationFrame(() => {
       try {
         const source = imageToCanvas(loadedImage);
-        const sourceData = source.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, source.width, source.height);
-        const cleaned = cleanPixelArt(source, els.cleanSource.checked);
-        const grid = els.scaleMode.value === 'auto'
+        const maxCells = Number(els.maxCells.value);
+        let working = source;
+        let resizedInfo = { resized: false };
+        let cleaned = cleanPixelArt(working, els.cleanSource.checked);
+        let grid = els.scaleMode.value === 'auto'
           ? detectSourceGrid(cleaned)
           : bestOffsetForScale(cleaned, Number(els.scaleMode.value));
+        const detectedCols = Math.floor(working.width / grid.scale);
+        const detectedRows = Math.floor(working.height / grid.scale);
+
+        if (maxCells > 0 && Math.max(detectedCols, detectedRows) > maxCells) {
+          resizedInfo = resizeCanvasToMaxCells(source, maxCells);
+          working = resizedInfo.canvas;
+          cleaned = cleanPixelArt(working, els.cleanSource.checked);
+          grid = { scale: 1, offsetX: 0, offsetY: 0, score: 0 };
+        }
+
+        const sourceData = working.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, working.width, working.height);
         const alignedSource = alignImageDataToGrid(sourceData, grid);
         const cells = reduceToCells(alignedSource, grid.scale);
         const rows = cells.length;
@@ -655,14 +686,20 @@ function generate() {
           name: loadedFileName,
           originalWidth: source.width,
           originalHeight: source.height,
+          workingWidth: working.width,
+          workingHeight: working.height,
+          resized: resizedInfo.resized,
           scale: grid.scale
         });
 
-        els.scaleMeta.textContent = grid.offsetX || grid.offsetY ? `${grid.scale}px (offset ${grid.offsetX},${grid.offsetY} 보정)` : `${grid.scale}px`;
-        els.patternMeta.textContent = `${cols} x ${rows}`;
+        els.scaleMeta.textContent = resizedInfo.resized
+          ? `자동 리사이즈 후 ${grid.scale}px`
+          : (grid.offsetX || grid.offsetY ? `${grid.scale}px (offset ${grid.offsetX},${grid.offsetY} 보정)` : `${grid.scale}px`);
+        els.patternMeta.textContent = resizedInfo.resized ? `${cols} x ${rows} (원본 ${source.width}x${source.height})` : `${cols} x ${rows}`;
         els.colorMeta.textContent = `${counts.size}색`;
         els.download.disabled = false;
-        setStatus(`A4 도안을 만들었습니다. ${cols}x${rows}, ${counts.size}색, 총 ${[...counts.values()].reduce((a, b) => a + b, 0)}개입니다.`);
+        const resizeText = resizedInfo.resized ? ` 원본이 커서 ${working.width}x${working.height}로 리사이즈했습니다.` : '';
+        setStatus(`A4 도안을 만들었습니다. ${cols}x${rows}, ${counts.size}색, 총 ${[...counts.values()].reduce((a, b) => a + b, 0)}개입니다.${resizeText}`);
       } catch (error) {
         console.error(error);
         setStatus(error.message || '도안 생성 중 오류가 발생했습니다.', true);

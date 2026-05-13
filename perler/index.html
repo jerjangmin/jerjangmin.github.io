@@ -66,6 +66,17 @@
               </select>
             </label>
 
+            <label>
+              <span>최대 도안 크기</span>
+              <select id="maxCells">
+                <option value="32">긴 변 32칸</option>
+                <option value="48" selected>긴 변 48칸</option>
+                <option value="64">긴 변 64칸</option>
+                <option value="96">긴 변 96칸</option>
+                <option value="0">원본 유지</option>
+              </select>
+            </label>
+
             <label class="check-row">
               <input id="cleanSource" type="checkbox" checked />
               <span>도트 감지 전 픽셀아트 정리</span>
@@ -97,7 +108,7 @@
       <section class="result-section" aria-label="생성된 A4 도안">
         <div class="result-header">
           <h2>A4 출력 미리보기</h2>
-          <p>기본은 A4 가로입니다. 사방 인쇄 여백을 두고 오른쪽 30%는 정보 영역, 왼쪽 70%는 도안을 크게 채웁니다.</p>
+          <p>기본은 A4 가로입니다. 큰 이미지는 긴 변 48칸 기준으로 자동 리사이즈한 뒤 도안을 만듭니다.</p>
         </div>
         <div class="canvas-frame">
           <canvas id="resultCanvas" aria-label="A4 펄러비즈 도안"></canvas>
