@@ -36,6 +36,8 @@ let loadedFileName = 'pattern';
 let lastResult = null;
 let currentObjectUrl = null;
 
+const NATIVE_PIXEL_ART_MAX_SIDE = 32;
+
 const palette = Object.entries(MARD_221_HEX).map(([code, hex]) => {
   const rgb = hexToRgb(hex);
   return { code, hex, rgb, lab: rgbToLab(rgb) };
@@ -664,9 +666,14 @@ function generate() {
         let working = source;
         let resizedInfo = { resized: false };
         let cleaned = cleanPixelArt(working, els.cleanSource.checked);
-        let grid = els.scaleMode.value === 'auto'
-          ? detectSourceGrid(cleaned)
-          : bestOffsetForScale(cleaned, Number(els.scaleMode.value));
+        const preferNativeLowRes = els.scaleMode.value === 'auto'
+          && maxCells > 0
+          && Math.max(working.width, working.height) <= Math.min(maxCells, NATIVE_PIXEL_ART_MAX_SIDE);
+        let grid = preferNativeLowRes
+          ? { scale: 1, offsetX: 0, offsetY: 0, score: 0, nativeLowRes: true }
+          : (els.scaleMode.value === 'auto'
+            ? detectSourceGrid(cleaned)
+            : bestOffsetForScale(cleaned, Number(els.scaleMode.value)));
         const detectedCols = Math.floor(working.width / grid.scale);
         const detectedRows = Math.floor(working.height / grid.scale);
 
@@ -695,7 +702,7 @@ function generate() {
 
         els.scaleMeta.textContent = resizedInfo.resized
           ? `자동 리사이즈 후 ${grid.scale}px`
-          : (grid.offsetX || grid.offsetY ? `${grid.scale}px (offset ${grid.offsetX},${grid.offsetY} 보정)` : `${grid.scale}px`);
+          : (grid.nativeLowRes ? '1px (저해상도 원본 픽셀아트)' : (grid.offsetX || grid.offsetY ? `${grid.scale}px (offset ${grid.offsetX},${grid.offsetY} 보정)` : `${grid.scale}px`));
         els.patternMeta.textContent = resizedInfo.resized ? `${cols} x ${rows} (원본 ${source.width}x${source.height})` : `${cols} x ${rows}`;
         els.colorMeta.textContent = `${counts.size}색`;
         els.download.disabled = false;
