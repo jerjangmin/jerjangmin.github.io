@@ -183,12 +183,30 @@ function gcdOfRuns(imageData, alphaThreshold = 16) {
   return runs.reduce((acc, v) => gcd(acc, v), 0) || 1;
 }
 
-function blockVarianceScore(imageData, scale, alphaThreshold = 16) {
+function getVisibleBBox(imageData, alphaThreshold = 16) {
+  const { width: w, height: h, data } = imageData;
+  let minX = w, minY = h, maxX = -1, maxY = -1;
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const i = (y * w + x) * 4;
+      if (data[i + 3] < alphaThreshold) continue;
+      minX = Math.min(minX, x);
+      minY = Math.min(minY, y);
+      maxX = Math.max(maxX, x + 1);
+      maxY = Math.max(maxY, y + 1);
+    }
+  }
+  if (maxX < 0) return null;
+  return { minX, minY, maxX, maxY, width: maxX - minX, height: maxY - minY };
+}
+
+function blockVarianceScore(imageData, scale, offsetX = 0, offsetY = 0, alphaThreshold = 16) {
   const { width: w, height: h, data } = imageData;
   let total = 0;
   let count = 0;
-  for (let by = 0; by < h; by += scale) {
-    for (let bx = 0; bx < w; bx += scale) {
+  let visibleBlocks = 0;
+  for (let by = offsetY; by + scale <= h; by += scale) {
+    for (let bx = offsetX; bx + scale <= w; bx += scale) {
       const values = [];
       for (let y = by; y < by + scale; y++) {
         for (let x = bx; x < bx + scale; x++) {
@@ -196,6 +214,7 @@ function blockVarianceScore(imageData, scale, alphaThreshold = 16) {
           if (data[i + 3] >= alphaThreshold) values.push([data[i], data[i + 1], data[i + 2]]);
         }
       }
+      if (values.length > 0) visibleBlocks += 1;
       if (values.length <= 1) { count += 1; continue; }
       const mean = [0, 0, 0];
       for (const v of values) { mean[0] += v[0]; mean[1] += v[1]; mean[2] += v[2]; }
@@ -206,19 +225,73 @@ function blockVarianceScore(imageData, scale, alphaThreshold = 16) {
       count += 1;
     }
   }
+  if (visibleBlocks < 2) return Number.POSITIVE_INFINITY;
   return total / Math.max(1, count);
 }
 
-function detectSourceScale(imageData, alphaThreshold = 16) {
-  const { width: w, height: h } = imageData;
-  const runScale = gcdOfRuns(imageData, alphaThreshold);
-  if (runScale > 1 && w % runScale === 0 && h % runScale === 0) return runScale;
+function bestOffsetForScale(imageData, scale, alphaThreshold = 16) {
+  let best = { scale, offsetX: 0, offsetY: 0, score: blockVarianceScore(imageData, scale, 0, 0, alphaThreshold) };
+  for (let oy = 0; oy < scale; oy++) {
+    for (let ox = 0; ox < scale; ox++) {
+      const score = blockVarianceScore(imageData, scale, ox, oy, alphaThreshold);
+      if (score < best.score) best = { scale, offsetX: ox, offsetY: oy, score };
+    }
+  }
+  return best;
+}
 
-  const common = divisors(gcd(w, h)).filter(d => d > 1);
-  if (!common.length) return 1;
-  const scored = common.map(d => ({ d, score: blockVarianceScore(imageData, d, alphaThreshold) }));
-  scored.sort((a, b) => a.score - b.score || b.d - a.d);
-  return scored[0].score <= 6 ? scored[0].d : 1;
+function detectSourceGrid(imageData, alphaThreshold = 16) {
+  const { width: w, height: h } = imageData;
+  const bbox = getVisibleBBox(imageData, alphaThreshold);
+  const candidateSet = new Set(divisors(gcd(w, h)).filter(d => d > 1));
+  if (bbox) divisors(gcd(bbox.width, bbox.height)).filter(d => d > 1).forEach(d => candidateSet.add(d));
+  const runScale = gcdOfRuns(imageData, alphaThreshold);
+  if (runScale > 1) candidateSet.add(runScale);
+
+  const candidates = [...candidateSet].filter(d => d > 1 && d <= Math.min(64, w, h)).sort((a, b) => a - b);
+  if (!candidates.length) return { scale: 1, offsetX: 0, offsetY: 0, score: 0 };
+
+  const scored = candidates.map(d => bestOffsetForScale(imageData, d, alphaThreshold));
+  scored.sort((a, b) => a.score - b.score || a.scale - b.scale);
+  const best = scored[0];
+  return best.score <= 6 ? best : { scale: 1, offsetX: 0, offsetY: 0, score: best.score };
+}
+
+function bestGridShift(offset, scale, min, max, limit) {
+  if (!offset) return 0;
+  const candidates = [-offset, scale - offset]
+    .filter(shift => min + shift >= 0 && max + shift <= limit)
+    .sort((a, b) => Math.abs(a) - Math.abs(b));
+  if (candidates.length) return candidates[0];
+  return Math.abs(-offset) <= Math.abs(scale - offset) ? -offset : scale - offset;
+}
+
+function alignImageDataToGrid(imageData, grid, alphaThreshold = 16) {
+  if (grid.scale <= 1 || (!grid.offsetX && !grid.offsetY)) return imageData;
+  const bbox = getVisibleBBox(imageData, alphaThreshold);
+  if (!bbox) return imageData;
+  const shiftX = bestGridShift(grid.offsetX, grid.scale, bbox.minX, bbox.maxX, imageData.width);
+  const shiftY = bestGridShift(grid.offsetY, grid.scale, bbox.minY, bbox.maxY, imageData.height);
+  if (!shiftX && !shiftY) return imageData;
+
+  const aligned = new ImageData(imageData.width, imageData.height);
+  const src = imageData.data;
+  const dst = aligned.data;
+  const { width: w, height: h } = imageData;
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const nx = x + shiftX;
+      const ny = y + shiftY;
+      if (nx < 0 || ny < 0 || nx >= w || ny >= h) continue;
+      const si = (y * w + x) * 4;
+      const di = (ny * w + nx) * 4;
+      dst[di] = src[si];
+      dst[di + 1] = src[si + 1];
+      dst[di + 2] = src[si + 2];
+      dst[di + 3] = src[si + 3];
+    }
+  }
+  return aligned;
 }
 
 function reduceToCells(imageData, scale, alphaThreshold = 16) {
@@ -514,8 +587,11 @@ function generate() {
       try {
         const source = imageToCanvas(loadedImage);
         const cleaned = cleanPixelArt(source, els.cleanSource.checked);
-        const scale = els.scaleMode.value === 'auto' ? detectSourceScale(cleaned) : Number(els.scaleMode.value);
-        const cells = reduceToCells(cleaned, scale);
+        const grid = els.scaleMode.value === 'auto'
+          ? detectSourceGrid(cleaned)
+          : bestOffsetForScale(cleaned, Number(els.scaleMode.value));
+        const aligned = alignImageDataToGrid(cleaned, grid);
+        const cells = reduceToCells(aligned, grid.scale);
         const rows = cells.length;
         const cols = rows ? cells[0].length : 0;
         const counts = countCells(cells);
@@ -523,10 +599,10 @@ function generate() {
           name: loadedFileName,
           originalWidth: source.width,
           originalHeight: source.height,
-          scale
+          scale: grid.scale
         });
 
-        els.scaleMeta.textContent = `${scale}px`;
+        els.scaleMeta.textContent = grid.offsetX || grid.offsetY ? `${grid.scale}px (offset ${grid.offsetX},${grid.offsetY} 보정)` : `${grid.scale}px`;
         els.patternMeta.textContent = `${cols} x ${rows}`;
         els.colorMeta.textContent = `${counts.size}색`;
         els.download.disabled = false;
