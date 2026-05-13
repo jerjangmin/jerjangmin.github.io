@@ -286,6 +286,18 @@ function drawCenteredText(ctx, text, x, y, w, h) {
   ctx.fillText(text, x + (w - m.width) / 2, y + h / 2 + Math.abs(m.actualBoundingBoxAscent - m.actualBoundingBoxDescent) / 2 - 1);
 }
 
+function cellLabelFontSize(ctx, text, cell) {
+  let size = Math.max(5, Math.floor(cell * 0.34));
+  while (size > 5) {
+    ctx.font = `800 ${size}px system-ui, -apple-system, sans-serif`;
+    const metrics = ctx.measureText(text);
+    const textHeight = Math.abs(metrics.actualBoundingBoxAscent) + Math.abs(metrics.actualBoundingBoxDescent);
+    if (metrics.width <= cell * 0.78 && textHeight <= cell * 0.62) return size;
+    size -= 1;
+  }
+  return size;
+}
+
 function fitText(ctx, text, maxWidth) {
   if (ctx.measureText(text).width <= maxWidth) return text;
   let out = text;
@@ -308,9 +320,10 @@ function renderA4(cells, meta) {
   ctx.fillRect(0, 0, page.width, page.height);
 
   const mm = dpi / 25.4;
-  const margin = Math.round(10 * mm);
-  const topH = Math.round(17 * mm);
-  const bottomH = Math.round(8 * mm);
+  // Print-safe A4 margins: keep all content away from printer clipping areas.
+  const margin = Math.round(12 * mm);
+  const topH = Math.round(18 * mm);
+  const bottomH = Math.round(12 * mm);
   const contentX = margin;
   const contentY = margin + topH;
   const contentW = page.width - margin * 2;
@@ -318,9 +331,9 @@ function renderA4(cells, meta) {
   const leftW = Math.round(contentW * 0.70);
   const rightW = contentW - leftW;
   const dividerX = contentX + leftW;
-  const sidebarPad = Math.round(4 * mm);
-  const labelPad = Math.round(7 * mm);
-  const axisPad = Math.round(6 * mm);
+  const sidebarPad = Math.round(6 * mm);
+  const labelPad = Math.round(8 * mm);
+  const axisPad = Math.round(8 * mm);
   const availableGridW = leftW - labelPad - sidebarPad;
   const availableGridH = contentH - axisPad;
   const cell = Math.max(7, Math.floor(Math.min(availableGridW / cols, availableGridH / rows)));
@@ -349,7 +362,7 @@ function renderA4(cells, meta) {
 
   const gridLine = '#d4d0ca';
   const emptyFill = '#ffffff';
-  const labelSize = Math.max(5, Math.min(14, Math.floor(cell * 0.34)));
+  const axisLabelSize = Math.max(7, Math.floor(cell * 0.18));
   ctx.textBaseline = 'alphabetic';
 
   for (let y = 0; y < rows; y++) {
@@ -362,32 +375,30 @@ function renderA4(cells, meta) {
       ctx.strokeStyle = gridLine;
       ctx.lineWidth = 1;
       ctx.strokeRect(x0, y0, cell, cell);
-      if (bead && cell >= 12) {
+      if (bead && cell >= 10) {
         ctx.fillStyle = textColor(bead.rgb);
-        ctx.font = `700 ${labelSize}px system-ui, -apple-system, sans-serif`;
-        drawCenteredText(ctx, bead.code, x0, y0, cell, cell);
-      } else if (bead && cell >= 8) {
-        ctx.fillStyle = textColor(bead.rgb);
-        ctx.font = `700 ${labelSize}px system-ui, -apple-system, sans-serif`;
-        drawCenteredText(ctx, bead.code[0], x0, y0, cell, cell);
+        const code = cell >= 12 ? bead.code : bead.code[0];
+        const labelSize = cellLabelFontSize(ctx, code, cell);
+        ctx.font = `800 ${labelSize}px system-ui, -apple-system, sans-serif`;
+        drawCenteredText(ctx, code, x0, y0, cell, cell);
       }
     }
   }
 
   ctx.fillStyle = '#4e5968';
-  ctx.font = `400 ${Math.max(7, Math.round(2.5 * mm))}px system-ui, -apple-system, sans-serif`;
+  ctx.font = `400 ${axisLabelSize}px system-ui, -apple-system, sans-serif`;
   const xStep = cols <= 24 ? 1 : cols <= 64 ? 4 : 10;
   for (let x = 0; x < cols; x++) {
     if (x === 0 || (x + 1) % xStep === 0 || x === cols - 1) {
       const label = String(x + 1);
-      ctx.fillText(label, gx + x * cell + cell / 2 - ctx.measureText(label).width / 2, gy + gridH + 8 + labelSize);
+      ctx.fillText(label, gx + x * cell + cell / 2 - ctx.measureText(label).width / 2, gy + gridH + Math.max(8, axisLabelSize * 0.6) + axisLabelSize);
     }
   }
   const yStep = rows <= 24 ? 1 : rows <= 64 ? 4 : 10;
   for (let y = 0; y < rows; y++) {
     if (y === 0 || (y + 1) % yStep === 0 || y === rows - 1) {
       const label = String(y + 1);
-      ctx.fillText(label, gx - 24 - ctx.measureText(label).width / 2, gy + y * cell + cell / 2 + labelSize / 2);
+      ctx.fillText(label, gx - Math.round(6 * mm) - ctx.measureText(label).width / 2, gy + y * cell + cell / 2 + axisLabelSize / 2);
     }
   }
 
