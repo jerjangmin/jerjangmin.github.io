@@ -63,8 +63,64 @@ function rgbToLab([r8, g8, b8]) {
   return [116 * fy - 16, 500 * (fx - fy), 200 * (fy - fz)];
 }
 
-function labDistance(a, b) {
-  return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+function degreesToRadians(degrees) {
+  return degrees * Math.PI / 180;
+}
+
+function radiansToDegrees(radians) {
+  return radians * 180 / Math.PI;
+}
+
+function ciede2000(lab1, lab2) {
+  const [L1, a1, b1] = lab1;
+  const [L2, a2, b2] = lab2;
+  const kL = 1, kC = 1, kH = 1;
+  const C1 = Math.hypot(a1, b1);
+  const C2 = Math.hypot(a2, b2);
+  const Cbar = (C1 + C2) / 2;
+  const G = 0.5 * (1 - Math.sqrt(Math.pow(Cbar, 7) / (Math.pow(Cbar, 7) + Math.pow(25, 7))));
+  const a1p = (1 + G) * a1;
+  const a2p = (1 + G) * a2;
+  const C1p = Math.hypot(a1p, b1);
+  const C2p = Math.hypot(a2p, b2);
+  const h1p = (Math.atan2(b1, a1p) + 2 * Math.PI) % (2 * Math.PI);
+  const h2p = (Math.atan2(b2, a2p) + 2 * Math.PI) % (2 * Math.PI);
+
+  const dLp = L2 - L1;
+  const dCp = C2p - C1p;
+  let dhp = h2p - h1p;
+  if (C1p * C2p === 0) dhp = 0;
+  else if (dhp > Math.PI) dhp -= 2 * Math.PI;
+  else if (dhp < -Math.PI) dhp += 2 * Math.PI;
+  const dHp = 2 * Math.sqrt(C1p * C2p) * Math.sin(dhp / 2);
+
+  const Lbarp = (L1 + L2) / 2;
+  const Cbarp = (C1p + C2p) / 2;
+  let hbarp;
+  if (C1p * C2p === 0) hbarp = h1p + h2p;
+  else if (Math.abs(h1p - h2p) <= Math.PI) hbarp = (h1p + h2p) / 2;
+  else hbarp = (h1p + h2p + 2 * Math.PI) / 2;
+  if (hbarp >= 2 * Math.PI) hbarp -= 2 * Math.PI;
+
+  const hbarDeg = radiansToDegrees(hbarp);
+  const T = 1
+    - 0.17 * Math.cos(degreesToRadians(hbarDeg - 30))
+    + 0.24 * Math.cos(degreesToRadians(2 * hbarDeg))
+    + 0.32 * Math.cos(degreesToRadians(3 * hbarDeg + 6))
+    - 0.20 * Math.cos(degreesToRadians(4 * hbarDeg - 63));
+  const deltaTheta = 30 * Math.exp(-Math.pow((hbarDeg - 275) / 25, 2));
+  const Rc = 2 * Math.sqrt(Math.pow(Cbarp, 7) / (Math.pow(Cbarp, 7) + Math.pow(25, 7)));
+  const Sl = 1 + (0.015 * Math.pow(Lbarp - 50, 2)) / Math.sqrt(20 + Math.pow(Lbarp - 50, 2));
+  const Sc = 1 + 0.045 * Cbarp;
+  const Sh = 1 + 0.015 * Cbarp * T;
+  const Rt = -Math.sin(degreesToRadians(2 * deltaTheta)) * Rc;
+
+  return Math.sqrt(
+    Math.pow(dLp / (kL * Sl), 2) +
+    Math.pow(dCp / (kC * Sc), 2) +
+    Math.pow(dHp / (kH * Sh), 2) +
+    Rt * (dCp / (kC * Sc)) * (dHp / (kH * Sh))
+  );
 }
 
 function nearestMard(r, g, b) {
@@ -74,7 +130,7 @@ function nearestMard(r, g, b) {
   let best = palette[0];
   let bestDistance = Infinity;
   for (const color of palette) {
-    const distance = labDistance(lab, color.lab);
+    const distance = ciede2000(lab, color.lab);
     if (distance < bestDistance) {
       bestDistance = distance;
       best = color;
@@ -301,34 +357,33 @@ function reduceToCells(imageData, scale, alphaThreshold = 16) {
   for (let by = 0; by < h; by += scale) {
     const row = [];
     for (let bx = 0; bx < w; bx += scale) {
-      const counts = new Map();
       let transparent = 0;
       let visible = 0;
+      let weight = 0;
+      let rSum = 0, gSum = 0, bSum = 0;
       for (let y = by; y < by + scale; y++) {
         for (let x = bx; x < bx + scale; x++) {
           const i = (y * w + x) * 4;
-          if (data[i + 3] < alphaThreshold) {
+          const alpha = data[i + 3];
+          if (alpha < alphaThreshold) {
             transparent += 1;
           } else {
             visible += 1;
-            const key = `${data[i]},${data[i + 1]},${data[i + 2]}`;
-            counts.set(key, (counts.get(key) || 0) + 1);
+            const aWeight = alpha / 255;
+            weight += aWeight;
+            rSum += data[i] * aWeight;
+            gSum += data[i + 1] * aWeight;
+            bSum += data[i + 2] * aWeight;
           }
         }
       }
-      if (!visible || transparent > visible) {
+      if (!visible || transparent > visible || weight === 0) {
         row.push(null);
         continue;
       }
-      let bestKey = null, bestCount = -1;
-      for (const [key, count] of counts) {
-        if (count > bestCount) { bestKey = key; bestCount = count; }
-      }
-      const rgb = bestKey.split(',').map(Number);
-      let code = rgbToCode.get(bestKey);
-      if (!code) code = nearestMard(rgb[0], rgb[1], rgb[2]).code;
-      const color = palette.find(p => p.code === code);
-      row.push({ code, rgb: color.rgb, hex: color.hex });
+      const rgb = [Math.round(rSum / weight), Math.round(gSum / weight), Math.round(bSum / weight)];
+      const color = nearestMard(rgb[0], rgb[1], rgb[2]);
+      row.push({ code: color.code, rgb: color.rgb, hex: color.hex, sourceRgb: rgb });
     }
     rows.push(row);
   }
@@ -586,12 +641,13 @@ function generate() {
     requestAnimationFrame(() => {
       try {
         const source = imageToCanvas(loadedImage);
+        const sourceData = source.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, source.width, source.height);
         const cleaned = cleanPixelArt(source, els.cleanSource.checked);
         const grid = els.scaleMode.value === 'auto'
           ? detectSourceGrid(cleaned)
           : bestOffsetForScale(cleaned, Number(els.scaleMode.value));
-        const aligned = alignImageDataToGrid(cleaned, grid);
-        const cells = reduceToCells(aligned, grid.scale);
+        const alignedSource = alignImageDataToGrid(sourceData, grid);
+        const cells = reduceToCells(alignedSource, grid.scale);
         const rows = cells.length;
         const cols = rows ? cells[0].length : 0;
         const counts = countCells(cells);
