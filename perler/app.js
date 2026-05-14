@@ -39,7 +39,7 @@ let loadedImage = null;
 let loadedFileName = 'pattern';
 let lastResult = null;
 let currentObjectUrl = null;
-let selectedEditCode = null;
+let selectedEditGroup = null;
 
 const NATIVE_PIXEL_ART_MAX_SIDE = 32;
 
@@ -408,7 +408,14 @@ function reduceToCells(imageData, scale, alphaThreshold = 16) {
       }
       const rgb = [Math.round(rSum / weight), Math.round(gSum / weight), Math.round(bSum / weight)];
       const color = nearestMard(rgb[0], rgb[1], rgb[2]);
-      row.push({ code: color.code, rgb: color.rgb, hex: color.hex, sourceRgb: rgb });
+      row.push({
+        code: color.code,
+        originalCode: color.code,
+        groupCode: color.code,
+        rgb: color.rgb,
+        hex: color.hex,
+        sourceRgb: rgb
+      });
     }
     rows.push(row);
   }
@@ -421,18 +428,29 @@ function countCells(cells) {
   return counts;
 }
 
-function representativeSourceRgbForCode(cells, code) {
-  let count = 0;
-  let r = 0, g = 0, b = 0;
+function cellGroupCode(cell) {
+  return cell?.groupCode || cell?.originalCode || cell?.code || null;
+}
+
+function cellsForGroup(cells, groupCode) {
+  const matches = [];
   for (const row of cells) {
     for (const cell of row) {
-      if (!cell || cell.code !== code) continue;
-      const source = cell.sourceRgb || cell.rgb;
-      r += source[0];
-      g += source[1];
-      b += source[2];
-      count += 1;
+      if (cell && cellGroupCode(cell) === groupCode) matches.push(cell);
     }
+  }
+  return matches;
+}
+
+function representativeSourceRgbForGroup(cells, groupCode) {
+  let count = 0;
+  let r = 0, g = 0, b = 0;
+  for (const cell of cellsForGroup(cells, groupCode)) {
+    const source = cell.sourceRgb || cell.rgb;
+    r += source[0];
+    g += source[1];
+    b += source[2];
+    count += 1;
   }
   if (!count) return null;
   return [Math.round(r / count), Math.round(g / count), Math.round(b / count)];
@@ -451,51 +469,52 @@ function similarPaletteColors(sourceRgb, currentCode, limit = 12) {
   return candidates;
 }
 
-function selectColorCode(code) {
-  if (!lastResult || !code) return;
-  const counts = countCells(lastResult.cells);
-  if (!counts.has(code)) return;
-  selectedEditCode = code;
-  const sourceRgb = representativeSourceRgbForCode(lastResult.cells, code) || paletteByCode.get(code).rgb;
-  const current = paletteByCode.get(code);
-  const candidates = similarPaletteColors(sourceRgb, code, 12);
+function selectColorGroup(groupCode) {
+  if (!lastResult || !groupCode) return;
+  const groupCells = cellsForGroup(lastResult.cells, groupCode);
+  if (!groupCells.length) return;
+  selectedEditGroup = groupCode;
+  const currentCode = groupCells[0].code;
+  const sourceRgb = representativeSourceRgbForGroup(lastResult.cells, groupCode) || paletteByCode.get(currentCode).rgb;
+  const candidates = similarPaletteColors(sourceRgb, currentCode, 12);
+  const currentLabel = currentCode === groupCode ? currentCode : `${groupCode} → ${currentCode}`;
   els.colorEditor.hidden = false;
-  els.selectedColorTitle.textContent = `${code} 색상 변경`;
-  els.selectedColorMeta.textContent = `${counts.get(code)}칸을 한 번에 변경합니다. 원본 평균 RGB ${sourceRgb.join(', ')} 기준 유사 색상 12개입니다.`;
+  els.selectedColorTitle.textContent = `${currentLabel} 영역 색상 변경`;
+  els.selectedColorMeta.textContent = `${groupCells.length}칸을 원본 ${groupCode} 영역 기준으로 변경합니다. 기존 ${currentCode} 영역과는 합쳐지지 않습니다. 원본 평균 RGB ${sourceRgb.join(', ')} 기준 유사 색상 12개입니다.`;
   els.colorCandidates.innerHTML = '';
   for (const color of candidates) {
     const button = document.createElement('button');
     button.type = 'button';
-    button.className = `color-candidate${color.code === code ? ' is-current' : ''}`;
+    button.className = `color-candidate${color.code === currentCode ? ' is-current' : ''}`;
     button.innerHTML = `
       <span class="candidate-swatch" style="background:${color.hex}"></span>
       <span class="candidate-info"><strong>${color.code}</strong><span>${color.hex} · ΔE ${color.distance.toFixed(1)}</span></span>
     `;
-    button.addEventListener('click', () => applyColorReplacement(code, color.code));
+    button.addEventListener('click', () => applyColorReplacement(groupCode, color.code));
     els.colorCandidates.appendChild(button);
   }
-  if (current) setStatus(`${code} 선택됨. 아래 유사 색상 중 하나를 선택하면 미리보기가 바로 업데이트됩니다.`);
+  setStatus(`${currentLabel} 영역 선택됨. 이 영역만 바뀌며 같은 표시 색상의 다른 원본 영역은 유지됩니다.`);
 }
 
-function applyColorReplacement(fromCode, toCode) {
-  if (!lastResult || !fromCode || !toCode) return;
+function applyColorReplacement(groupCode, toCode) {
+  if (!lastResult || !groupCode || !toCode) return;
   const target = paletteByCode.get(toCode);
   if (!target) return;
-  for (const row of lastResult.cells) {
-    for (const cell of row) {
-      if (!cell || cell.code !== fromCode) continue;
-      cell.code = target.code;
-      cell.rgb = target.rgb;
-      cell.hex = target.hex;
-    }
+  const groupCells = cellsForGroup(lastResult.cells, groupCode);
+  if (!groupCells.length) return;
+  const previousCode = groupCells[0].code;
+  for (const cell of groupCells) {
+    cell.code = target.code;
+    cell.rgb = target.rgb;
+    cell.hex = target.hex;
   }
   renderA4(lastResult.cells, lastResult.meta);
-  selectColorCode(toCode);
-  setStatus(`${fromCode} 색상을 ${toCode}로 변경했습니다. PNG 다운로드에 변경 내용이 반영됩니다.`);
+  selectColorGroup(groupCode);
+  setStatus(`원본 ${groupCode} 영역을 ${previousCode}에서 ${toCode}로 변경했습니다. 기존 ${toCode} 영역은 별도 그룹으로 유지됩니다.`);
 }
 
 function resetColorEditor(message = '도안에서 바꾸고 싶은 색상 칸을 클릭하세요.') {
-  selectedEditCode = null;
+  selectedEditGroup = null;
   els.colorEditor.hidden = false;
   els.selectedColorTitle.textContent = '색상 변경';
   els.selectedColorMeta.textContent = message;
@@ -727,7 +746,7 @@ async function loadFile(file) {
     els.generate.disabled = false;
     els.download.disabled = true;
     lastResult = null;
-    selectedEditCode = null;
+    selectedEditGroup = null;
     els.colorEditor.hidden = true;
     els.colorCandidates.innerHTML = '';
     els.originalMeta.textContent = `${image.naturalWidth} x ${image.naturalHeight}`;
@@ -894,7 +913,7 @@ function handleCanvasClick(event) {
     setStatus('빈칸입니다. 색상이 있는 칸을 클릭하세요.');
     return;
   }
-  selectColorCode(bead.code);
+  selectColorGroup(cellGroupCode(bead));
   els.colorEditor.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
