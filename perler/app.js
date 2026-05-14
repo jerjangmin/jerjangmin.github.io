@@ -24,6 +24,10 @@ const els = {
   download: document.getElementById('downloadBtn'),
   status: document.getElementById('status'),
   canvas: document.getElementById('resultCanvas'),
+  colorEditor: document.getElementById('colorEditor'),
+  selectedColorTitle: document.getElementById('selectedColorTitle'),
+  selectedColorMeta: document.getElementById('selectedColorMeta'),
+  colorCandidates: document.getElementById('colorCandidates'),
   originalMeta: document.getElementById('originalMeta'),
   scaleMeta: document.getElementById('scaleMeta'),
   patternMeta: document.getElementById('patternMeta'),
@@ -35,6 +39,7 @@ let loadedImage = null;
 let loadedFileName = 'pattern';
 let lastResult = null;
 let currentObjectUrl = null;
+let selectedEditCode = null;
 
 const NATIVE_PIXEL_ART_MAX_SIDE = 32;
 
@@ -43,6 +48,7 @@ const palette = Object.entries(MARD_221_HEX).map(([code, hex]) => {
   return { code, hex, rgb, lab: rgbToLab(rgb) };
 });
 const rgbToCode = new Map(palette.map(p => [p.rgb.join(','), p.code]));
+const paletteByCode = new Map(palette.map(p => [p.code, p]));
 const nearestCache = new Map();
 
 function hexToRgb(hex) {
@@ -415,6 +421,87 @@ function countCells(cells) {
   return counts;
 }
 
+function representativeSourceRgbForCode(cells, code) {
+  let count = 0;
+  let r = 0, g = 0, b = 0;
+  for (const row of cells) {
+    for (const cell of row) {
+      if (!cell || cell.code !== code) continue;
+      const source = cell.sourceRgb || cell.rgb;
+      r += source[0];
+      g += source[1];
+      b += source[2];
+      count += 1;
+    }
+  }
+  if (!count) return null;
+  return [Math.round(r / count), Math.round(g / count), Math.round(b / count)];
+}
+
+function similarPaletteColors(sourceRgb, currentCode, limit = 12) {
+  const sourceLab = rgbToLab(sourceRgb);
+  const sorted = palette
+    .map(color => ({ ...color, distance: ciede2000(sourceLab, color.lab) }))
+    .sort((a, b) => a.distance - b.distance || sortCodes(a.code, b.code));
+  let candidates = sorted.slice(0, limit);
+  if (currentCode && !candidates.some(color => color.code === currentCode)) {
+    const current = sorted.find(color => color.code === currentCode);
+    if (current) candidates = [...candidates.slice(0, limit - 1), current];
+  }
+  return candidates;
+}
+
+function selectColorCode(code) {
+  if (!lastResult || !code) return;
+  const counts = countCells(lastResult.cells);
+  if (!counts.has(code)) return;
+  selectedEditCode = code;
+  const sourceRgb = representativeSourceRgbForCode(lastResult.cells, code) || paletteByCode.get(code).rgb;
+  const current = paletteByCode.get(code);
+  const candidates = similarPaletteColors(sourceRgb, code, 12);
+  els.colorEditor.hidden = false;
+  els.selectedColorTitle.textContent = `${code} 색상 변경`;
+  els.selectedColorMeta.textContent = `${counts.get(code)}칸을 한 번에 변경합니다. 원본 평균 RGB ${sourceRgb.join(', ')} 기준 유사 색상 12개입니다.`;
+  els.colorCandidates.innerHTML = '';
+  for (const color of candidates) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `color-candidate${color.code === code ? ' is-current' : ''}`;
+    button.innerHTML = `
+      <span class="candidate-swatch" style="background:${color.hex}"></span>
+      <span class="candidate-info"><strong>${color.code}</strong><span>${color.hex} · ΔE ${color.distance.toFixed(1)}</span></span>
+    `;
+    button.addEventListener('click', () => applyColorReplacement(code, color.code));
+    els.colorCandidates.appendChild(button);
+  }
+  if (current) setStatus(`${code} 선택됨. 아래 유사 색상 중 하나를 선택하면 미리보기가 바로 업데이트됩니다.`);
+}
+
+function applyColorReplacement(fromCode, toCode) {
+  if (!lastResult || !fromCode || !toCode) return;
+  const target = paletteByCode.get(toCode);
+  if (!target) return;
+  for (const row of lastResult.cells) {
+    for (const cell of row) {
+      if (!cell || cell.code !== fromCode) continue;
+      cell.code = target.code;
+      cell.rgb = target.rgb;
+      cell.hex = target.hex;
+    }
+  }
+  renderA4(lastResult.cells, lastResult.meta);
+  selectColorCode(toCode);
+  setStatus(`${fromCode} 색상을 ${toCode}로 변경했습니다. PNG 다운로드에 변경 내용이 반영됩니다.`);
+}
+
+function resetColorEditor(message = '도안에서 바꾸고 싶은 색상 칸을 클릭하세요.') {
+  selectedEditCode = null;
+  els.colorEditor.hidden = false;
+  els.selectedColorTitle.textContent = '색상 변경';
+  els.selectedColorMeta.textContent = message;
+  els.colorCandidates.innerHTML = '';
+}
+
 function chooseA4(cols, rows, orientation, dpi) {
   const portrait = { width: Math.round(8.2677165354 * dpi), height: Math.round(11.6929133858 * dpi), name: 'portrait' };
   const landscape = { width: portrait.height, height: portrait.width, name: 'landscape' };
@@ -615,7 +702,14 @@ function renderA4(cells, meta) {
   ctx.fillText(`Standard: ${(cols * 0.5).toFixed(1)} x ${(rows * 0.5).toFixed(1)} cm`, rx, statsY + Math.round(11.5 * mm));
   ctx.fillText(`Mini: ${(cols * 0.26).toFixed(1)} x ${(rows * 0.26).toFixed(1)} cm`, rx, statsY + Math.round(16.5 * mm));
 
-  lastResult = { cells, meta, counts, dpi, page };
+  lastResult = {
+    cells,
+    meta,
+    counts,
+    dpi,
+    page,
+    layout: { gx, gy, gridW, gridH, cell, cols, rows }
+  };
 }
 
 async function loadFile(file) {
@@ -632,6 +726,10 @@ async function loadFile(file) {
     els.previewPlaceholder.hidden = true;
     els.generate.disabled = false;
     els.download.disabled = true;
+    lastResult = null;
+    selectedEditCode = null;
+    els.colorEditor.hidden = true;
+    els.colorCandidates.innerHTML = '';
     els.originalMeta.textContent = `${image.naturalWidth} x ${image.naturalHeight}`;
     els.scaleMeta.textContent = '-';
     els.patternMeta.textContent = '-';
@@ -706,6 +804,7 @@ function generate() {
         els.patternMeta.textContent = resizedInfo.resized ? `${cols} x ${rows} (원본 ${source.width}x${source.height})` : `${cols} x ${rows}`;
         els.colorMeta.textContent = `${counts.size}색`;
         els.download.disabled = false;
+        resetColorEditor('도안의 색상 칸을 클릭하면 해당 색상의 유사 MARD 색상 12개를 아래에서 고를 수 있습니다.');
         const resizeText = resizedInfo.resized ? ` 원본이 커서 ${working.width}x${working.height}로 리사이즈했습니다.` : '';
         setStatus(`A4 도안을 만들었습니다. ${cols}x${rows}, ${counts.size}색, 총 ${[...counts.values()].reduce((a, b) => a + b, 0)}개입니다.${resizeText}`);
       } catch (error) {
@@ -777,9 +876,32 @@ async function downloadPng() {
   }, 'image/png');
 }
 
+function handleCanvasClick(event) {
+  if (!lastResult?.layout) return;
+  const rect = els.canvas.getBoundingClientRect();
+  const x = (event.clientX - rect.left) * (els.canvas.width / rect.width);
+  const y = (event.clientY - rect.top) * (els.canvas.height / rect.height);
+  const { gx, gy, gridW, gridH, cell, cols, rows } = lastResult.layout;
+  if (x < gx || y < gy || x >= gx + gridW || y >= gy + gridH) {
+    setStatus('색상을 바꾸려면 왼쪽 도안 영역의 색상 칸을 클릭하세요.');
+    return;
+  }
+  const cellX = Math.floor((x - gx) / cell);
+  const cellY = Math.floor((y - gy) / cell);
+  if (cellX < 0 || cellY < 0 || cellX >= cols || cellY >= rows) return;
+  const bead = lastResult.cells[cellY][cellX];
+  if (!bead) {
+    setStatus('빈칸입니다. 색상이 있는 칸을 클릭하세요.');
+    return;
+  }
+  selectColorCode(bead.code);
+  els.colorEditor.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
 els.input.addEventListener('change', event => loadFile(event.target.files[0]));
 els.generate.addEventListener('click', generate);
 els.download.addEventListener('click', downloadPng);
+els.canvas.addEventListener('click', handleCanvasClick);
 
 for (const eventName of ['dragenter', 'dragover']) {
   els.drop.addEventListener(eventName, event => {

@@ -89,7 +89,6 @@
 
           <div class="actions">
             <button id="generateBtn" type="button" disabled>도안 만들기</button>
-            <button id="downloadBtn" type="button" disabled>PNG 다운로드</button>
           </div>
 
           <p class="status" id="status">이미지를 업로드하면 도안을 만들 수 있습니다.</p>
@@ -116,6 +115,18 @@
         </div>
         <div class="canvas-frame">
           <canvas id="resultCanvas" aria-label="A4 펄러비즈 도안"></canvas>
+        </div>
+        <div class="result-actions">
+          <button id="downloadBtn" type="button" disabled>PNG 다운로드</button>
+        </div>
+        <div class="color-editor" id="colorEditor" hidden>
+          <div class="color-editor-head">
+            <div>
+              <h3 id="selectedColorTitle">색상 변경</h3>
+              <p id="selectedColorMeta">도안에서 바꾸고 싶은 색상 칸을 클릭하세요.</p>
+            </div>
+          </div>
+          <div class="candidate-grid" id="colorCandidates" aria-label="유사 색상 후보"></div>
         </div>
       </section>
     </main>
