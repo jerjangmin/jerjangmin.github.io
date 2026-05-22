@@ -86,15 +86,20 @@ body {
 
 body {
   font-family: "Paperlogy", "Noto Sans KR", "Pretendard", "Apple SD Gothic Neo", sans-serif;
+  cursor: pointer;
+  user-select: none;
 }
 
 .stage {
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: var(--stage-width);
   height: var(--stage-height);
   overflow: hidden;
   background: transparent;
   isolation: isolate;
+  transform-origin: top left;
 }
 
 body.debug .stage {

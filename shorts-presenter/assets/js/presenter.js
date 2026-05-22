@@ -17,6 +17,16 @@ if (debug) {
   document.body.classList.add("debug");
 }
 
+function fitStageToViewport() {
+  const stageWidth = 1080;
+  const stageHeight = 1920;
+  const scale = Math.min(window.innerWidth / stageWidth, window.innerHeight / stageHeight);
+  const left = Math.max(0, (window.innerWidth - stageWidth * scale) / 2);
+  const top = Math.max(0, (window.innerHeight - stageHeight * scale) / 2);
+
+  stage.style.transform = `translate(${left}px, ${top}px) scale(${scale})`;
+}
+
 function normalizeDeckPath(name) {
   if (name.endsWith(".json") || name.includes("/")) return name;
   return `./data/${name}.json`;
@@ -147,7 +157,11 @@ window.addEventListener("keydown", (event) => {
 
 stage.addEventListener("click", () => {
   window.focus();
+  nextCue();
 });
+
+window.addEventListener("resize", fitStageToViewport);
+fitStageToViewport();
 
 loadDeck()
   .then((loadedDeck) => {
