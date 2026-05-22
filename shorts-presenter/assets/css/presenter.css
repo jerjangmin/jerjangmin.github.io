@@ -212,6 +212,7 @@ body.debug .stage {
   line-height: 1.16;
   letter-spacing: -0.04em;
   -webkit-text-stroke-width: 0;
+  text-shadow: none;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.26);
 }
 
