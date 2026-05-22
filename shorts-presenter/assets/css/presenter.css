@@ -110,13 +110,13 @@ body.debug .stage {
 
 .hook {
   position: absolute;
-  top: 72px;
+  top: 84px;
   left: 50%;
   z-index: 4;
   width: min(936px, calc(100% - 96px));
   transform: translateX(-50%);
   color: var(--white);
-  font-size: 58px;
+  font-size: 54px;
   font-weight: 800;
   line-height: 1.13;
   text-align: center;
@@ -156,15 +156,23 @@ body.debug .stage {
   text-shadow: var(--shadow);
 }
 
-.pos-mid1 { top: 990px; }
-.pos-mid2 { top: 1145px; }
-.pos-mid3 { top: 1300px; }
-.pos-bottom { top: 1638px; }
-.pos-top { top: 72px; }
+.pos-mid1 { top: 940px; left: 50%; }
+.pos-mid1-left { top: 940px; left: 31%; }
+.pos-mid1-right { top: 940px; left: 69%; }
+.pos-mid2 { top: 1110px; left: 50%; }
+.pos-mid2-left { top: 1110px; left: 31%; }
+.pos-mid2-right { top: 1110px; left: 69%; }
+.pos-mid3 { top: 1288px; left: 50%; }
+.pos-mid3-left { top: 1288px; left: 31%; }
+.pos-mid3-right { top: 1288px; left: 69%; }
+.pos-bottom { top: 1532px; left: 50%; }
+.pos-bottom-left { top: 1532px; left: 31%; }
+.pos-bottom-right { top: 1532px; left: 69%; }
+.pos-top { top: 84px; left: 50%; }
 
 .style-heading {
   max-width: 960px;
-  font-size: 126px;
+  font-size: 104px;
   font-weight: 900;
   line-height: 0.98;
   letter-spacing: -0.055em;
@@ -172,7 +180,7 @@ body.debug .stage {
 }
 
 .style-keyword {
-  font-size: 86px;
+  font-size: 72px;
   font-weight: 800;
   line-height: 1.05;
   letter-spacing: -0.045em;
@@ -180,8 +188,8 @@ body.debug .stage {
 }
 
 .style-body {
-  max-width: 860px;
-  font-size: 56px;
+  max-width: 760px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: -0.035em;
@@ -189,13 +197,13 @@ body.debug .stage {
 }
 
 .style-box {
-  max-width: 900px;
-  padding: 24px 40px 28px;
+  max-width: 820px;
+  padding: 22px 36px 26px;
   border: 5px solid #000000;
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.94);
   color: #000000;
-  font-size: 58px;
+  font-size: 50px;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: -0.04em;
@@ -206,7 +214,7 @@ body.debug .stage {
 .style-sfx {
   font-family: "Cafe24Syongsyong", "Paperlogy", sans-serif;
   color: var(--sfx-color, #ffd447);
-  font-size: 96px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -280,11 +288,11 @@ body.debug .debug-grid {
   padding-right: 24px;
 }
 
-.guide.top { top: 72px; }
-.guide.mid1 { top: 990px; }
-.guide.mid2 { top: 1145px; }
-.guide.mid3 { top: 1300px; }
-.guide.bottom { top: 1638px; }
+.guide.top { top: 84px; }
+.guide.mid1 { top: 940px; }
+.guide.mid2 { top: 1110px; }
+.guide.mid3 { top: 1288px; }
+.guide.bottom { top: 1532px; }
 
 .error {
   position: absolute;

@@ -24,7 +24,8 @@
           "text": "Large Language Model",
           "position": "mid3",
           "style": "keyword",
-          "animation": "fade"
+          "animation": "fade",
+          "maxWidth": "720px"
         }
       ]
     },
@@ -46,13 +47,13 @@
       "items": [
         {
           "text": "스마트폰 자동완성",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "float"
         },
         {
           "text": "다음 말을 예측",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "box",
           "animation": "slideUp"
         }
@@ -64,13 +65,13 @@
       "items": [
         {
           "text": "자연스럽지만",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "fade"
         },
         {
           "text": "틀릴 수 있음",
-          "position": "bottom",
+          "position": "bottom-right",
           "style": "box",
           "animation": "shake"
         }
@@ -82,13 +83,13 @@
       "items": [
         {
           "text": "자료와 기준을 주고",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "body",
           "animation": "normal"
         },
         {
           "text": "사람이 확인",
-          "position": "bottom",
+          "position": "bottom-right",
           "style": "box",
           "animation": "pop"
         }
@@ -112,13 +113,13 @@
       "items": [
         {
           "text": "말로 설명하며",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "normal"
         },
         {
           "text": "AI와 함께 코딩",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "box",
           "animation": "slideUp"
         }
@@ -130,14 +131,14 @@
       "items": [
         {
           "text": "느낌대로 만들어줘",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "sfx",
           "animation": "pop",
           "color": "#ff7a90"
         },
         {
           "text": "스파게티 코드",
-          "position": "bottom",
+          "position": "bottom-right",
           "style": "box",
           "animation": "shake"
         }
@@ -149,13 +150,13 @@
       "items": [
         {
           "text": "목표",
-          "position": "mid1",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "float"
         },
         {
           "text": "범위",
-          "position": "mid2",
+          "position": "mid2-right",
           "style": "keyword",
           "animation": "float"
         },
@@ -191,7 +192,7 @@
         },
         {
           "text": "붙잡아 방향을 잡는 장치",
-          "position": "mid3",
+          "position": "bottom",
           "style": "body",
           "animation": "fade"
         }
@@ -221,13 +222,13 @@
       "items": [
         {
           "text": "문서",
-          "position": "mid1",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "float"
         },
         {
           "text": "도구",
-          "position": "mid2",
+          "position": "mid2-right",
           "style": "keyword",
           "animation": "float"
         },
@@ -245,13 +246,13 @@
       "items": [
         {
           "text": "AI에게 뭐라고 말할까?",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "body",
           "animation": "fade"
         },
         {
           "text": "아니라",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "sfx",
           "animation": "shake",
           "color": "#ff9f43"
@@ -288,13 +289,13 @@
       "items": [
         {
           "text": "서로 다른 두 대상이",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "body",
           "animation": "normal"
         },
         {
           "text": "만나는 접점",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "box",
           "animation": "slideUp"
         }
@@ -306,14 +307,14 @@
       "items": [
         {
           "text": "리모컨",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "sfx",
           "animation": "pop",
           "color": "#82e0ff"
         },
         {
           "text": "사람과 TV 사이",
-          "position": "bottom",
+          "position": "bottom-right",
           "style": "body",
           "animation": "fade"
         }
@@ -325,13 +326,13 @@
       "items": [
         {
           "text": "UI",
-          "position": "mid1",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "float"
         },
         {
           "text": "API",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "keyword",
           "animation": "float"
         }
@@ -363,7 +364,8 @@
           "text": "Application Programming Interface",
           "position": "mid3",
           "style": "body",
-          "animation": "fade"
+          "animation": "fade",
+          "maxWidth": "720px"
         }
       ]
     },
@@ -373,13 +375,13 @@
       "items": [
         {
           "text": "프로그램끼리",
-          "position": "mid2",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "normal"
         },
         {
           "text": "대화하기 위한 약속",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "box",
           "animation": "slideUp"
         }
@@ -391,14 +393,14 @@
       "items": [
         {
           "text": "사장님!",
-          "position": "mid1",
+          "position": "mid2-left",
           "style": "sfx",
           "animation": "pop",
           "color": "#ffd447"
         },
         {
           "text": "짜장면 곱배기 하나요",
-          "position": "mid3",
+          "position": "mid3-right",
           "style": "box",
           "animation": "pop"
         }
@@ -410,13 +412,13 @@
       "items": [
         {
           "text": "주소",
-          "position": "mid1",
+          "position": "mid2-left",
           "style": "keyword",
           "animation": "float"
         },
         {
           "text": "값",
-          "position": "mid2",
+          "position": "mid2-right",
           "style": "keyword",
           "animation": "float"
         },
