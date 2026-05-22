@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shorts Presenter</title>
+    <meta
+      name="description"
+      content="OBS Browser Source에서 쓰는 9:16 숏츠용 키워드 오버레이 프레젠터"
+    />
+    <link rel="stylesheet" href="./assets/css/presenter.css" />
+  </head>
+  <body>
+    <main id="stage" class="stage" aria-live="polite">
+      <div id="hook" class="hook" aria-label="후킹 제목"></div>
+      <div id="overlay" class="overlay" aria-label="키워드 오버레이"></div>
+      <div id="status" class="status" aria-live="polite"></div>
+      <div id="debugGrid" class="debug-grid" aria-hidden="true">
+        <span class="guide top">top</span>
+        <span class="guide mid1">mid1</span>
+        <span class="guide mid2">mid2</span>
+        <span class="guide mid3">mid3</span>
+        <span class="guide bottom">bottom</span>
+      </div>
+    </main>
+    <script src="./assets/js/presenter.js" type="module"></script>
+  </body>
+</html>

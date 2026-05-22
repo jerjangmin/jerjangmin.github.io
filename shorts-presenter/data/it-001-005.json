@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "IT-001~005",
+    "category": "IT",
+    "range": "001-005",
+    "format": "vertical",
+    "size": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "cues": [
+    {
+      "id": "IT-001-01",
+      "hook": "LLM, 쉽게 말하면 뭘까?",
+      "items": [
+        {
+          "text": "LLM",
+          "position": "mid1",
+          "style": "heading",
+          "animation": "pop"
+        },
+        {
+          "text": "Large Language Model",
+          "position": "mid3",
+          "style": "keyword",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-001-02",
+      "hook": "LLM, 쉽게 말하면 뭘까?",
+      "items": [
+        {
+          "text": "대규모 언어 모델",
+          "position": "mid2",
+          "style": "box",
+          "animation": "normal"
+        }
+      ]
+    },
+    {
+      "id": "IT-001-03",
+      "hook": "LLM, 쉽게 말하면 뭘까?",
+      "items": [
+        {
+          "text": "스마트폰 자동완성",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "다음 말을 예측",
+          "position": "mid3",
+          "style": "box",
+          "animation": "slideUp"
+        }
+      ]
+    },
+    {
+      "id": "IT-001-04",
+      "hook": "LLM, 쉽게 말하면 뭘까?",
+      "items": [
+        {
+          "text": "자연스럽지만",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "fade"
+        },
+        {
+          "text": "틀릴 수 있음",
+          "position": "bottom",
+          "style": "box",
+          "animation": "shake"
+        }
+      ]
+    },
+    {
+      "id": "IT-001-05",
+      "hook": "LLM, 쉽게 말하면 뭘까?",
+      "items": [
+        {
+          "text": "자료와 기준을 주고",
+          "position": "mid2",
+          "style": "body",
+          "animation": "normal"
+        },
+        {
+          "text": "사람이 확인",
+          "position": "bottom",
+          "style": "box",
+          "animation": "pop"
+        }
+      ]
+    },
+    {
+      "id": "IT-002-01",
+      "hook": "바이브 코딩, 그냥 맡기면 망합니다",
+      "items": [
+        {
+          "text": "바이브 코딩",
+          "position": "mid1",
+          "style": "heading",
+          "animation": "pop"
+        }
+      ]
+    },
+    {
+      "id": "IT-002-02",
+      "hook": "바이브 코딩, 그냥 맡기면 망합니다",
+      "items": [
+        {
+          "text": "말로 설명하며",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "normal"
+        },
+        {
+          "text": "AI와 함께 코딩",
+          "position": "mid3",
+          "style": "box",
+          "animation": "slideUp"
+        }
+      ]
+    },
+    {
+      "id": "IT-002-03",
+      "hook": "바이브 코딩, 그냥 맡기면 망합니다",
+      "items": [
+        {
+          "text": "느낌대로 만들어줘",
+          "position": "mid2",
+          "style": "sfx",
+          "animation": "pop",
+          "color": "#ff7a90"
+        },
+        {
+          "text": "스파게티 코드",
+          "position": "bottom",
+          "style": "box",
+          "animation": "shake"
+        }
+      ]
+    },
+    {
+      "id": "IT-002-04",
+      "hook": "바이브 코딩, 그냥 맡기면 망합니다",
+      "items": [
+        {
+          "text": "목표",
+          "position": "mid1",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "범위",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "성공 기준",
+          "position": "mid3",
+          "style": "keyword",
+          "animation": "float"
+        }
+      ]
+    },
+    {
+      "id": "IT-002-05",
+      "hook": "바이브 코딩, 그냥 맡기면 망합니다",
+      "items": [
+        {
+          "text": "사람이 방향과 기준을 잡는다",
+          "position": "bottom",
+          "style": "box",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-003-01",
+      "hook": "하네스 엔지니어링은 작업대 설계입니다",
+      "items": [
+        {
+          "text": "하네스",
+          "position": "mid1",
+          "style": "heading",
+          "animation": "pop"
+        },
+        {
+          "text": "붙잡아 방향을 잡는 장치",
+          "position": "mid3",
+          "style": "body",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-003-02",
+      "hook": "하네스 엔지니어링은 작업대 설계입니다",
+      "items": [
+        {
+          "text": "테스트 하네스",
+          "position": "mid2",
+          "style": "box",
+          "animation": "normal"
+        },
+        {
+          "text": "같은 조건에서 반복 확인",
+          "position": "bottom",
+          "style": "body",
+          "animation": "slideUp"
+        }
+      ]
+    },
+    {
+      "id": "IT-003-03",
+      "hook": "하네스 엔지니어링은 작업대 설계입니다",
+      "items": [
+        {
+          "text": "문서",
+          "position": "mid1",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "도구",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "검증",
+          "position": "mid3",
+          "style": "keyword",
+          "animation": "float"
+        }
+      ]
+    },
+    {
+      "id": "IT-003-04",
+      "hook": "하네스 엔지니어링은 작업대 설계입니다",
+      "items": [
+        {
+          "text": "AI에게 뭐라고 말할까?",
+          "position": "mid2",
+          "style": "body",
+          "animation": "fade"
+        },
+        {
+          "text": "아니라",
+          "position": "mid3",
+          "style": "sfx",
+          "animation": "shake",
+          "color": "#ff9f43"
+        }
+      ]
+    },
+    {
+      "id": "IT-003-05",
+      "hook": "하네스 엔지니어링은 작업대 설계입니다",
+      "items": [
+        {
+          "text": "AI가 일할 작업대를 만든다",
+          "position": "bottom",
+          "style": "box",
+          "animation": "pop"
+        }
+      ]
+    },
+    {
+      "id": "IT-004-01",
+      "hook": "인터페이스는 서로 만나는 접점입니다",
+      "items": [
+        {
+          "text": "인터페이스",
+          "position": "mid1",
+          "style": "heading",
+          "animation": "pop"
+        }
+      ]
+    },
+    {
+      "id": "IT-004-02",
+      "hook": "인터페이스는 서로 만나는 접점입니다",
+      "items": [
+        {
+          "text": "서로 다른 두 대상이",
+          "position": "mid2",
+          "style": "body",
+          "animation": "normal"
+        },
+        {
+          "text": "만나는 접점",
+          "position": "mid3",
+          "style": "box",
+          "animation": "slideUp"
+        }
+      ]
+    },
+    {
+      "id": "IT-004-03",
+      "hook": "인터페이스는 서로 만나는 접점입니다",
+      "items": [
+        {
+          "text": "리모컨",
+          "position": "mid2",
+          "style": "sfx",
+          "animation": "pop",
+          "color": "#82e0ff"
+        },
+        {
+          "text": "사람과 TV 사이",
+          "position": "bottom",
+          "style": "body",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-004-04",
+      "hook": "인터페이스는 서로 만나는 접점입니다",
+      "items": [
+        {
+          "text": "UI",
+          "position": "mid1",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "API",
+          "position": "mid3",
+          "style": "keyword",
+          "animation": "float"
+        }
+      ]
+    },
+    {
+      "id": "IT-004-05",
+      "hook": "인터페이스는 서로 만나는 접점입니다",
+      "items": [
+        {
+          "text": "내부를 몰라도 함께 작동",
+          "position": "bottom",
+          "style": "box",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-005-01",
+      "hook": "API가 대체 뭐야?",
+      "items": [
+        {
+          "text": "API",
+          "position": "mid1",
+          "style": "heading",
+          "animation": "pop"
+        },
+        {
+          "text": "Application Programming Interface",
+          "position": "mid3",
+          "style": "body",
+          "animation": "fade"
+        }
+      ]
+    },
+    {
+      "id": "IT-005-02",
+      "hook": "API가 대체 뭐야?",
+      "items": [
+        {
+          "text": "프로그램끼리",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "normal"
+        },
+        {
+          "text": "대화하기 위한 약속",
+          "position": "mid3",
+          "style": "box",
+          "animation": "slideUp"
+        }
+      ]
+    },
+    {
+      "id": "IT-005-03",
+      "hook": "API가 대체 뭐야?",
+      "items": [
+        {
+          "text": "사장님!",
+          "position": "mid1",
+          "style": "sfx",
+          "animation": "pop",
+          "color": "#ffd447"
+        },
+        {
+          "text": "짜장면 곱배기 하나요",
+          "position": "mid3",
+          "style": "box",
+          "animation": "pop"
+        }
+      ]
+    },
+    {
+      "id": "IT-005-04",
+      "hook": "API가 대체 뭐야?",
+      "items": [
+        {
+          "text": "주소",
+          "position": "mid1",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "값",
+          "position": "mid2",
+          "style": "keyword",
+          "animation": "float"
+        },
+        {
+          "text": "응답 형식",
+          "position": "mid3",
+          "style": "keyword",
+          "animation": "float"
+        }
+      ]
+    },
+    {
+      "id": "IT-005-05",
+      "hook": "API가 대체 뭐야?",
+      "items": [
+        {
+          "text": "메뉴판이자 주문 양식",
+          "position": "bottom",
+          "style": "box",
+          "animation": "fade"
+        }
+      ]
+    }
+  ]
+}

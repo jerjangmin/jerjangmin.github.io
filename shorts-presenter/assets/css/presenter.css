@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-1Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-3Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-4Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-5Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-7Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-8ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Paperlogy";
+  src: url("../fonts/Paperlogy-9Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cafe24Syongsyong";
+  src: url("../fonts/Cafe24Syongsyong-v2.0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --stage-width: 1080px;
+  --stage-height: 1920px;
+  --white: #ffffff;
+  --black: #000000;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  --safe-x: 72px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  font-family: "Paperlogy", "Noto Sans KR", "Pretendard", "Apple SD Gothic Neo", sans-serif;
+}
+
+.stage {
+  position: relative;
+  width: var(--stage-width);
+  height: var(--stage-height);
+  overflow: hidden;
+  background: transparent;
+  isolation: isolate;
+}
+
+body.debug .stage {
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255, 255, 255, 0.14), transparent 18%),
+    linear-gradient(180deg, rgba(16, 22, 34, 0.64), rgba(16, 22, 34, 0.2));
+}
+
+.hook {
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  z-index: 4;
+  width: min(936px, calc(100% - 96px));
+  transform: translateX(-50%);
+  color: var(--white);
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: -0.035em;
+  -webkit-text-stroke: 2.5px var(--black);
+  paint-order: stroke fill;
+  text-shadow: var(--shadow);
+  word-break: keep-all;
+  text-wrap: balance;
+  opacity: 0;
+}
+
+.hook.is-visible {
+  opacity: 1;
+  animation: hook-enter 360ms ease-out both;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.item {
+  position: absolute;
+  left: 50%;
+  max-width: 940px;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  text-align: center;
+  word-break: keep-all;
+  text-wrap: balance;
+  opacity: 0;
+  -webkit-text-stroke: 3px var(--black);
+  paint-order: stroke fill;
+  text-shadow: var(--shadow);
+}
+
+.pos-mid1 { top: 990px; }
+.pos-mid2 { top: 1145px; }
+.pos-mid3 { top: 1300px; }
+.pos-bottom { top: 1638px; }
+.pos-top { top: 72px; }
+
+.style-heading {
+  max-width: 960px;
+  font-size: 126px;
+  font-weight: 900;
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+  -webkit-text-stroke-width: 4px;
+}
+
+.style-keyword {
+  font-size: 86px;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+  -webkit-text-stroke-width: 3.5px;
+}
+
+.style-body {
+  max-width: 860px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+  -webkit-text-stroke-width: 2px;
+}
+
+.style-box {
+  max-width: 900px;
+  padding: 24px 40px 28px;
+  border: 5px solid #000000;
+  border-radius: 36px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #000000;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  -webkit-text-stroke-width: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.26);
+}
+
+.style-sfx {
+  font-family: "Cafe24Syongsyong", "Paperlogy", sans-serif;
+  color: var(--sfx-color, #ffd447);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 4px #ffffff;
+  text-shadow: var(--shadow);
+}
+
+.anim-normal {
+  animation: normal-in 420ms ease-out both, gentle-float 2600ms ease-in-out 420ms infinite alternate;
+}
+
+.anim-fade {
+  animation: fade-in 420ms ease-out both;
+}
+
+.anim-pop {
+  animation: pop-in 520ms ease-out both;
+}
+
+.anim-float {
+  animation: float-in 520ms ease-out both, drifting 3600ms ease-in-out 520ms infinite alternate;
+}
+
+.anim-slideUp {
+  animation: slide-up 420ms ease-out both;
+}
+
+.anim-shake {
+  animation: pop-in 360ms ease-out both, shake 520ms ease-in-out 360ms 1;
+}
+
+.status {
+  position: absolute;
+  right: 32px;
+  bottom: 28px;
+  z-index: 6;
+  display: none;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.64);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+body.debug .status {
+  display: block;
+}
+
+.debug-grid {
+  display: none;
+}
+
+body.debug .debug-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  pointer-events: none;
+}
+
+.guide {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border-top: 2px dashed rgba(255, 255, 255, 0.38);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 24px;
+}
+
+.guide.top { top: 72px; }
+.guide.mid1 { top: 990px; }
+.guide.mid2 { top: 1145px; }
+.guide.mid3 { top: 1300px; }
+.guide.bottom { top: 1638px; }
+
+.error {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 80px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  -webkit-text-stroke: 2px #000;
+  paint-order: stroke fill;
+  text-shadow: var(--shadow);
+}
+
+@keyframes hook-enter {
+  from { opacity: 0; transform: translate(-50%, 18px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@keyframes normal-in {
+  from { opacity: 0; transform: translate(-50%, -44%) scale(0.98); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pop-in {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.76); }
+  64% { opacity: 1; transform: translate(-50%, -50%) scale(1.08); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes float-in {
+  from { opacity: 0; transform: translate(-50%, -42%) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translate(-50%, -30%) scale(0.98); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes gentle-float {
+  from { transform: translate(-50%, -50%) scale(1); }
+  to { transform: translate(-50%, calc(-50% - 12px)) scale(1); }
+}
+
+@keyframes drifting {
+  from { transform: translate(calc(-50% - 8px), -50%) scale(1); }
+  to { transform: translate(calc(-50% + 8px), calc(-50% - 18px)) scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  20% { transform: translate(calc(-50% - 14px), -50%) scale(1); }
+  40% { transform: translate(calc(-50% + 12px), -50%) scale(1); }
+  60% { transform: translate(calc(-50% - 8px), -50%) scale(1); }
+  80% { transform: translate(calc(-50% + 6px), -50%) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hook.is-visible,
+  .item {
+    animation: fade-in 1ms linear both !important;
+  }
+}
