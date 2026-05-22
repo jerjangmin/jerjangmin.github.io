@@ -60,18 +60,23 @@ function renderCue({ replay = false } = {}) {
 
   cueIndex = clampCue(cueIndex);
   const cue = deck.cues[cueIndex];
+  const previousHook = lastHook;
   const hookText = cue.hook ?? lastHook ?? deck.meta?.hook ?? "";
+  const hookChanged = hookText !== previousHook;
   lastHook = hookText;
 
   if (hookText) {
     hookEl.textContent = hookText;
-    hookEl.classList.remove("is-visible");
-    // Force replay when cue changes or user presses R.
-    void hookEl.offsetWidth;
-    hookEl.classList.add("is-visible");
+    if (hookChanged || !hookEl.classList.contains("is-visible")) {
+      hookEl.classList.remove("is-visible", "no-motion");
+      void hookEl.offsetWidth;
+      hookEl.classList.add("is-visible");
+    } else {
+      hookEl.classList.add("is-visible", "no-motion");
+    }
   } else {
     hookEl.textContent = "";
-    hookEl.classList.remove("is-visible");
+    hookEl.classList.remove("is-visible", "no-motion");
   }
 
   replayNonce += 1;

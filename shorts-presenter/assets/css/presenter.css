@@ -134,6 +134,10 @@ body.debug .stage {
   animation: hook-enter 360ms ease-out both;
 }
 
+.hook.is-visible.no-motion {
+  animation: none;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
